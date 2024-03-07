@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+- RF shield over analog components
+- Screw mounting holes with GND connection
+
 ### Updated
 
 - ESP32-C3-MINI-N1 to ESP32-C3-WROOM-02-N4
