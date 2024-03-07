@@ -6,7 +6,9 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Updated
 
+- ESP32-C3-MINI-N1 to ESP32-C3-WROOM-02-N4
 
 ## [2.1.0] - 2023-11-09
 
