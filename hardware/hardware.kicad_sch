@@ -372,6 +372,12 @@
     (property "Datasheet" "~" (at 62.23 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN" "36103305S,36003300S" (at 62.23 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFC" "Würth Elektronik" (at 62.23 46.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid d2f7aa9d-0828-4f93-a11e-4450af8790e5))
     (instances
       (project "Soil Power Sensor"
