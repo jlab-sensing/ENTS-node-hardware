@@ -20,6 +20,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Updated screw terminal to 5 channel from Phoenix
 - Updated SDI12 terminal to 3 channel from Phoenix
 
+### Removed
+
+- Through hole mount for Rsense
+
 ## [2.1.0] - 2023-11-09
 
 Migrated from Autodesk Eagle to KiCAD
