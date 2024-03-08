@@ -314,7 +314,7 @@
   )
 
 
-  (rectangle (start 25.4 20.32) (end 101.6 66.04)
+  (rectangle (start 25.4 20.32) (end 101.6 106.68)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 354afcb9-0381-4016-ac8a-be42fbe65cf4)
@@ -337,6 +337,14 @@
   (text "RF Shield" (at 26.67 25.4 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 55ca7fda-310d-4a0a-a011-64434591bbb1)
+  )
+  (text "Frame placed\non PCB" (at 30.48 46.99 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 76cbd9f0-41bf-47a6-a3ec-424b700d938d)
+  )
+  (text "Cover not placed" (at 27.94 80.01 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ea718d3b-1e9b-4c6c-a1a6-f0bc2bda8c52)
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 128.27 52.07 0) (unit 1)
@@ -379,7 +387,7 @@
     (property "Datasheet" "~" (at 62.23 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "36103305S,36003300S" (at 62.23 46.99 0)
+    (property "MPN" "36103305S" (at 62.23 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFC" "Würth Elektronik" (at 62.23 46.99 0)
@@ -390,6 +398,31 @@
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/e8086a96-0786-4ae2-b425-e1003c006b3a"
           (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 62.23 90.17 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 334a5a5e-d730-4f16-a865-efa7c0fc2c50)
+    (property "Reference" "#PWR017" (at 62.23 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 62.23 95.25 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 62.23 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 62.23 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5e7d1a70-8d04-43c5-9d0e-0b7f8075f366))
+    (instances
+      (project "Soil Power Sensor"
+        (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/e8086a96-0786-4ae2-b425-e1003c006b3a"
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -465,6 +498,37 @@
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/e8086a96-0786-4ae2-b425-e1003c006b3a"
           (reference "#GND01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:RFShield_OnePiece") (at 62.23 80.01 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid d0ff9d06-e2d4-412a-b17a-677268a0fd51)
+    (property "Reference" "J6" (at 46.99 67.31 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "RFShield_OnePiece" (at 46.99 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 62.23 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 62.23 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "36003300S" (at 62.23 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFC" "Würth Elektronik" (at 62.23 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 02f9d187-70de-4110-be21-dbd60f420ab5))
+    (instances
+      (project "Soil Power Sensor"
+        (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/e8086a96-0786-4ae2-b425-e1003c006b3a"
+          (reference "J6") (unit 1)
         )
       )
     )
