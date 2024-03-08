@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Screw mounting holes with GND connection
 - Hardware UART to SDI12 converter
 - Added test point for hand soldering Vcc to positive terminal on Wio-E5
+- Buttons for EN and BOOT pins for ESP32
 
 ### Updated
 
