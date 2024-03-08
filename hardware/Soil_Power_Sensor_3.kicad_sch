@@ -6,8 +6,8 @@
 
   (title_block
     (title "Soil Power Sensor")
-    (date "2023-10-09")
-    (rev "2.1.0")
+    (date "2024-03-08")
+    (rev "2.2.0")
     (company "jlab")
   )
 
@@ -1367,7 +1367,7 @@
   (symbol (lib_id "Device:R") (at 153.67 59.69 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1fbb5b8e-993a-42cc-b475-ca36ddd03cd4)
-    (property "Reference" "R13" (at 151.13 57.15 0)
+    (property "Reference" "R16" (at 151.13 57.15 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1M" (at 151.13 60.96 0)
@@ -1393,7 +1393,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "R13") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -1527,7 +1527,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:FM24CL16B") (at 234.95 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68d5fbcb-8c65-4945-bc6d-fc06d850fb88)
-    (property "Reference" "U6" (at 234.95 119.38 0)
+    (property "Reference" "U9" (at 234.95 119.38 0)
       (effects (font (size 1.778 1.5113)))
     )
     (property "Value" "FM24CL16B" (at 234.95 123.19 0)
@@ -1568,7 +1568,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "U6") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1652,7 +1652,7 @@
   (symbol (lib_id "Diode:BZX84Cxx") (at 76.2 149.86 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95510ca7-1967-4824-a18b-ccbda5e1ee39)
-    (property "Reference" "D2" (at 78.74 148.59 90)
+    (property "Reference" "D1" (at 78.74 148.59 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BZX84Cxx" (at 78.74 151.13 90)
@@ -1676,7 +1676,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "Device:R") (at 153.67 74.93 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a581ecc4-8d40-4398-b7b2-d30f29a6cbc0)
-    (property "Reference" "R10" (at 151.13 72.39 0)
+    (property "Reference" "R17" (at 151.13 72.39 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "1M" (at 151.13 76.2 0)
@@ -1761,7 +1761,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "R10") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -1770,7 +1770,7 @@
   (symbol (lib_id "Connector:Screw_Terminal_01x03") (at 45.72 142.24 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9dcecff-da63-4d13-bd82-7354bcfb915a)
-    (property "Reference" "J8" (at 45.72 133.35 0)
+    (property "Reference" "J4" (at 45.72 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03" (at 45.72 135.89 0)
@@ -1803,7 +1803,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "J8") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1812,7 +1812,7 @@
   (symbol (lib_id "Connector:Conn_ARM_JTAG_SWD_10") (at 233.68 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aaab37c3-b4a5-4f69-b11f-ef85f8956ca9)
-    (property "Reference" "D1" (at 237.49 41.91 0)
+    (property "Reference" "D2" (at 237.49 41.91 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "ARM10_DEBUG" (at 237.49 73.66 0)
@@ -1846,7 +1846,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "D1") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -1880,7 +1880,7 @@
   (symbol (lib_id "Device:R") (at 100.33 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3f3c600-6aa0-45ba-be6b-696b6f491b84)
-    (property "Reference" "R17" (at 102.87 157.48 0)
+    (property "Reference" "R13" (at 102.87 157.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47k" (at 102.87 160.02 0)
@@ -1897,7 +1897,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "R17") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -1906,7 +1906,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:Wio-E5 mini") (at 82.55 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7f17a1f-44ac-4441-b93b-0dbafe5ddc22)
-    (property "Reference" "U7" (at 83.82 33.02 0)
+    (property "Reference" "U10" (at 83.82 33.02 0)
       (effects (font (size 1.778 1.778)))
     )
     (property "Value" "Wio-E5 mini" (at 83.82 36.83 0)
@@ -1963,7 +1963,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "U7") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -1972,7 +1972,7 @@
   (symbol (lib_id "Device:R") (at 81.28 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdf440ac-f8ee-47b6-b7e0-6243c9fd9e70)
-    (property "Reference" "R15" (at 81.28 138.43 90)
+    (property "Reference" "R11" (at 81.28 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "510" (at 81.28 140.97 90)
@@ -1989,7 +1989,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "R15") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -2106,7 +2106,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 135.89 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef440f60-d3f3-482d-be31-d8eb21298998)
-    (property "Reference" "TP7" (at 138.43 37.338 0)
+    (property "Reference" "TP3" (at 138.43 37.338 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+3V3" (at 138.43 39.878 0)
@@ -2122,7 +2122,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "TP7") (unit 1)
+          (reference "TP3") (unit 1)
         )
       )
     )
@@ -2181,7 +2181,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:74LVC1G240") (at 116.84 144.78 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f5485bca-cb3f-47cb-bb12-039d20ffc403)
-    (property "Reference" "U10" (at 106.68 135.89 0)
+    (property "Reference" "U7" (at 106.68 135.89 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LVC1G240" (at 106.68 138.43 0)
@@ -2216,7 +2216,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "U10") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -2225,7 +2225,7 @@
   (symbol (lib_id "Device:R") (at 71.12 144.78 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f59627c8-0703-4863-9218-920a9b0c6fd7)
-    (property "Reference" "R16" (at 71.12 138.43 90)
+    (property "Reference" "R10" (at 71.12 138.43 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "510" (at 71.12 140.97 90)
@@ -2242,7 +2242,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-          (reference "R16") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )

@@ -6,8 +6,8 @@
 
   (title_block
     (title "Soil Power Sensor")
-    (date "2023-10-09")
-    (rev "2.1.0")
+    (date "2024-03-08")
+    (rev "2.2.0")
     (company "jlab")
   )
 
@@ -1012,7 +1012,7 @@
   (symbol (lib_id "Device:C") (at 184.15 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0888b2bf-c27d-4c61-b8e0-d0bcd8472b16)
-    (property "Reference" "C11" (at 186.69 57.15 0)
+    (property "Reference" "C5" (at 186.69 57.15 0)
       (effects (font (size 1.778 1.5113)) (justify left top))
     )
     (property "Value" "1uF" (at 186.69 59.69 0)
@@ -1038,7 +1038,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "C11") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -1047,7 +1047,7 @@
   (symbol (lib_id "Reference_Voltage:REF2033") (at 57.15 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2852e9f5-ea6c-4289-9b19-9434d8eb0477)
-    (property "Reference" "U5" (at 56.8041 127 0)
+    (property "Reference" "U3" (at 56.8041 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "REF2033" (at 56.8041 129.54 0)
@@ -1076,7 +1076,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "U5") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1085,7 +1085,7 @@
   (symbol (lib_id "Soil Power Sensor-eagle-import:TPS60400DBV") (at 219.71 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 29e913b1-52cc-41af-8be0-1debb1167822)
-    (property "Reference" "U8" (at 204.47 46.7614 0)
+    (property "Reference" "U5" (at 204.47 46.7614 0)
       (effects (font (size 2.0828 1.7703)) (justify left bottom))
     )
     (property "Value" "TPS60400DBV" (at 196.85 63.5 0)
@@ -1123,7 +1123,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "U8") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1132,7 +1132,7 @@
   (symbol (lib_id "Connector:Conn_01x03_Pin") (at 106.68 53.34 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3164e6c4-5022-436b-ba4f-82496d250929)
-    (property "Reference" "J9" (at 106.68 48.26 0)
+    (property "Reference" "J5" (at 106.68 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x03_Pin" (at 106.68 58.42 0)
@@ -1150,7 +1150,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "J9") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1209,7 +1209,7 @@
   (symbol (lib_id "Device:C") (at 46.99 132.08 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5424d757-4efa-4604-90b3-ba1dd92e06cc)
-    (property "Reference" "C3" (at 44.45 129.54 0)
+    (property "Reference" "C7" (at 44.45 129.54 0)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "0.1uF" (at 44.45 132.08 0)
@@ -1235,7 +1235,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "C3") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -1304,7 +1304,7 @@
   (symbol (lib_id "Device:Battery_Cell") (at 58.42 55.88 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 64fa2131-00bd-4e97-bc25-17802f51f2bb)
-    (property "Reference" "G2" (at 57.15 59.69 90)
+    (property "Reference" "G3" (at 57.15 59.69 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "AAA55" (at 57.15 50.8 90)
@@ -1330,7 +1330,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "G2") (unit 1)
+          (reference "G3") (unit 1)
         )
       )
     )
@@ -1339,7 +1339,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 104.14 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 65bc8fa8-7515-4db5-8ff4-534038fb1e56)
-    (property "Reference" "TP4" (at 106.68 32.258 0)
+    (property "Reference" "TP5" (at 106.68 32.258 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VCC" (at 106.68 34.798 0)
@@ -1355,7 +1355,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "TP4") (unit 1)
+          (reference "TP5") (unit 1)
         )
       )
     )
@@ -1389,7 +1389,7 @@
   (symbol (lib_id "Device:C") (at 71.12 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68d177cb-6ec8-4cce-a492-0ff2cb8316d3)
-    (property "Reference" "C8" (at 73.66 143.51 0)
+    (property "Reference" "C1" (at 73.66 143.51 0)
       (effects (font (size 1.778 1.5113)) (justify left top))
     )
     (property "Value" "0.1uF" (at 73.66 146.05 0)
@@ -1415,7 +1415,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "C8") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -1424,7 +1424,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 66.04 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 698ad1c9-d4d0-4866-a384-46d3a95f78f8)
-    (property "Reference" "TP6" (at 68.58 33.528 0)
+    (property "Reference" "TP7" (at 68.58 33.528 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VUSB" (at 68.58 36.068 0)
@@ -1440,7 +1440,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "TP6") (unit 1)
+          (reference "TP7") (unit 1)
         )
       )
     )
@@ -1474,7 +1474,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 95.25 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c836eeb-0ffa-4866-8f46-a8e9eb8a20cb)
-    (property "Reference" "TP2" (at 97.155 127.508 0)
+    (property "Reference" "TP1" (at 97.155 127.508 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "REF+1V65" (at 97.155 130.048 0)
@@ -1490,7 +1490,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "TP2") (unit 1)
+          (reference "TP1") (unit 1)
         )
       )
     )
@@ -1609,7 +1609,7 @@
   (symbol (lib_id "Device:C") (at 218.44 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d280d5e-a4b5-4ea5-bc36-3d376de73254)
-    (property "Reference" "C12" (at 217.17 35.56 90)
+    (property "Reference" "C11" (at 217.17 35.56 90)
       (effects (font (size 1.778 1.5113)) (justify right bottom))
     )
     (property "Value" "1uF" (at 217.17 44.45 90)
@@ -1635,7 +1635,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -1644,7 +1644,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 255.27 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82d7f770-8d01-46b0-afca-fabab0dc2b9a)
-    (property "Reference" "TP3" (at 257.175 43.688 0)
+    (property "Reference" "TP4" (at 257.175 43.688 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "-3V3" (at 257.175 46.228 0)
@@ -1660,7 +1660,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "TP3") (unit 1)
+          (reference "TP4") (unit 1)
         )
       )
     )
@@ -1669,7 +1669,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 90.17 124.46 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 83e8c643-bd1d-423b-b1f8-43318fd68cbd)
-    (property "Reference" "TP1" (at 92.075 119.888 0)
+    (property "Reference" "TP2" (at 92.075 119.888 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "REF+3V3" (at 92.075 122.428 0)
@@ -1685,7 +1685,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "TP1") (unit 1)
+          (reference "TP2") (unit 1)
         )
       )
     )
@@ -1694,7 +1694,7 @@
   (symbol (lib_id "Device:C") (at 245.11 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a981f1b1-8953-4361-b6c6-fac4f14cdc9c)
-    (property "Reference" "C9" (at 247.65 57.15 0)
+    (property "Reference" "C4" (at 247.65 57.15 0)
       (effects (font (size 1.778 1.5113)) (justify left top))
     )
     (property "Value" "1uF" (at 247.65 59.69 0)
@@ -1720,7 +1720,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "C9") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1729,7 +1729,7 @@
   (symbol (lib_id "Device:Battery_Cell") (at 67.31 55.88 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b90f8b0d-0a10-41be-9125-774ef29de8b5)
-    (property "Reference" "G3" (at 66.04 59.69 90)
+    (property "Reference" "G2" (at 66.04 59.69 90)
       (effects (font (size 1.778 1.5113)) (justify left bottom))
     )
     (property "Value" "AAA55" (at 66.04 50.8 90)
@@ -1755,7 +1755,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "G3") (unit 1)
+          (reference "G2") (unit 1)
         )
       )
     )
@@ -1764,7 +1764,7 @@
   (symbol (lib_id "Connector:TestPoint_Flag") (at 111.76 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cca4df4f-38c7-4905-b96e-309060794669)
-    (property "Reference" "TP8" (at 119.38 40.513 0)
+    (property "Reference" "TP6" (at 119.38 40.513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "+" (at 119.38 43.053 0)
@@ -1780,7 +1780,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "TP8") (unit 1)
+          (reference "TP6") (unit 1)
         )
       )
     )
@@ -1849,7 +1849,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 99.06 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4e711c3-f9ef-41d7-84ab-a7f3c8aaa3b0)
-    (property "Reference" "TP5" (at 100.965 64.008 0)
+    (property "Reference" "TP8" (at 100.965 64.008 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VBAT" (at 100.965 66.548 0)
@@ -1865,7 +1865,7 @@
     (instances
       (project "Soil Power Sensor"
         (path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-          (reference "TP5") (unit 1)
+          (reference "TP8") (unit 1)
         )
       )
     )

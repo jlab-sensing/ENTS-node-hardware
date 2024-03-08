@@ -6,8 +6,8 @@
 
   (title_block
     (title "Soil Power Sensor")
-    (date "2023-10-09")
-    (rev "2.1.0")
+    (date "2024-03-08")
+    (rev "2.2.0")
     (company "jlab")
   )
 

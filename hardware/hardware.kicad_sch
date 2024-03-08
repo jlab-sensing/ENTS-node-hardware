@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Soil Power Sensor")
+    (date "2024-03-08")
+    (rev "2.2.0")
+    (company "jlab")
+  )
+
   (lib_symbols
     (symbol "Device:RFShield_OnePiece" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 5.08 0)
