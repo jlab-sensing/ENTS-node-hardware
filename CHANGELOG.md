@@ -11,6 +11,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - RF shield over analog components
 - Screw mounting holes with GND connection
 - Hardware UART to SDI12 converter
+- Added test point for hand soldering Vcc to positive terminal on Wio-E5
 
 ### Updated
 
