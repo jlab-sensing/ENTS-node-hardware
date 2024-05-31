@@ -7,6 +7,8 @@ This repo contains the EagleCAD source files for the PCB design of the Soil Powe
 
 The bill of materials is available digitally at: https://octopart.com/bom-tool/qA6fh8Fx
 
+There are two buttons not listed in the BOM for the esp32 `BOOT` and `EN`. These are cheaply available from amazon. Look for one with a 6mm by 6mm form factor.
+
 
 ## Steps for assembly
 
@@ -20,35 +22,54 @@ The bill of materials is available digitally at: https://octopart.com/bom-tool/q
 4. Solder remaining through hole components. Make sure to put a *female* header on `J4`.
 5. Solder the AAA battery clips on the bottom of the board
 
+## Clearing the bootloader
+
+The Wio-E5 module comes pre-installed with LoRa AT command firmware with hardware write protection enabled. Before you are able to flash the device the read protection must be cleared using [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) using a ST-Link debugger. We prefer to use the [STLINK-V3MINIE](https://www.st.com/en/development-tools/stlink-v3minie.html) due to its small form factor and low cost.
+
+1. Start `STM32CubeProgrammer`
+2. Connect the device and ST-Link device.
+3. On the right panel configure the `Port` to `SWD`
+4. On the Wio-E5 module, hold `BOOT`, press and release `RST`, then release `BOOT`. You are now in the bootloader.
+5. In `STM32CubeProgrammer` press connect. It will give a `Error: Data read failed` popup. This is expected.
+6. Go to *Option Bytes* tab.
+7. Under *Read Out Protection* change `RDP` to `AA`.
+8. Press apply. You should get a `Option Bytes successfully programmed` popup.
+9. Press disconnect.
+10. Unplug and plug back in the soil power sensor.
+11. Flash firmware with `pio run -t upload`.
 
 ## Testing
 
-**Before** powering on the board shorts to ground on any of the supply rails.. The continuity test on a multimeter may initially beep for a short period of time due to bypass capacitors.
+**Before** powering on the board shorts to ground on any of the supply rails.. The continuity test on a multimeter may initially beep for a short period of time due to bypass capacitors. `TP4` may display a resistance value due to internal capacitance. Ensure it is not close to zero.
 
 Then, power the device through the USB-C terminal. Verify the voltages at the test points match what is shown in the table.
 
+`TP6` is used to used to connect the battery to the Wio-E5 module.
+
 | Test point | Signal     | Voltage |
 | ---------- | ---------- | ------- |
-| `TP1`      | `REF+3V3`  | +3.3V   |
-| `TP2`      | `REF+1V65` | +1.65V  |
-| `TP3`      | `-3V3`     | -3.3V   |
-| `TP4`      | `VCC`      | 5V      |
-| `TP5`      | `VBAT`     | N/A     |
-| `TP6`      | `VUSB`     | 5V      |
-| `TP7`      | `+3V3`     | +3.3V   |
+| `TP1`      | `REF+1V65` | +1.65V  |
+| `TP2`      | `REF+3V3`  | +3.3V   |
+| `TP3`      | `+3V3`     | +3.3V   |
+| `TP4`      | `-3V3`     | -3.3V   |
+| `TP5`      | `VCC`      | 5V      |
+| `TP7`      | `VUSB`     | 5V      |
+| `TP8`      | `VBAT`     | N/A     |
 
 
-## Jumper definitions
+## Header definitions
 
-### JP5 (Boot)
+### D2 (STM32 SWD)
 
-Jumper `JP5` ties the ESP32 boot pin to `GND`. By default it is left unconnected to boot into the latest program. Connecting the jumper will load into the bootloader and enable communication with `esptool.py`.
+Serial wire debug (SWD) port for stm32. To load the bootloader, hold `BOOT`, press and release `RST`, then release `BOOT`. Then you should be able to connect to the device.
 
-TODO Add photo
+### J3 (ESP32 UART)
 
-### JP7 (Input config)
+UART TX and RX pins to connect to the esp32 bootloader. Intended to be use with a USB to UART converter and `esptool.py`.
 
-Jumper `JP7` configures the analog input signal. By default, none of the jumpers are connected. The following covers the most common use cases.
+### J5 (Power Select)
+
+Jumper `J5` selects the power source, either `VUSB` from the USB-C terminal or `VBAT` from the `4 x AAA` batteries on the backside of the board. The jumper can also be used to power the board directly from a DC power supply.
 
 #### Independent Inputs (Default)
 
@@ -64,13 +85,10 @@ TODO Add photo
 
 #### Internal load
 
-The configuration uses a on-board resistor connected to `J4` or `RSENSE1`. Only **one** can be connected. The board uses a low-side current measurements.
+The configuration uses a on-board resistor connected to `RSENSE1`. The board uses a low-side current measurements.
 
 TODO Add photo
 
-### JP9 (Power Select)
-
-Jumper `JP7` selects the power source, either `VUSB` from the USB-C terminal or `VBAT` from the `4 x AAA` batteries on the backside of the board. The jumper can also be used to power the board directly from a DC power supply.
 
 TODO Add photo
 
