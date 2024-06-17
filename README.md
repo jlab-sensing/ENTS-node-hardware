@@ -5,7 +5,7 @@ This repo contains the EagleCAD source files for the PCB design of the Soil Powe
 
 ## BOM
 
-The bill of materials is available digitally at: https://octopart.com/bom-tool/qA6fh8Fx
+The bill of materials is available digitally at: https://octopart.com/bom-tool/anhF8jcB
 
 
 ## Steps for assembly

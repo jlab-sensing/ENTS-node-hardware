@@ -4,8 +4,27 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-
 ## [Unreleased]
+
+### Added
+
+- RF shield over analog components
+- Screw mounting holes with GND connection
+- Hardware UART to SDI12 converter
+- Added test point for hand soldering Vcc to positive terminal on Wio-E5
+- Buttons for EN and BOOT pins for ESP32
+
+### Updated
+
+- ESP32-C3-MINI-N1 to ESP32-C3-WROOM-02-N4
+- Updated screw terminal to 5 channel from Phoenix
+- Updated SDI12 terminal to 3 channel from Phoenix
+
+### Removed
+
+- Through hole mount for Rsense
+
+## [2.1.0] - 2023-11-09
 
 Migrated from Autodesk Eagle to KiCAD
 
@@ -39,8 +58,6 @@ Migrated from Autodesk Eagle to KiCAD
     - MAX9944
     - THS4532
     - INA296
-
-
 
 ### Depreciated
 

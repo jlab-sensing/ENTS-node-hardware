@@ -8,7 +8,11 @@
 4. Generated gerber files as `Soil Power Sensor_yyyy_mm_dd.zip`
 5. Tag commit
 
-## Eagle Library Attributes
+## Adding parts to the library
+
+Unless a reason is provided every part on the board should appear in the *Soil Power Sensor-eagle-import* symbol library or *Soil Power Sensor.pretty* footprint library. This ensure that future collaborators are able to make changes to the board.
+
+## Library part attributes
 
 The following table outlines the attributes that can be defined for every part that has a part placed on the PCB. Parts such as power rails that are only used in the schematic are not required to have any attributes.
 
