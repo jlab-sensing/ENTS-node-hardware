@@ -229,29 +229,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "pin_not_connected|1054100|546100|f53994dd-45b2-4945-812d-dba1613eddb4|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1054100|596900|e78a4f65-cb8b-41e6-8f7b-3e0da1d3d2d4|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1054100|622300|7624e652-9cef-434e-a4d4-8d6a1146825e|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1054100|647700|bc8bb99e-9e85-461a-9866-b6dd508e1220|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1473200|914400|fc2b01b5-e4fb-4396-ac7f-2e4de4b9c74d|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1473200|939800|4184eba6-275a-49c1-9533-03e98ebf41d2|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1473200|965200|6ce625bb-06cd-4ea7-897f-758ed01a758d|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1473200|990600|d7df2eff-f051-45cd-8055-a4894e329904|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1828800|838200|669938b7-e57f-48c1-9e35-97c89c99c223|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1828800|914400|aa43fb74-6dc1-438e-b874-f9e3250233dc|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1828800|939800|3f38ce3e-8bbf-4393-abd0-c37f36d5e597|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|1828800|965200|3080db22-791f-42e8-8419-464b57508f9f|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|2222500|1358900|d81a4cd8-8330-4f3c-b65c-04e21a839d0c|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|2463800|495300|3d2c97b6-da2e-46a7-8311-4ec40e6eb18a|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|2463800|622300|0e0b9edc-a014-4d94-b523-f61c03528309|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|622300|520700|261b8a77-500d-4068-9773-3731d1c01f8c|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|622300|571500|aba7860e-b119-4714-ac99-b320b6a9ba70|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|622300|596900|206881c8-1865-4049-a3a0-15b6282b3b43|00000000-0000-0000-0000-000000000000|||",
-      "pin_not_connected|622300|622300|590d4af1-b58a-42ab-b411-9be19562e9f9|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|546100|1295400|8a333d46-8d0c-402a-8fa8-8de3aa7ecde5|00000000-0000-0000-0000-000000000000|||",
-      "power_pin_not_driven|889000|1092200|56eabfd0-63fa-44fa-b2d5-d27f38ce134b|00000000-0000-0000-0000-000000000000|||"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -522,7 +500,138 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "AUTHOR",
+            "name": "AUTHOR",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Author",
+            "name": "Author",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DATE_CREATED",
+            "name": "DATE_CREATED",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DATE_MODIFIED",
+            "name": "DATE_MODIFIED",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DATE_UPDATED",
+            "name": "DATE_UPDATED",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "DNP",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DPN",
+            "name": "DPN",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Date Created",
+            "name": "Date Created",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Date Modified",
+            "name": "Date Modified",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MFC",
+            "name": "MFC",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "REF",
+            "name": "REF",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "Order",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
