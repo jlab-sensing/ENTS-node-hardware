@@ -3180,7 +3180,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KSC701J LFS"
+		(property "MPN" ""
 			(at 60.96 161.29 0)
 			(effects
 				(font
@@ -3746,7 +3746,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "KSC701J LFS"
+		(property "MPN" ""
 			(at 60.96 130.81 0)
 			(effects
 				(font
