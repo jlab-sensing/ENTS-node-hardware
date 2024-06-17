@@ -9,6 +9,8 @@ The bill of materials is available digitally at: https://octopart.com/bom-tool/q
 
 There are two buttons not listed in the BOM for the esp32 `BOOT` and `EN`. These are cheaply available from amazon. Look for one with a 6mm by 6mm form factor.
 
+Generate the BOM from the schematic editor (`Tools -> Generate Bill of Materials...`) and use the view *Order*.
+
 
 ## Steps for assembly
 
