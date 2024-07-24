@@ -444,7 +444,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Soil Power Sensor-eagle-import"
+    ]
   },
   "meta": {
     "filename": "Soil Power Sensor.kicad_pro",
