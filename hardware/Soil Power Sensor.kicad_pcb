@@ -2894,7 +2894,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "3887ed8a-d02b-4dd8-88bc-163ab7f021d6")
-		(at 189.725 108 180)
+		(at 206.25 76.25 180)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
@@ -4985,11 +4985,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4e443163-7df8-4254-bbc3-6c44f570a35b")
-		(at 184.225 105.5)
+		(at 183.075 76.25)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.5 0)
+			(at 0 -1.5 360)
 			(layer "F.SilkS")
 			(uuid "98860c5a-7fea-45ae-98b1-7ebd5efdbdc1")
 			(effects
@@ -5000,7 +5000,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at -0.05 1.4 0)
+			(at -0.05 1.4 360)
 			(layer "F.Fab")
 			(uuid "b45ede5c-ec15-4788-844a-6d7e63bec86b")
 			(effects
@@ -5050,7 +5050,7 @@
 			)
 		)
 		(property "DNP" ""
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4fa45828-5070-4626-8967-4f811ff358c3")
@@ -5062,7 +5062,7 @@
 			)
 		)
 		(property "DPN" ""
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f4ce07f1-09b6-43c7-bf21-6269943badfa")
@@ -5074,7 +5074,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-0710KL"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c331f5e-f2a5-4f89-8979-13a688169975")
@@ -5191,7 +5191,7 @@
 			(uuid "84da232b-50ef-4b1f-9c6f-2d8ae583fd9e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 360)
 			(layer "F.Fab")
 			(uuid "0120401e-ed30-4d5c-a6ac-acf0eee59a62")
 			(effects
@@ -6356,7 +6356,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5e588fa9-4ef2-45ae-91b4-a501ca666077")
-		(at 194.799239 68.982648 180)
+		(at 194.799239 68.25 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -8813,7 +8813,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "8579859d-d76c-4910-80b8-3a7280ee5743")
-		(at 184.225 110)
+		(at 191.525 76.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
@@ -9062,7 +9062,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "860b6ac5-f3a7-4056-9009-607620443755")
-		(at 184.225 114.5)
+		(at 198.025 76.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
@@ -9311,11 +9311,11 @@
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
 		(layer "F.Cu")
 		(uuid "872c8e3c-6fc5-475b-af41-96e06bc2b56e")
-		(at 187 70.5)
+		(at 187 70.25)
 		(descr "CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf")
 		(tags "tactile switch ksc7")
 		(property "Reference" "SW1"
-			(at 0 -4.5 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "9e7ad831-0a47-4ab9-8419-be371bed6899")
 			(effects
@@ -14876,7 +14876,7 @@
 		(descr "1.10mm Pitch microSD Card Connector, Hinge Type, https://www.molex.com/pdm_docs/sd/472192001_sd.pdf")
 		(tags "Micro SD")
 		(property "Reference" "J5"
-			(at 0 -8.5 0)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "245f9ed1-b08e-476a-b803-a157a403ec26")
@@ -15830,7 +15830,7 @@
 	(footprint "Soil Power Sensor:SOP127P505X155-8N"
 		(layer "F.Cu")
 		(uuid "d3940b2e-4be3-482b-9fe1-df5b5c48b62f")
-		(at 207 61.25)
+		(at 207 60.95)
 		(tags "SOP")
 		(property "Reference" "U11"
 			(at 0 -3.705 0)
@@ -17210,7 +17210,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "e788617d-089b-479c-b0d4-3502acb6d800")
-		(at 189.725 112.5)
+		(at 194.75 72.25)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
@@ -17685,7 +17685,7 @@
 	(footprint "Soil Power Sensor:SOP127P505X155-8N"
 		(layer "F.Cu")
 		(uuid "ea57ec09-b127-41a4-b0d9-0e57f3d1c094")
-		(at 193.25 61.3)
+		(at 193.25 61)
 		(tags "SOP")
 		(property "Reference" "U12"
 			(at 0 -3.705 0)
@@ -17973,11 +17973,11 @@
 	(footprint "Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ"
 		(layer "F.Cu")
 		(uuid "ece6edd3-d1cd-47bd-a094-61847663f33d")
-		(at 202.5 70.5)
+		(at 202.5 70.25)
 		(descr "CK components KSC7 tactile switch https://www.ckswitches.com/media/1973/ksc7.pdf")
 		(tags "tactile switch ksc7")
 		(property "Reference" "SW2"
-			(at 0.4 -4.5 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "6fb50fce-a995-4242-9921-9b131b6ddddf")
 			(effects
@@ -21580,6 +21580,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "BOOT"
+		(at 185.25 66.75 0)
+		(layer "F.SilkS")
+		(uuid "83ac94e5-796b-4efd-8d05-25e144914152")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "USB"
 		(at 244.5 74.5 0)
 		(layer "F.SilkS")
@@ -21660,6 +21672,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(gr_text "RST"
+		(at 201 66.75 0)
+		(layer "F.SilkS")
+		(uuid "d5ce3dd5-ef33-4a5a-8e53-3225613947bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "I-"
@@ -23966,14 +23990,6 @@
 		(layer "F.Cu")
 		(net 21)
 		(uuid "5ea700ca-b55c-4fcb-bb4c-861a5dc0126e")
-	)
-	(segment
-		(start 188.9 112.45)
-		(end 188.95 112.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 21)
-		(uuid "87592c70-fb17-44c0-b8ad-aafd76fcda8b")
 	)
 	(segment
 		(start 136.131 56.73)
