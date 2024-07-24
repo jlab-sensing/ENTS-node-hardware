@@ -1081,7 +1081,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d0ff9d06-e2d4-412a-b17a-677268a0fd51")
 		(property "Reference" "J6"
