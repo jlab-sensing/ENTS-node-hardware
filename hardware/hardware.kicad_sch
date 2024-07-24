@@ -385,8 +385,8 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 6.35 0)
@@ -485,9 +485,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -561,8 +561,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -705,7 +705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 128.27 52.07 0)
 			(effects
 				(font
@@ -771,7 +771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "One-piece EMI RF shielding cabinet"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -855,7 +855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 62.23 90.17 0)
 			(effects
 				(font
@@ -922,7 +922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 128.27 36.83 0)
 			(effects
 				(font
@@ -988,7 +988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 39.37 0)
 			(effects
 				(font
@@ -1054,7 +1054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 62.23 57.15 0)
 			(effects
 				(font
@@ -1120,7 +1120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "One-piece EMI RF shielding cabinet"
 			(at 62.23 80.01 0)
 			(effects
 				(font
@@ -1205,7 +1205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 157.48 52.07 0)
 			(effects
 				(font
@@ -1271,7 +1271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 39.37 0)
 			(effects
 				(font
@@ -1337,7 +1337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 54.61 0)
 			(effects
 				(font
@@ -1404,7 +1404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole with connection"
 			(at 157.48 36.83 0)
 			(effects
 				(font
@@ -1470,7 +1470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 157.48 54.61 0)
 			(effects
 				(font
