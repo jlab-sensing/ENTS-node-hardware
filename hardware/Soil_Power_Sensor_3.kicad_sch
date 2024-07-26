@@ -5272,6 +5272,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "JS203011JCQN"
+			(at 160.02 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "63924a9e-821a-49c6-bf15-af671c8e6260")
 		)
@@ -6883,7 +6892,7 @@
 		(at 168.91 33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
