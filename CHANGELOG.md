@@ -4,11 +4,27 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [2.2.1] - 2024-07-26
+
+### Added
+
+- Power switch in place of jumpers ([#35](i35))
+- 4 pin 1mm JST SH connector for external i2c sensors based on the Adafruit STEMMA QT standard ([#29](i29))
+- microSD card slot ([#41](i41))
+- Second FRAM IC position
 
 ### Updated
 
-- ESP32 UART terminal to a 4-pin header
+- ESP32 UART terminal to a 4-pin header ([#38](i38))
+- Battery connector to 4xAAA with case from Keystone ([#36](i36))
+- FRAM footprint for compatibility with alternative IC (MB85RC1MT)
+- Doubled trace with for power (0.4mm)
+
+[i29]: https://github.com/jlab-sensing/soil_power_sensor/issues/29
+[i35]: https://github.com/jlab-sensing/soil_power_sensor/issues/35
+[i36]: https://github.com/jlab-sensing/soil_power_sensor/issues/36
+[i38]: https://github.com/jlab-sensing/soil_power_sensor/issues/38
+[i41]: https://github.com/jlab-sensing/soil_power_sensor/issues/41
 
 ## [2.2.0] - 2024-03-08
 
