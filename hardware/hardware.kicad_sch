@@ -714,6 +714,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 128.27 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61ecda72-deb7-4a40-8dbd-570ea83f4dcd")
 		)
@@ -790,6 +799,15 @@
 			)
 		)
 		(property "MFC" "Würth Elektronik"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7386557"
 			(at 62.23 46.99 0)
 			(effects
 				(font
@@ -923,6 +941,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 128.27 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 128.27 36.83 0)
 			(effects
 				(font
@@ -1147,6 +1174,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 62.23 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "02f9d187-70de-4110-be21-dbd60f420ab5")
 		)
@@ -1206,6 +1242,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 157.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 157.48 52.07 0)
 			(effects
 				(font
@@ -1405,6 +1450,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 157.48 36.83 0)
 			(effects
 				(font

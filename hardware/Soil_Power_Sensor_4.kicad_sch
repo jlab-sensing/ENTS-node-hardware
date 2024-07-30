@@ -3813,6 +3813,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 80.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "013a9d1e-6ae1-44f2-b283-b698a1dcddcc")
 		)
@@ -4108,6 +4117,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 245.11 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "925f2d05-65e3-4c67-92d3-bd6ab5a0995f")
 		)
@@ -4179,6 +4197,15 @@
 			)
 		)
 		(property "MPN" "YC164-JR-1310KL"
+			(at 74.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 74.93 151.13 0)
 			(effects
 				(font
@@ -4265,6 +4292,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 237.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 237.49 128.27 0)
 			(effects
 				(font
@@ -4508,6 +4544,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 57.15 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c63dce2-4ce1-4e78-a1f7-e4813f43681e")
 		)
@@ -4579,6 +4624,15 @@
 			)
 		)
 		(property "MPN" "YC164-JR-1310KL"
+			(at 85.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 85.09 151.13 0)
 			(effects
 				(font
@@ -4691,7 +4745,7 @@
 		(at 245.11 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4739,7 +4793,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "B3F-1000"
+			(at 245.11 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C93157"
 			(at 245.11 77.47 0)
 			(effects
 				(font
@@ -4903,6 +4966,15 @@
 			)
 		)
 		(property "DNP" ""
+			(at 153.67 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 153.67 78.74 0)
 			(effects
 				(font
@@ -5140,6 +5212,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 171.45 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "14b7db2d-4e8f-4c78-a676-39f926695a5b")
 		)
@@ -5274,7 +5355,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0472192001"
+		(property "MPN" "472192001"
 			(at 116.84 165.1 0)
 			(effects
 				(font
@@ -5284,6 +5365,15 @@
 			)
 		)
 		(property "MFC" "Molex"
+			(at 116.84 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C164170"
 			(at 116.84 165.1 0)
 			(effects
 				(font
@@ -5542,6 +5632,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 57.15 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5e8962fe-bd93-4f92-b0fd-3d191adf4957")
 		)
@@ -5621,6 +5720,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "ea742a2f-ed72-4d9e-b8e2-2f7113c04735")
 		)
@@ -5659,7 +5767,7 @@
 		(at 245.11 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5707,7 +5815,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "B3F-1000"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C93157"
 			(at 245.11 46.99 0)
 			(effects
 				(font
@@ -5832,6 +5949,15 @@
 		(property "DATE_MODIFIED" "2024-03-07"
 			(at 115.57 124.46 0)
 			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 115.57 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6011,6 +6137,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 184.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c0d316f1-e96a-4736-a1b6-515121085c3f")
 		)
@@ -6137,6 +6272,15 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 57.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 57.15 55.88 0)
 			(effects
 				(font
@@ -6311,6 +6455,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 245.11 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d148e42d-c046-4c64-961f-3d010b547a52")
 		)
@@ -6382,6 +6535,15 @@
 			)
 		)
 		(property "MPN" "YC164-JR-1310KL"
+			(at 64.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 64.77 151.13 0)
 			(effects
 				(font

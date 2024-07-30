@@ -2909,6 +2909,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 184.15 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "387383a4-beba-4105-989c-3ce7fa093dc6")
 		)
@@ -2998,6 +3007,15 @@
 			)
 		)
 		(property "MPN" "REF2033QDDCRQ1"
+			(at 57.15 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 57.15 137.16 0)
 			(effects
 				(font
@@ -3132,6 +3150,15 @@
 			)
 		)
 		(property "MPN" "TPS60400DBVR"
+			(at 219.71 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 219.71 53.34 0)
 			(effects
 				(font
@@ -3378,6 +3405,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 46.99 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44b4dbb3-fc7f-499f-a8e8-a472f2d34869")
 		)
@@ -3506,6 +3542,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 120.65 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 120.65 50.8 0)
 			(effects
 				(font
@@ -3674,6 +3719,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 71.12 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ba499e7-7f9c-4ec6-a4ac-46e4726826a1")
 		)
@@ -3736,6 +3790,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 62.23 36.83 0)
 			(effects
 				(font
@@ -3877,6 +3940,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 95.25 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8eefca5d-552b-47a6-835e-756f3aa31d92")
 		)
@@ -3963,6 +4035,15 @@
 			)
 		)
 		(property "DNP" ""
+			(at 83.82 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 83.82 146.05 0)
 			(effects
 				(font
@@ -4331,6 +4412,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f207221-46bf-4dc0-9b36-378d2e331b02")
 		)
@@ -4393,6 +4483,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 255.27 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 255.27 48.26 0)
 			(effects
 				(font
@@ -4468,6 +4567,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 90.17 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a52fd81-2cfd-4cdd-a4ee-dd7da5d563ec")
 		)
@@ -4527,6 +4635,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 60.96 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 60.96 64.77 0)
 			(effects
 				(font
@@ -4631,6 +4748,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 245.11 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c2d5dd9-2c31-41c2-87ec-5352ea967097")
 		)
@@ -4720,6 +4846,15 @@
 			)
 		)
 		(property "MPN" "2463"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 46.99 54.61 0)
 			(effects
 				(font
@@ -4856,6 +4991,15 @@
 			)
 		)
 		(property "Description" "test point (alternative flag-style design)"
+			(at 130.81 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 130.81 52.07 0)
 			(effects
 				(font
@@ -5024,6 +5168,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 73.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d15eb280-60ea-4863-8359-4596720553f2")
 		)
@@ -5086,6 +5239,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 91.44 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 91.44 36.83 0)
 			(effects
 				(font
@@ -5226,6 +5388,15 @@
 			)
 		)
 		(property "MPN" "JS203011JCQN"
+			(at 102.87 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C221669"
 			(at 102.87 52.07 0)
 			(effects
 				(font
