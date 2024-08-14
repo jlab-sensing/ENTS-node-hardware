@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "Soil Power Sensor")
-		(date "2024-07-26")
-		(rev "2.2.1")
+		(date "2024-08-14")
+		(rev "2.2.2")
 		(company "jlab")
 	)
 	(layers
@@ -12016,7 +12016,7 @@
 			(uuid "df7899af-4d7a-47e2-96b0-0e3cd43e6ea6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d2ac32fe-481e-46b5-993c-f3ad0a847dbd")
 			(effects

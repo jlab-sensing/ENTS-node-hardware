@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Soil Power Sensor")
-		(date "2024-07-26")
-		(rev "2.2.1")
+		(date "2024-08-14")
+		(rev "2.2.2")
 		(company "jlab")
 	)
 	(lib_symbols
