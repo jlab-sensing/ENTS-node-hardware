@@ -16236,7 +16236,7 @@
 			(at 4 -1.2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7d913916-a7ad-4394-95cc-3947cd6fca1b")
+			(uuid "b6d1d3ea-23cb-4279-8d69-400a5322d3ca")
 			(effects
 				(font
 					(size 1 1)
@@ -16248,7 +16248,7 @@
 			(at 4 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "00624966-d710-4d95-a7bf-13b63347a600")
+			(uuid "d4bee421-1b8a-4c4c-a6f1-6358f2dd2adc")
 			(effects
 				(font
 					(size 1 1)
@@ -16261,7 +16261,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f74dc06f-ba10-4a24-bf50-c2bf8af0155c")
+			(uuid "61d40f94-8343-42eb-a8fd-361af4f55f36")
 			(effects
 				(font
 					(size 1 1)
@@ -16274,7 +16274,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5faf38e5-00e1-4e13-b2b9-543be6aa0289")
+			(uuid "f24222f6-cf1f-4ad4-b03a-7322728bd6ad")
 			(effects
 				(font
 					(size 1 1)
@@ -16287,7 +16287,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3b58dbd-e046-47e6-9a3f-d61a047f1fec")
+			(uuid "f8a4eac0-22da-4954-bb19-7753c6101062")
 			(effects
 				(font
 					(size 1 1)
@@ -16335,13 +16335,24 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "4a4cdcb2-e5b9-46d8-9085-bdc3cf3729d6")
+			(uuid "d44e26fa-1c05-41f3-b7d4-07a047d0e6e2")
+		)
+		(fp_circle
+			(center 9.6 -1.2)
+			(end 10.232456 -1.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.SilkS")
+			(uuid "bc5e31e5-0723-441b-94b6-5a736e0ab89c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 4 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a47d7d68-6940-4674-9871-825fb1786346")
+			(uuid "ee802d5a-7ac8-49f7-9faa-7a7cc27fc17e")
 			(effects
 				(font
 					(size 1 1)
@@ -16357,7 +16368,7 @@
 			(net 78 "/STM32/STM_3V3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c35a5230-7851-4d5e-b472-362041c1a379")
+			(uuid "76744e3e-8328-4398-a93c-46eea7346c01")
 		)
 		(pad "2" smd roundrect
 			(at 2 0 90)
@@ -16367,7 +16378,7 @@
 			(net 2 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "59dade3d-5878-4d47-84d4-3413fc703d79")
+			(uuid "8d78cf84-f87e-4dcd-a4f1-527843731678")
 		)
 		(pad "3" smd roundrect
 			(at 6 0 90)
@@ -16377,7 +16388,7 @@
 			(net 1 "+3V3")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "47493253-67d6-4e10-9559-709e28da0d97")
+			(uuid "98e25fe0-c027-4eca-95ad-79046ec8394b")
 		)
 		(pad "4" smd roundrect
 			(at 8 0 90)
@@ -16387,7 +16398,7 @@
 			(net 78 "/STM32/STM_3V3")
 			(pinfunction "4")
 			(pintype "passive")
-			(uuid "7abf7f7b-1c8a-407d-baba-10878ad6a387")
+			(uuid "c52a0107-592b-434f-a608-c3465616665c")
 		)
 		(pad "5" smd roundrect
 			(at 0 -2.4 90)
@@ -16397,7 +16408,7 @@
 			(net 7 "VUSB")
 			(pinfunction "5")
 			(pintype "passive")
-			(uuid "d5517da7-0037-4cb7-a85a-af830a2bb389")
+			(uuid "a58c42cc-5a2b-44a0-8f51-6086e4e518c7")
 		)
 		(pad "6" smd roundrect
 			(at 2 -2.4 90)
@@ -16407,7 +16418,7 @@
 			(net 2 "GND")
 			(pinfunction "6")
 			(pintype "passive")
-			(uuid "02b451df-74b9-454c-a9f4-e943b0cb6deb")
+			(uuid "472716f5-2b03-4670-b5f1-be48207b813f")
 		)
 		(pad "7" smd roundrect
 			(at 6 -2.4 90)
@@ -16417,7 +16428,7 @@
 			(net 6 "VCC")
 			(pinfunction "7")
 			(pintype "passive")
-			(uuid "f93aa620-1dbd-4c46-a970-7b1a21e50a3d")
+			(uuid "587f04cb-1791-40fb-8d81-d32422fba2e3")
 		)
 		(pad "8" smd roundrect
 			(at 8 -2.4 90)
@@ -16427,7 +16438,7 @@
 			(net 77 "/Power/VBAT")
 			(pinfunction "8")
 			(pintype "passive")
-			(uuid "aa4dd3fd-5f4e-4a98-aa75-02de2f2569c8")
+			(uuid "0292f022-1357-4930-b45a-db90aba80d33")
 		)
 	)
 	(footprint "Soil Power Sensor:SOP127P505X155-8N"
