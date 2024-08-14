@@ -270,11 +270,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "85ea5639-13a2-4e45-b8d4-9f95a9a2ad33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/65bc8fa8-7515-4db5-8ff4-534038fb1e56")
 		(sheetname "Power")
 		(sheetfile "Soil_Power_Sensor_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -414,6 +427,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de03175f-4815-4af7-8dea-293d37792b68")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C122538"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af43cd75-b07e-4cdd-8d76-6a444f71b90a")
 			(effects
 				(font
 					(size 1 1)
@@ -635,11 +661,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "054efb7a-e39d-4972-8555-68895586924f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/cca4df4f-38c7-4905-b96e-309060794669")
 		(sheetname "Power")
 		(sheetfile "Soil_Power_Sensor_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.2 -1.2)
 			(end 1.2 -1.2)
@@ -837,6 +876,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1707e2c5-0fba-4119-87a2-f1993a24be1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e516997a-b1c3-4134-b4aa-01ad95665315")
 			(effects
 				(font
 					(size 1 1)
@@ -1093,6 +1145,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bce6f531-7831-4fbb-97bb-e1b357aee625")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/a981f1b1-8953-4361-b6c6-fac4f14cdc9c")
 		(sheetname "Power")
@@ -1335,6 +1400,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94f0539d-ea0e-4e27-b8f1-dcfa8b2fad62")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11feffd0-160b-4a1d-b07c-187810351482")
 			(effects
 				(font
 					(size 1 1)
@@ -1591,6 +1669,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "118d4961-6a68-450b-a7fe-e5927a5ed6cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/f6ea6f2f-f636-42bc-b4c2-a9de1de452a1")
 		(sheetname "Analog")
@@ -1840,6 +1931,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C515607"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ef8f6484-7f5e-4903-9e1e-c27e13d5b92c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/a3cbb1b3-7a1e-444b-929f-454614f6199d")
 		(sheetname "Analog")
@@ -2070,6 +2174,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "11199711-74f5-45a5-8b0b-660710152d67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "461b92e6-eac2-4ea1-88ad-067c46dd5eb4")
 			(effects
 				(font
 					(size 1 1)
@@ -2345,11 +2462,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3a9c75f-cc73-4f26-b2dc-2aec7638dac2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e8086a96-0786-4ae2-b425-e1003c006b3a/357bcbb5-a54a-44ad-9567-de4880a307ef")
 		(sheetname "Hardware")
 		(sheetfile "hardware.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -2509,6 +2639,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d8783545-e4cb-4c8b-a581-2184b12a227a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cec2608-4a1b-4e9d-85ce-3c15e9fa42da")
 			(effects
 				(font
 					(size 1 1)
@@ -2729,11 +2872,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cf5abcf-1da4-4304-b81a-0fa94e52f7a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/6c836eeb-0ffa-4866-8f46-a8e9eb8a20cb")
 		(sheetname "Power")
 		(sheetfile "Soil_Power_Sensor_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -2844,11 +3000,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e19cc7e-6113-440f-a5db-3b6b8edb1b6e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/82d7f770-8d01-46b0-afca-fabab0dc2b9a")
 		(sheetname "Power")
 		(sheetfile "Soil_Power_Sensor_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -2988,6 +3157,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fa2e3cb6-6960-442f-b502-7ae43e25c428")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aae1d39e-8349-459f-9bee-6017b13da22b")
 			(effects
 				(font
 					(size 1 1)
@@ -3262,6 +3444,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2a8cb515-e6c2-4d67-87d2-378cf5b1aee0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "753cc5a6-ec86-41e1-8321-9cefdc24654d")
 			(effects
 				(font
 					(size 1 1)
@@ -3617,11 +3812,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7a4591c-164b-4164-bb9b-6df54e2e6ce8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e8086a96-0786-4ae2-b425-e1003c006b3a/ebe0f79e-911e-4c42-8fbd-bcd69b9121ab")
 		(sheetname "Hardware")
 		(sheetfile "hardware.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -3752,12 +3960,25 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e00c36cc-9ea6-4592-8d3b-63cd91d0e7af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Bridged12*")
 		(path "/1383843a-880b-4efd-8c7f-ecdf3639f794/e0805e3c-12bd-4a0b-a23a-b303505e1081")
 		(sheetname "ESP32")
 		(sheetfile "Soil_Power_Sensor_4.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.6 1.5)
 			(end -1 1.5)
@@ -3992,6 +4213,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18fb46d8-6dfb-4f3c-8e67-d8ae11ed5f03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C95204"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a9ddbc2c-16a3-4dab-8178-b93d933e480b")
 			(effects
 				(font
 					(size 1 1)
@@ -4248,6 +4482,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3127b49-a02d-4f73-95af-50fc5488b9e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/5424d757-4efa-4604-90b3-ba1dd92e06cc")
 		(sheetname "Power")
@@ -4467,6 +4714,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c153bdf-7282-4bc2-85c2-737d2d856c01")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C105579"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cc7eefd-3b1b-442b-bb16-73ac30992e35")
 			(effects
 				(font
 					(size 1 1)
@@ -4723,6 +4983,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C858646"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca01a7be-24e6-4b10-9f43-db34863261c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/5385f841-2dda-439c-90bf-0979413eaa06")
 		(sheetname "Analog")
@@ -4936,11 +5209,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49966b98-c8ec-4918-ba4e-e841aef4ed91")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/83e8c643-bd1d-423b-b1f8-43318fd68cbd")
 		(sheetname "Power")
 		(sheetfile "Soil_Power_Sensor_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -5080,6 +5366,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c331f5e-f2a5-4f89-8979-13a688169975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C98220"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8841a5b1-e72d-457d-9d45-a3c882f3ca06")
 			(effects
 				(font
 					(size 1 1)
@@ -5353,6 +5652,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "90a9631f-7cc5-421f-b7b2-20961feeab43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e24881c-3ee9-467e-ada8-05750ea3e62a")
 			(effects
 				(font
 					(size 1 1)
@@ -5859,255 +6171,6 @@
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
-		(uuid "5683be73-640d-4d24-8d39-17066d58c26a")
-		(at 156 67.5 180)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
-		(property "Reference" "C3"
-			(at 0.225 1.5 0)
-			(layer "F.SilkS")
-			(uuid "379426cc-3c9e-4718-871d-79c0e6a5495c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "2.7nF"
-			(at 0 -1.5 0)
-			(layer "F.Fab")
-			(uuid "48fedbfb-aa44-4930-9cf8-0324a74a294f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0147217-89a0-405e-9a2f-3fdb3f5c5fe3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "94cd9ab7-e8eb-4276-bd11-63939af82461")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c286d8e2-604b-454d-83ed-195162a02dcc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNP" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "67a44393-9036-4dd7-8ed4-f8a19411f753")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DPN" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "78c63afe-f060-4ac6-bb4b-bf3d2eb43924")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CC0603GRNPO9BN272"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4f5829ba-c439-4d5a-9011-68ad940eac57")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "C_*")
-		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/3281f710-b150-4125-8aa6-d71eaa4a1728")
-		(sheetname "Analog")
-		(sheetfile "Soil_Power_Sensor_1.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "a1c104ca-085f-4d75-9efc-f9e1da06fb1c")
-		)
-		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "257f01b8-66e0-4b56-9b21-72d5854b28d0")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ccdc3af4-bbef-44c0-ac6b-907bec548661")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "282ec35d-48dc-4cf6-a183-0ac375b0b165")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e2b81c1e-305a-408a-9814-2e4665123d99")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "96807545-d96b-4010-a017-3cf1f502900c")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "1407e9e3-3d3f-4069-86c8-f977f3e0504b")
-		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5d5f67a3-71f4-4f29-8bce-1f05794e89f7")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "0ce78c4e-9401-4ba0-982a-b3a63e41e8ef")
-		)
-		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "5a22a373-25cd-4371-94c0-98c0833d2cc0")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "bcd71ff5-6d7f-4c03-b319-18c589a73e5b")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.775 0 180)
-			(size 0.9 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 34 "Net-(U6-AIN0)")
-			(pintype "passive")
-			(uuid "7af1a10c-5ed1-4d47-a2fa-b82f439c507b")
-		)
-		(pad "2" smd roundrect
-			(at 0.775 0 180)
-			(size 0.9 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 35 "Net-(U6-AIN1)")
-			(pintype "passive")
-			(uuid "b88919b1-8e89-4453-9a0b-4337ebb37ac2")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
-		(layer "F.Cu")
 		(uuid "578f1606-5a1f-4216-bad5-841dfc5c6ce7")
 		(at 147.225 74)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
@@ -6202,6 +6265,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d61b58b9-55bc-4703-b789-eb35d5faaa18")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0fd17e9-75eb-43ea-bc15-2b48506498b3")
 			(effects
 				(font
 					(size 1 1)
@@ -6458,6 +6534,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a2ab726-aa2e-4989-83f6-9bbb3e79b73c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1383843a-880b-4efd-8c7f-ecdf3639f794/ed0e7760-41df-492a-bcef-0e0822dc6303")
 		(sheetname "ESP32")
@@ -6677,6 +6766,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cb308434-cf5d-468b-ab1b-58ebf3aeb38c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e33bef9-30cd-44a9-b27b-6d9c7ffcb5a9")
 			(effects
 				(font
 					(size 1 1)
@@ -7072,6 +7174,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C7577680"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b6eebdc-46f9-4dc3-b52d-57981371fb25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/91d3004d-84b8-4381-a56a-742f4ea021da")
 		(sheetname "Analog")
 		(sheetfile "Soil_Power_Sensor_1.kicad_sch")
@@ -7321,255 +7436,6 @@
 			)
 		)
 	)
-	(footprint "Capacitor_SMD:C_0603_1608Metric"
-		(layer "F.Cu")
-		(uuid "680724df-7b24-48b1-8fea-a5fc41daac76")
-		(at 155.35 53.5)
-		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
-		(tags "capacitor")
-		(property "Reference" "C2"
-			(at 0 -1.5 180)
-			(layer "F.SilkS")
-			(uuid "06c3ac2c-3369-458d-b4de-7eebe1628ef7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "1nF"
-			(at 0 1.43 0)
-			(layer "F.Fab")
-			(uuid "672a32f6-5aea-483c-8885-1766734be74e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "84960742-753e-48d4-a98b-6cdcd99b8896")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0b9261a-4865-4289-ba39-1339725196db")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b1caf99f-5b3e-496b-b100-74cb732ab257")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DNP" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9a68f540-7dc5-443d-befc-e433e05a5b70")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "DPN" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cd6defaf-de27-4235-80a4-6a0d394c1bc4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "MPN" "CC0603FRNPO9BN102"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "08eb8454-42d5-4073-a697-032627d50dfb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "C_*")
-		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/9dbc1249-23d8-49b8-8f19-d51d8d375a2a")
-		(sheetname "Analog")
-		(sheetfile "Soil_Power_Sensor_1.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.14058 -0.51)
-			(end 0.14058 -0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b3ccab2b-a05b-4409-a0c8-6fd4e20cebd6")
-		)
-		(fp_line
-			(start -0.14058 0.51)
-			(end 0.14058 0.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f30a6d1a-cd10-431d-8975-d4f4b18d0485")
-		)
-		(fp_line
-			(start -1.48 -0.73)
-			(end 1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ec8649d2-906b-4ff7-b85c-4b387cd73fbb")
-		)
-		(fp_line
-			(start -1.48 0.73)
-			(end -1.48 -0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2c54b4e0-ac66-47b2-ba77-df572afb7e00")
-		)
-		(fp_line
-			(start 1.48 -0.73)
-			(end 1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "62e5106a-c961-45ba-b67d-a6b8622d9e11")
-		)
-		(fp_line
-			(start 1.48 0.73)
-			(end -1.48 0.73)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "3d07309c-94bb-4b2e-97a7-ab476338f0fb")
-		)
-		(fp_line
-			(start -0.8 -0.4)
-			(end 0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7505d621-0407-4000-bac1-2fc04407188f")
-		)
-		(fp_line
-			(start -0.8 0.4)
-			(end -0.8 -0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4377cde1-a3b7-4023-9e9e-6be18e3fa6e1")
-		)
-		(fp_line
-			(start 0.8 -0.4)
-			(end 0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "bfb905c3-0d08-46f5-9d38-f7f9e8eb492b")
-		)
-		(fp_line
-			(start 0.8 0.4)
-			(end -0.8 0.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "26002581-ce8d-4b15-a0ef-44cd78a6cc48")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "c12eea77-b4e8-472b-bd34-845a0f4c43fe")
-			(effects
-				(font
-					(size 0.4 0.4)
-					(thickness 0.06)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -0.775 0)
-			(size 0.9 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 32 "Net-(U6-AIN2)")
-			(pintype "passive")
-			(uuid "861d360f-1ef5-4612-bc7b-cd774c4e5099")
-		)
-		(pad "2" smd roundrect
-			(at 0.775 0)
-			(size 0.9 0.95)
-			(layers "F.Cu" "F.Paste" "F.Mask")
-			(roundrect_rratio 0.25)
-			(net 33 "Net-(U6-AIN3)")
-			(pintype "passive")
-			(uuid "54f3ebf6-4345-4020-a7f0-8000e746b5d3")
-		)
-		(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
 		(layer "F.Cu")
 		(uuid "68f42344-7d48-4da0-b48c-5ff440787308")
@@ -7638,11 +7504,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3940c720-36a4-4c58-b4d4-748632450267")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e8086a96-0786-4ae2-b425-e1003c006b3a/05693b9a-c986-4aff-90ed-549a22983768")
 		(sheetname "Hardware")
 		(sheetfile "hardware.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -7838,6 +7717,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c2e78b5-0811-482e-bbeb-f41757726df3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "473bc32f-b648-489f-91ef-bdfc339abdde")
 			(effects
 				(font
 					(size 1 1)
@@ -8344,6 +8236,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "506bf7fd-1f16-42e8-bf3d-3790808ca115")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/2852e9f5-ea6c-4289-9b19-9434d8eb0477")
 		(sheetname "Power")
@@ -8667,6 +8572,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "970b2542-23ad-4e11-9883-b86d698f7710")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/68d177cb-6ec8-4cce-a492-0ff2cb8316d3")
 		(sheetname "Power")
@@ -8909,6 +8827,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2abede9f-ece9-42c7-bd11-5bf474c8882d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80429e12-4871-47d4-a618-72595ce92c13")
 			(effects
 				(font
 					(size 1 1)
@@ -9165,6 +9096,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "573c8905-824e-49b0-9091-6a15c1dc9c29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1383843a-880b-4efd-8c7f-ecdf3639f794/6ff86082-0e11-47a3-b5ca-dbb601910bd5")
 		(sheetname "ESP32")
@@ -9378,12 +9322,25 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "B3F-1000"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd0e68bc-fed9-4bcc-ab3f-c4d36b70edf6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C93157"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db55b38a-1f31-49e8-8bc0-b54777b4fa2c")
 			(effects
 				(font
 					(size 1 1)
@@ -9721,6 +9678,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2538c135-2c0c-4e9b-ac57-145d4fbd2c9c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e85e6476-1c0b-475e-8dce-dc1e37f9a504")
 			(effects
 				(font
 					(size 1 1)
@@ -10535,6 +10505,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "185ae505-2cf1-425b-91c3-7611135f38bf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/1383843a-880b-4efd-8c7f-ecdf3639f794/b119eaef-a672-44e0-867d-685b53c6d3a0")
 		(sheetname "ESP32")
 		(sheetfile "Soil_Power_Sensor_4.kicad_sch")
@@ -11200,6 +11183,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C105578"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc491e36-2cb3-4e62-8a3c-5478c4c55660")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/43a883bb-5678-46a3-a756-4c64cbfd0ddc/a581ecc4-8d40-4398-b7b2-d30f29a6cbc0")
 		(sheetname "STM32")
@@ -11419,6 +11415,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d0de66fa-1687-416d-b01d-725f9eb4d8e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C114670"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e00c6484-2db8-4263-8ba0-f03a37e7e5ab")
 			(effects
 				(font
 					(size 1 1)
@@ -11675,6 +11684,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12c3b23d-bbc6-4446-9455-c73779485722")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1383843a-880b-4efd-8c7f-ecdf3639f794/21656646-6b62-49d3-9d8f-07eae3b4103a")
 		(sheetname "ESP32")
@@ -11905,6 +11927,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38adf47a-412d-44d6-a083-bea6b43c1d03")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7386557"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b012b04-0bce-47de-9587-88b7886b6443")
 			(effects
 				(font
 					(size 1 1)
@@ -12579,12 +12614,25 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aadda57a-78c7-48c0-91c3-c0e7cfd76e41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/03e1764b-f547-4a19-b1a1-d172e7857c15")
 		(sheetname "Analog")
 		(sheetfile "Soil_Power_Sensor_1.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 1)
 			(end -0.7 1)
@@ -12885,6 +12933,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C122538"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a52f3625-cef2-43cc-aa49-2a7e92fa64ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/7a831184-6b86-4d15-bc92-bde1034e0b30")
 		(sheetname "Analog")
@@ -13164,6 +13225,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5fb3436a-c992-4094-be22-32b6f505852e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2059559"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bfef9c7-3007-4b85-ab07-a4db1d148191")
 			(effects
 				(font
 					(size 1 1)
@@ -13616,6 +13690,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bd09bd0-6059-49cf-8c23-df9b85e77d0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*")
 		(path "/43a883bb-5678-46a3-a756-4c64cbfd0ddc/f5485bca-cb3f-47cb-bb12-039d20ffc403")
 		(sheetname "STM32")
@@ -13900,11 +13987,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e15df17e-62ed-4470-a44c-fabe062dadbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/43a883bb-5678-46a3-a756-4c64cbfd0ddc/cbc3410a-940d-402b-a3bf-2c6aeef00b39")
 		(sheetname "STM32")
 		(sheetfile "Soil_Power_Sensor_3.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 0.95)
@@ -14044,6 +14144,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f65ef696-bbb5-44c6-9fd5-5e17a989f117")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2874168"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa9e2754-0fa2-4fec-8cc0-42bb06bb6b80")
 			(effects
 				(font
 					(size 1 1)
@@ -14286,12 +14399,25 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c7e0616-28a7-4642-bee9-e8829471013e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/c1756236-f46b-4548-be89-fb31f6f66ed1")
 		(sheetname "Analog")
 		(sheetfile "Soil_Power_Sensor_1.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -1)
 			(end 0.7 -1)
@@ -14592,6 +14718,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C122538"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd59a3d6-84ef-4197-9ca4-67bdd684f8d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/7b44f5fd-349f-440b-927d-c53e48f5cd80")
 		(sheetname "Analog")
@@ -14841,6 +14980,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C98220"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bcba7fba-f06b-43d5-a984-66540fbc5271")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/1383843a-880b-4efd-8c7f-ecdf3639f794/04864ce4-107f-4d3d-b006-e6bcf6fb1653")
 		(sheetname "ESP32")
@@ -15056,7 +15208,7 @@
 				)
 			)
 		)
-		(property "MPN" "0472192001"
+		(property "MPN" "472192001"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15075,6 +15227,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "159da992-400a-4e27-bc46-67fcdb1a1375")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C164170"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2bf9eabd-4c3d-41ce-ab54-6957de56d6c8")
 			(effects
 				(font
 					(size 1 1)
@@ -15486,6 +15651,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2482057a-c224-4448-bb86-ebd5a6aad831")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/7d280d5e-a4b5-4ea5-bc36-3d376de73254")
 		(sheetname "Power")
@@ -15700,11 +15878,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "963e726f-514e-45e1-bd63-9b16a7c90a2e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/e8086a96-0786-4ae2-b425-e1003c006b3a/d990e16f-09ba-4aa3-85a3-f88580462870")
 		(sheetname "Hardware")
 		(sheetfile "hardware.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 2.85 0)
@@ -15830,6 +16021,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c3b58dbd-e046-47e6-9a3f-d61a047f1fec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "JS203011JCQN"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0f3bf87-de5b-49e3-868a-da16e9a8148f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C221669"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dde14e1d-e0df-48b9-a0e9-b1fb66a605e4")
 			(effects
 				(font
 					(size 1 1)
@@ -16067,6 +16284,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8e379128-7fe3-4d30-952b-ee13c7889b4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8e5193a-f46c-44ab-95fc-6b99baa921b1")
 			(effects
 				(font
 					(size 1 1)
@@ -16399,6 +16629,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfcc4cd1-8e6e-4d08-92ab-1a980b61c0e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/29e913b1-52cc-41af-8be0-1debb1167822")
 		(sheetname "Power")
 		(sheetfile "Soil_Power_Sensor_2.kicad_sch")
@@ -16686,12 +16929,25 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6b57c41-61ee-4876-9618-97ea98e4b923")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/04ffbf7c-301b-4983-9998-901e55f5967a")
 		(sheetname "Analog")
 		(sheetfile "Soil_Power_Sensor_1.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -1)
 			(end 0.7 -1)
@@ -16962,6 +17218,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1567176-6768-4a6f-8166-f3d65dbd9dc6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e1e9123-4f71-4783-a8e7-fcd6c3920e99")
 			(effects
 				(font
 					(size 1 1)
@@ -17272,6 +17541,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C95204"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e9fdf45-c286-4f0f-a7a5-3a28250ea0d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/08aef06a-5bdd-4811-a360-2f6879e8cf9e")
 		(sheetname "Analog")
@@ -17486,11 +17768,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ff4455f-d8cb-4cfc-8b04-827adce4ccdf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/f35d6ef0-adad-4b07-9987-78f6465034ae")
 		(sheetname "Analog")
 		(sheetfile "Soil_Power_Sensor_1.kicad_sch")
-		(attr smd)
+		(attr smd exclude_from_bom dnp)
 		(fp_line
 			(start -0.237258 -0.5225)
 			(end 0.237258 -0.5225)
@@ -17735,6 +18030,19 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e4eee2f-6708-44b2-ad2b-798aafbd5940")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/1383843a-880b-4efd-8c7f-ecdf3639f794/412d054f-a835-4a88-9e02-db0d3c538223")
 		(sheetname "ESP32")
@@ -17954,6 +18262,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "127f9616-8742-4cdf-993e-f5227886b076")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C114670"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7d1332b-076b-4507-a69e-7d680acd256d")
 			(effects
 				(font
 					(size 1 1)
@@ -18202,6 +18523,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7b1a41c-63aa-459f-89d1-dd1e1ab89785")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29c0375d-9b0d-409c-8191-8f65b3b41328")
 			(effects
 				(font
 					(size 1 1)
@@ -18462,12 +18796,25 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "B3F-1000"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "463f4d82-d195-4ea5-ae6b-e569f58fa056")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C93157"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c94c2d98-299f-46c2-a32e-3017e1811c5c")
 			(effects
 				(font
 					(size 1 1)
@@ -18800,6 +19147,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C12729"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a5e2fec-0520-4477-92a2-9ba85bcfa0e4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/43a883bb-5678-46a3-a756-4c64cbfd0ddc/95510ca7-1967-4824-a18b-ccbda5e1ee39")
 		(sheetname "STM32")
@@ -19067,11 +19427,24 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc6bad75-ff2c-46d0-8acd-91b67a188d5e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/1383843a-880b-4efd-8c7f-ecdf3639f794/2af88217-35c4-4850-9997-cfdb15dc2c0e")
 		(sheetname "ESP32")
 		(sheetfile "Soil_Power_Sensor_4.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -19392,6 +19765,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C515607"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "283be758-5631-4a0b-bd93-a06da0b358f7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/eb154749-ac69-4621-b868-45c15cd955f8")
 		(sheetname "Analog")
@@ -19641,6 +20027,19 @@
 				)
 			)
 		)
+		(property "LCSC" "C122538"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab031583-3589-453b-86ec-db6d5d7f4d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/643deee0-b2c1-47dd-8bbd-6697ae8f1315/29143343-ef79-4b96-a921-830c5404fbff")
 		(sheetname "Analog")
@@ -19883,6 +20282,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "90ac25e8-26ed-49c4-be2c-3690c7d3058a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C105578"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f73b960a-e5d6-44d0-b7f4-bcbe31ed9f64")
 			(effects
 				(font
 					(size 1 1)
@@ -20168,6 +20580,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe15f944-ad6a-4362-ae51-2bcfe4751189")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2d713d57-5a99-4274-a70a-32791a6287d5")
 			(effects
 				(font
 					(size 1 1)
@@ -20479,6 +20904,20 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "df64b482-a079-4210-bf3f-f1d11b297590")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/9748de75-d11c-4e7f-82bd-0e6b989240bd")
 		(sheetname "Power")
@@ -20784,12 +21223,26 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "55"
+		(property "MPN" "2463"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d6f1e8a9-2686-4cd1-813b-8bfd0f13c03c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7659ce48-49da-48de-bf53-54c4c768e3fb")
 			(effects
 				(font
 					(size 1 1)
@@ -20965,11 +21418,25 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bf047d90-378e-427d-b176-1a722a608b9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/e4e711c3-f9ef-41d7-84ab-a7f3c8aaa3b0")
 		(sheetname "Power")
 		(sheetfile "Soil_Power_Sensor_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
@@ -21116,12 +21583,26 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "55"
+		(property "MPN" "2463"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "56070ba6-ffb5-4342-b961-5c17f3fcb9a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "7cf288ed-d6cf-44e0-8a8e-f0c958dd2cc2")
 			(effects
 				(font
 					(size 1 1)
@@ -21297,11 +21778,25 @@
 				(justify mirror)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ff1c612a-39a4-442f-95df-e768120315bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1/698ad1c9-d4d0-4866-a384-46d3a95f78f8")
 		(sheetname "Power")
 		(sheetfile "Soil_Power_Sensor_2.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end 0 -0.95)
@@ -26654,14 +27149,6 @@
 		(uuid "ffdf3731-09f6-4df3-99fc-e98eed7e2822")
 	)
 	(segment
-		(start 154.575 54.165)
-		(end 154.575 53.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 32)
-		(uuid "17ec32e6-e407-46ba-9b85-91789f300c96")
-	)
-	(segment
 		(start 157 58.4)
 		(end 157 57.665)
 		(width 0.2)
@@ -26676,14 +27163,6 @@
 		(layer "F.Cu")
 		(net 32)
 		(uuid "3bbe690f-c77f-4cdf-9f43-117d9596ef43")
-	)
-	(segment
-		(start 157 57.665)
-		(end 157 56.59)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 32)
-		(uuid "88e0033a-fca1-4358-a3ad-917aa5cb1d4e")
 	)
 	(segment
 		(start 150.69 70.5)
@@ -26708,14 +27187,6 @@
 		(layer "F.Cu")
 		(net 32)
 		(uuid "f1021146-3e6a-446e-bfe4-a6211d291771")
-	)
-	(segment
-		(start 157 56.59)
-		(end 154.575 54.165)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 32)
-		(uuid "fce98df9-2cd7-4de4-a189-de7c96dac5a7")
 	)
 	(via
 		(at 152.625 62.775)
@@ -26782,14 +27253,6 @@
 		(uuid "26fd29ea-6c2c-4624-8b11-9dfc5fb10dc4")
 	)
 	(segment
-		(start 157.65 55.025)
-		(end 156.125 53.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 33)
-		(uuid "4e550983-ef03-4d35-ab1d-c0c96d2c97d6")
-	)
-	(segment
 		(start 150.725 67)
 		(end 149.758 66.033)
 		(width 0.2)
@@ -26828,14 +27291,6 @@
 		(layer "F.Cu")
 		(net 33)
 		(uuid "f01a8a35-4cd5-4d4d-8973-43a7459c7b24")
-	)
-	(segment
-		(start 157.65 57.665)
-		(end 157.65 55.025)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 33)
-		(uuid "f6d9004a-fda0-4156-aeba-1d205c2172b5")
 	)
 	(segment
 		(start 149.758 63.652001)
@@ -26886,28 +27341,12 @@
 		(uuid "5539bd30-52f1-4202-b55a-bdbb8028df70")
 	)
 	(segment
-		(start 157.65 63.465)
-		(end 157.65 66.625)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 34)
-		(uuid "63cec0d8-4be9-46b6-b28f-80ddc50810f7")
-	)
-	(segment
 		(start 157.65 62.515)
 		(end 157.65 63.465)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 34)
 		(uuid "7be9dc04-8449-4d27-8517-09ca432f1569")
-	)
-	(segment
-		(start 157.65 66.625)
-		(end 156.775 67.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 34)
-		(uuid "856ae53b-4ad1-4be0-bc61-b01cb947729b")
 	)
 	(segment
 		(start 150.77 60.175)
@@ -26958,14 +27397,6 @@
 		(uuid "07eaafa0-fdb3-4bf2-be15-47f3e2337e0d")
 	)
 	(segment
-		(start 157 63.465)
-		(end 157 65.725)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 35)
-		(uuid "08a36319-7daf-4862-8723-fbf71a1c2ba8")
-	)
-	(segment
 		(start 149.758 60.597999)
 		(end 149.985001 60.825)
 		(width 0.2)
@@ -26988,14 +27419,6 @@
 		(layer "F.Cu")
 		(net 35)
 		(uuid "7bf9019b-a487-4665-a771-d1c1190b0809")
-	)
-	(segment
-		(start 157 65.725)
-		(end 155.225 67.5)
-		(width 0.2)
-		(layer "F.Cu")
-		(net 35)
-		(uuid "8504a9ac-6773-490c-964d-c298c0fbfdf3")
 	)
 	(segment
 		(start 155.31 60.825)
