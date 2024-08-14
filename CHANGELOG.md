@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.2.2] - 2024-08-14
+
+### Updated
+
+- Fixed footprint for RN1 ([#45](i45))
+- Footprint of power switch to include orientation ([#45](i45))
+
+### Removed
+
+- Filtering capacitors C2, C3 ([#44](i44))
+
+[i44]: https://github.com/jlab-sensing/soil_power_sensor/issues/44
+[i45]: https://github.com/jlab-sensing/soil_power_sensor/issues/45
+[i46]: https://github.com/jlab-sensing/soil_power_sensor/issues/46
+
 ## [2.2.1] - 2024-07-26
 
 ### Added
