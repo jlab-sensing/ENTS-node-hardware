@@ -3892,6 +3892,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" " YC164-JR-1310KL"
+			(at 85.09 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cd21f3f-0665-4c52-8191-2d08ed8e3cae")
 		)
@@ -4757,6 +4766,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" " YC164-JR-1310KL"
+			(at 54.61 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cd21f3f-0665-4c52-8191-2d08ed8e3caf")
 		)
@@ -5503,6 +5521,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" " YC164-JR-1310KL"
+			(at 74.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cd21f3f-0665-4c52-8191-2d08ed8e3cb0")
 		)
@@ -6154,6 +6181,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 64.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " YC164-JR-1310KL"
 			(at 64.77 151.13 0)
 			(effects
 				(font
