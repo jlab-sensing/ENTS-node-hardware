@@ -1,11 +1,11 @@
 ## Task List
 
-- [x] Version bump files
-- [x] Update changelog
-- [x] Export plots of schematic
-- [x] Export BOM
-- [x] Update BOM on Octopart
-- [x] Generate fab files
+- [ ] Version bump files
+- [ ] Update changelog
+- [ ] Export plots of schematic
+- [ ] Export BOM
+- [ ] Update BOM on Octopart
+- [ ] Generate fab files
 
 ## Relevant Issues
 
