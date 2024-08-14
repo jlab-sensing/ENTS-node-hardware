@@ -1,0 +1,151 @@
+(footprint "JS203011JCQN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "DP3T Vertical Mount SMT - J BEND")
+	(tags "Switch, DP3T")
+	(property "Reference" "REF**"
+		(at 4.5 -4.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3c8b5f80-8651-48ca-aedc-107e0ece4bb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JS203011JCQN"
+		(at 4 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2d00395d-511f-4751-a2d4-71db44b8ac5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7bcf816-9c56-4676-acac-8332046d2589")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
+		(at 0 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "151c70ae-1abe-437e-88f0-42a6bfa3c566")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 10.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a8c7253-c2bd-4cfe-83ec-1a052445cdae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5 -3.7)
+		(end 10.5 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4ac00ee8-ab11-4750-9366-1b329e469bab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 4 4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "441ffc10-8457-4d02-8cc0-243a06545561")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "d1d1dcee-94c7-4490-8307-526d57916604")
+	)
+	(pad "2" smd roundrect
+		(at 2 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "268fbc71-c585-4964-ae5c-5e0c37153bfb")
+	)
+	(pad "3" smd roundrect
+		(at 6 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "73fb7aa1-5658-412e-b39f-bf60cd050c7b")
+	)
+	(pad "4" smd roundrect
+		(at 8 0)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "aa6d7f99-f1f6-4156-b975-943f81d20ba5")
+	)
+	(pad "5" smd roundrect
+		(at 0 -2.4)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "5001aac7-b0a3-4ad5-96bf-90807cce1ef8")
+	)
+	(pad "6" smd roundrect
+		(at 2 -2.4)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "10cce547-3c12-4071-b57a-ff7ab3f0f87d")
+	)
+	(pad "7" smd roundrect
+		(at 6 -2.4)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "973e21a3-b566-4f42-a82a-0d74519eb495")
+	)
+	(pad "8" smd roundrect
+		(at 8 -2.4)
+		(size 1 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1640419948)
+		(uuid "0b084561-5c0b-4293-a600-c1497b110b25")
+	)
+)

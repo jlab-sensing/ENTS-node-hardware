@@ -58,7 +58,20 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|146575000|67050000|7bf13de2-1044-4a73-a27d-14e1ca0930d8|00000000-0000-0000-0000-000000000000",
+        "silk_edge_clearance|175250000|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|40adc477-e4bb-4317-81f4-a80b6a55a8bf",
+        "silk_edge_clearance|193250000|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|be84e18b-c12f-4802-aeb2-df926a3896c8",
+        "silk_edge_clearance|197340000|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|715f1222-03bf-4e88-bcf5-d2d0a2d33876",
+        "silk_edge_clearance|211160000|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|dd94a80c-6250-495d-85e5-57ccf3b02679",
+        "silk_edge_clearance|216843331|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|defbeebd-c5c3-4d9d-a6ad-60bf77067176",
+        "silk_edge_clearance|239843331|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|9709207f-80bb-4d35-8e29-6616f102c370",
+        "silk_over_copper|137085000|58366599|a75b4774-8e53-442a-b988-5e8398ada604|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|140985000|57634809|198a5e9f-775b-4778-ae3c-2a1bd7d7bbce|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|171776267|52750000|256f9e59-418b-4614-bc6b-e5453dde2829|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|216843331|89188455|defbeebd-c5c3-4d9d-a6ad-60bf77067176|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|239843331|89188455|9709207f-80bb-4d35-8e29-6616f102c370|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -80,6 +93,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -429,7 +443,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -440,8 +454,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "Soil Power Sensor"
+    ],
+    "pinned_symbol_libs": [
+      "Soil Power Sensor-eagle-import"
+    ]
   },
   "meta": {
     "filename": "Soil Power Sensor.kicad_pro",
@@ -465,6 +483,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -472,14 +507,39 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Power",
+        "pattern": "VUSB"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VCC"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/VBAT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/STM32/STM_3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/VBAT_SPLIT"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "plots",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -490,6 +550,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "Soil Power Sensor.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -633,7 +694,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -754,6 +815,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -791,7 +858,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "default.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "./",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,

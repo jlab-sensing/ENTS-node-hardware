@@ -1,0 +1,155 @@
+(footprint "Keystone2463"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "2xAA battery holder with wire leads")
+	(tags "AA, Battery, Keystone, 2463")
+	(property "Reference" "REF**"
+		(at 30.5 15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "caeeef9f-4ded-49f4-afa1-ccfabebfaa2a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Keystone2463"
+		(at 30 16.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "272a0e3f-9e89-4b87-b531-140e0adbf606")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 30 15.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3299bfb-fc27-4a7e-8b27-feada0b34615")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/userAssets/file/M65p28.pdf"
+		(at 29.5 19.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e58aad1-ad20-4bfe-bf0e-10a72e715da0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2xAA battery holder with wire leads"
+		(at 30 21 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2de9a170-4669-43e3-ba51-f29763c85612")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start 0 0)
+		(end 60 33)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9e8036b8-a9e1-4ceb-8a64-7804ef1e4ebb")
+	)
+	(fp_rect
+		(start 0 0)
+		(end 72.5 33)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7627fc16-cc76-4c52-8ca8-9430a39807b0")
+	)
+	(fp_text user "+"
+		(at 68 13.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3ff320ff-76b5-4518-8da3-0b4f7894b118")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "-"
+		(at 68 21.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "701e1d60-72b1-43ab-9297-6178030898a4")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 30 18 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1fee7a0-0265-407e-9a29-98e40c49d922")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 64.5 12.5)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4a5a131f-32ee-4d02-9ccd-bbbf4957f409")
+	)
+	(pad "2" smd rect
+		(at 64.5 20.5)
+		(size 3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "991120ef-059d-4ba9-9cba-eb2bfd08a79e")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Battery.3dshapes/BatteryHolder_Keystone_2462_2xAA.step"
+		(offset
+			(xyz 3 -9 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

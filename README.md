@@ -6,7 +6,7 @@ This repo contains the EagleCAD source files for the PCB design of the Soil Powe
 
 ## BOM
 
-The bill of materials is available digitally at https://octopart.com/bom-tool/anhF8jcB or as csv in `hardware/Soil Power Sensor.csv`.
+The bill of materials is available digitally at https://octopart.com/bom-tool/kEoRBpBH or as csv in `hardware/Soil Power Sensor.csv`.
 
 There are two buttons not listed in the BOM for the esp32 `BOOT` and `EN`. These are cheaply available from amazon. Look for one with a 6mm by 6mm form factor.
 
