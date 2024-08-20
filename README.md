@@ -132,6 +132,13 @@ The negative terminals of `Voltage` and `Current` are tied to ground. Both measu
 
 The configuration uses a on-board resistor for `RSENSE1`. The resistor is chosen based on the desired range of input measurements. The board uses a high-side current measurements.
 
+## Userful links
+
+Links for generating production files and BOM for [JLCPCB](https://jlcpcb.com/)
+
+- [Gerber and drill/map files](https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-8)
+- [BOM and centroid files](https://jlcpcb.com/help/article/How-to-generate-the-BOM-and-Centroid-file-from-KiCAD)
+
 ## License & Copyright
 
 The Soil Power Sensor board design files are licensed under the Solderpad Hardware License (wraparound license of Apache License).
