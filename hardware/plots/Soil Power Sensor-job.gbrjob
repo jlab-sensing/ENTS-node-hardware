@@ -3,18 +3,18 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.7"
+      "Version": "8.0.4"
     },
-    "CreationDate": "2023-10-14T20:33:26-07:00"
+    "CreationDate": "2024-08-20T14:30:19-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Soil Power Sensor",
       "GUID": "536f696c-2050-46f7-9765-722053656e73",
-      "Revision": "2.1.0"
+      "Revision": "2.2.2"
     },
     "Size": {
-      "X": 116.05,
+      "X": 139.05,
       "Y": 45.05
     },
     "LayerNumber": 2,

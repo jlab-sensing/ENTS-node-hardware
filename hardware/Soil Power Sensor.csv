@@ -21,7 +21,7 @@
 "R12,R14,R15","10k","Resistor_SMD:R_0603_1608Metric","3","RC0603FR-0710KL","C98220"
 "R13","47k","Resistor_SMD:R_0603_1608Metric","1","RC0603FR-0747KL","C105579"
 "R16,R17","1M","Resistor_SMD:R_0603_1608Metric","2","RC0603FR-071ML","C105578"
-"RN1","10k","Resistor_SMD:R_Array_Convex_4x0603","1"," YC164-JR-1310KL",""
+"RN1","10k","Resistor_SMD:R_Array_Convex_4x0603","1"," YC164-JR-1310KL","C110924"
 "SW1","BOOT","Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ","1","B3F-1000","C2837532"
 "SW2","EN","Button_Switch_SMD:SW_Push_1P1T_NO_CK_KSC7xxJ","1","B3F-1000","C2837532"
 "SW3","SW_DP3T","Soil Power Sensor:JS203011JCQN","1","JS203011JCQN","C221669"

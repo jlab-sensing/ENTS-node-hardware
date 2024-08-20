@@ -1,0 +1,52 @@
+** Drc report for Soil Power Sensor.kicad_pcb **
+** Created on 2024-08-20T14:30:19-0700 **
+
+** Found 12 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(137.0850 mm, 58.5450 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(140.9850 mm, 53.6450 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(216.8433 mm, 96.1721 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(239.8433 mm, 46.1721 mm): Segment on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(122.7500 mm, 85.7500 mm): Rectangle on B.Silkscreen
+[lib_footprint_mismatch]: Footprint 'Keystone2463' does not match copy in library 'Soil Power Sensor'.
+    Local override; warning
+    @(182.7500 mm, 52.7500 mm): Footprint G1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
+    @(216.8433 mm, 96.1721 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
+    @(239.8433 mm, 46.1721 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
+    @(175.2500 mm, 91.7700 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
+    @(193.2500 mm, 98.1000 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
+    @(197.3400 mm, 91.3600 mm): Segment on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
+    @(211.1600 mm, 91.3600 mm): Segment on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
