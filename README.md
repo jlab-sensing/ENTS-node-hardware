@@ -1,4 +1,4 @@
-# Soil Power Sensor
+# Environmental NeTwork Sensor (ENTS) Hardware
 
 ![Annotated Soil Power Sensor](images/sps.png)
 
