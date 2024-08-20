@@ -671,6 +671,160 @@
             "label": "Description",
             "name": "Description",
             "show": false
+          },
+          {
+            "group_by": false,
+            "label": "LCSC",
+            "name": "LCSC",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from BOM",
+            "name": "${EXCLUDE_FROM_BOM}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Board",
+            "name": "${EXCLUDE_FROM_BOARD}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Exclude from Simulation",
+            "name": "${EXCLUDE_FROM_SIM}",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "JLCPCB",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "AUTHOR",
+            "name": "AUTHOR",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Author",
+            "name": "Author",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DATE_CREATED",
+            "name": "DATE_CREATED",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DATE_MODIFIED",
+            "name": "DATE_MODIFIED",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DATE_UPDATED",
+            "name": "DATE_UPDATED",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "DNP",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DPN",
+            "name": "DPN",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Date Created",
+            "name": "Date Created",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Date Modified",
+            "name": "Date Modified",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MFC",
+            "name": "MFC",
+            "show": false
+          },
+          {
+            "group_by": true,
+            "label": "MPN",
+            "name": "MPN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "REF",
+            "name": "REF",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
           }
         ],
         "filter_string": "",
@@ -681,7 +835,7 @@
       }
     ],
     "bom_settings": {
-      "exclude_dnp": true,
+      "exclude_dnp": false,
       "fields_ordered": [
         {
           "group_by": false,
@@ -808,6 +962,24 @@
           "label": "LCSC",
           "name": "LCSC",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
         }
       ],
       "filter_string": "",
