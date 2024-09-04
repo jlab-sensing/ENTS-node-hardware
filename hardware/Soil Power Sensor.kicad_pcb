@@ -8,7 +8,7 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Soil Power Sensor")
+		(title "ents-node")
 		(date "2024-08-14")
 		(rev "2.2.2")
 		(company "jlab")
@@ -21826,6 +21826,39 @@
 			(uuid "3c2b7249-0f14-4ab5-b087-a9ad09e3071c")
 		)
 	)
+	(gr_rect
+		(start 135.744806 87.162432)
+		(end 138.744806 90.162432)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "7bb07809-017a-406b-a340-083664830e79")
+	)
+	(gr_rect
+		(start 131.594806 87.162432)
+		(end 134.594806 90.162432)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "b221109a-2ed8-41ee-9eb3-099fad0a7cb9")
+	)
+	(gr_rect
+		(start 127.444806 87.212432)
+		(end 130.444806 90.212432)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill solid)
+		(layer "B.SilkS")
+		(uuid "e4045384-5ca2-4d22-8716-1d3e2f5cbc07")
+	)
 	(gr_poly
 		(pts
 			(xy 126.727981 48.704287) (xy 126.737759 48.704872) (xy 126.747296 48.705841) (xy 126.756585 48.707189)
@@ -22676,9 +22709,9 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text_box "${TITLE}    Date: ${ISSUE_DATE}    Version: ${REVISION}"
-		(start 157.060389 86.862432)
-		(end 228.8 91.237569)
+	(gr_text_box "${TITLE}    Date: ${ISSUE_DATE}    Version: ${REVISION}    DevEUI: 00:80:E1:15:05:   :   :"
+		(start 123.205195 86.724863)
+		(end 230.794806 91.1)
 		(layer "B.SilkS")
 		(uuid "d5795578-e647-4fda-877b-8ffdfeb480df")
 		(effects
@@ -31749,6 +31782,12 @@
 				(xy 168.824664 52.517811) (xy 168.764616 52.780898) (xy 168.744451 53.049995) (xy 167.5 53.049995)
 				(xy 167.5 50.2475) (xy 167.519685 50.180461) (xy 167.572489 50.134706) (xy 167.624 50.1235) (xy 225.644669 50.1235)
 			)
+		)
+	)
+	(group ""
+		(uuid "9f5add1f-eb19-4248-b1f8-247232713f30")
+		(members "7bb07809-017a-406b-a340-083664830e79" "b221109a-2ed8-41ee-9eb3-099fad0a7cb9"
+			"d5795578-e647-4fda-877b-8ffdfeb480df" "e4045384-5ca2-4d22-8716-1d3e2f5cbc07"
 		)
 	)
 	(group ""
