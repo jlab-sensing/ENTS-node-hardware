@@ -22,13 +22,13 @@ kicad-cli pcb drc "$PCB_FILE"
 kicad-cli pcb export gerbers --board-plot-params --output "$PLOTS_DIR" "$PCB_FILE"
 
 # Generate Drill files
-kicad-cli pcb export drill --generate-map --map-format gerberx2 --output "$PLOTS_DIR" "$PCB_FILE"
+kicad-cli pcb export drill --generate-map --map-format gerberx2 --output "$PLOTS_DIR/" "$PCB_FILE"
 
 # Zip production files
 zip -r "$PROJECT_DIR/plots.zip" "$PLOTS_DIR"
 
 # Generate Bill of Materials (BOM)
-kicad-cli sch export bom --preset "JLCPCB" --output "$BOM_FILE" "$SCHEMATIC_FILE"
+kicad-cli sch export bom --preset "JLCPCB" --ref-range-delimiter="" --output "$BOM_FILE" "$SCHEMATIC_FILE"
 
 # Generate Pick and Place files
 kicad-cli pcb export pos --format csv --units mm --side front --output "$POS_FILE" "$PCB_FILE"

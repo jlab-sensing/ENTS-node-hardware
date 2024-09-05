@@ -4818,7 +4818,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B3F-1000"
+		(property "MPN" "KSC741JLFS"
 			(at 250.19 73.66 0)
 			(effects
 				(font
@@ -4827,7 +4827,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2837532"
+		(property "LCSC" "C221766"
 			(at 250.19 73.66 0)
 			(effects
 				(font
@@ -5486,7 +5486,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "472192001"
+		(property "MPN" "1040310811"
 			(at 116.84 167.64 0)
 			(effects
 				(font
@@ -5504,7 +5504,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C164170"
+		(property "LCSC" "C585350"
 			(at 116.84 167.64 0)
 			(effects
 				(font
@@ -6017,7 +6017,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "B3F-1000"
+		(property "MPN" "KSC741JLFS"
 			(at 209.55 135.89 0)
 			(effects
 				(font
@@ -6026,7 +6026,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2837532"
+		(property "LCSC" "C221766"
 			(at 209.55 135.89 0)
 			(effects
 				(font

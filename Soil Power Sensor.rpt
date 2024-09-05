@@ -1,7 +1,7 @@
 ** Drc report for Soil Power Sensor.kicad_pcb **
-** Created on 2024-08-20T14:30:19-0700 **
+** Created on 2024-09-04T21:56:16-0700 **
 
-** Found 12 DRC violations **
+** Found 10 DRC violations **
 [silk_over_copper]: Silkscreen clipped by solder mask
     Local override; warning
     @(137.0850 mm, 58.5450 mm): Segment on F.Silkscreen
@@ -36,14 +36,6 @@
     Rule: board setup constraints silk; warning
     @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
     @(193.2500 mm, 98.1000 mm): Segment on F.Silkscreen
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
-    @(197.3400 mm, 91.3600 mm): Segment on F.Silkscreen
-[silk_edge_clearance]: Silkscreen clipped by board edge
-    Rule: board setup constraints silk; warning
-    @(113.0000 mm, 91.8016 mm): Segment on Edge.Cuts
-    @(211.1600 mm, 91.3600 mm): Segment on F.Silkscreen
 
 ** Found 0 unconnected pads **
 

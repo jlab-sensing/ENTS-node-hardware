@@ -15438,7 +15438,7 @@
 		(descr "1.10mm Pitch microSD Memory Card Connector, Surface Mount, Push-Pull Type, 1.42mm Height, with Detect Switch (https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf)")
 		(tags "microSD SD molex")
 		(property "Reference" "J5"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "0575881e-94dc-4b80-809e-db5ef1017ce8")
 			(effects
@@ -15449,7 +15449,7 @@
 			)
 		)
 		(property "Value" "Micro_SD_Card"
-			(at 0 7.39 360)
+			(at 0 7.39 0)
 			(layer "F.Fab")
 			(uuid "60ba7754-3ef3-4302-8f5a-bbd1f87e36d8")
 			(effects
@@ -15839,7 +15839,7 @@
 			(uuid "c232c55d-ae73-426a-97af-26cda04d0ba0")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "cad5f52e-5f3f-4bfc-a29b-88fd46db55bd")
 			(effects
@@ -16420,7 +16420,7 @@
 			(at 4 -1.2 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "b6d1d3ea-23cb-4279-8d69-400a5322d3ca")
+			(uuid "98c61306-fe72-4951-80ab-23cd4baaedc6")
 			(effects
 				(font
 					(size 1 1)
@@ -16432,7 +16432,7 @@
 			(at 4 2.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d4bee421-1b8a-4c4c-a6f1-6358f2dd2adc")
+			(uuid "2971aa80-de31-49a0-9f49-216ad7efe637")
 			(effects
 				(font
 					(size 1 1)
@@ -16445,7 +16445,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61d40f94-8343-42eb-a8fd-361af4f55f36")
+			(uuid "16e77291-131c-47b6-b8d6-171318136de7")
 			(effects
 				(font
 					(size 1 1)
@@ -16458,7 +16458,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f24222f6-cf1f-4ad4-b03a-7322728bd6ad")
+			(uuid "85059170-e845-496c-ba02-b633855307a9")
 			(effects
 				(font
 					(size 1 1)
@@ -16471,7 +16471,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f8a4eac0-22da-4954-bb19-7753c6101062")
+			(uuid "5914c54f-c5e3-42dd-9fb1-a5070ef01d94")
 			(effects
 				(font
 					(size 1 1)
@@ -16519,24 +16519,24 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "d44e26fa-1c05-41f3-b7d4-07a047d0e6e2")
+			(uuid "a1496ca8-dc39-4e8a-8786-0b1235d275fe")
 		)
 		(fp_circle
-			(center 9.6 -1.2)
-			(end 10.232456 -1.2)
+			(center -1.4 -1.2)
+			(end -0.767544 -1.2)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "bc5e31e5-0723-441b-94b6-5a736e0ab89c")
+			(uuid "07ed694b-3769-4158-a247-c06ca5497b6f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 4 4 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ee802d5a-7ac8-49f7-9faa-7a7cc27fc17e")
+			(uuid "4333d53e-d682-4970-968e-2c947dc6a335")
 			(effects
 				(font
 					(size 1 1)
@@ -16552,7 +16552,7 @@
 			(net 77 "/STM32/STM_3V3")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "76744e3e-8328-4398-a93c-46eea7346c01")
+			(uuid "109cab39-c468-40fc-aff4-594ce7f1d267")
 		)
 		(pad "2" smd roundrect
 			(at 2 0 90)
@@ -16562,7 +16562,7 @@
 			(net 2 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "8d78cf84-f87e-4dcd-a4f1-527843731678")
+			(uuid "551dec66-31a8-408b-a1f0-e0606a51337b")
 		)
 		(pad "3" smd roundrect
 			(at 6 0 90)
@@ -16572,7 +16572,7 @@
 			(net 1 "+3V3")
 			(pinfunction "3")
 			(pintype "passive")
-			(uuid "98e25fe0-c027-4eca-95ad-79046ec8394b")
+			(uuid "3c2bde92-75b0-4847-bb08-e361184ca7ac")
 		)
 		(pad "4" smd roundrect
 			(at 8 0 90)
@@ -16582,7 +16582,7 @@
 			(net 77 "/STM32/STM_3V3")
 			(pinfunction "4")
 			(pintype "passive")
-			(uuid "c52a0107-592b-434f-a608-c3465616665c")
+			(uuid "9ef804de-ca56-4f96-bea8-68ff923da7d9")
 		)
 		(pad "5" smd roundrect
 			(at 0 -2.4 90)
@@ -16592,7 +16592,7 @@
 			(net 7 "VUSB")
 			(pinfunction "5")
 			(pintype "passive")
-			(uuid "a58c42cc-5a2b-44a0-8f51-6086e4e518c7")
+			(uuid "f4d7dbcd-4ca8-404c-8c51-1edb24ab6a05")
 		)
 		(pad "6" smd roundrect
 			(at 2 -2.4 90)
@@ -16602,7 +16602,7 @@
 			(net 2 "GND")
 			(pinfunction "6")
 			(pintype "passive")
-			(uuid "472716f5-2b03-4670-b5f1-be48207b813f")
+			(uuid "ffd819fc-29cc-4149-81e9-4e02847c49b4")
 		)
 		(pad "7" smd roundrect
 			(at 6 -2.4 90)
@@ -16612,7 +16612,7 @@
 			(net 6 "VCC")
 			(pinfunction "7")
 			(pintype "passive")
-			(uuid "587f04cb-1791-40fb-8d81-d32422fba2e3")
+			(uuid "152acbc0-5886-4de4-8fea-4ac2152d5bbb")
 		)
 		(pad "8" smd roundrect
 			(at 8 -2.4 90)
@@ -16622,7 +16622,7 @@
 			(net 76 "/Power/VBAT")
 			(pinfunction "8")
 			(pintype "passive")
-			(uuid "0292f022-1357-4930-b45a-db90aba80d33")
+			(uuid "46bb82b0-f8b8-4764-b7e7-d452b1d67ec5")
 		)
 	)
 	(footprint "Soil Power Sensor:SOP127P505X155-8N"
