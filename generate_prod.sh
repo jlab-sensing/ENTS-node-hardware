@@ -25,7 +25,8 @@ kicad-cli pcb export gerbers --board-plot-params --output "$PLOTS_DIR" "$PCB_FIL
 kicad-cli pcb export drill --generate-map --map-format gerberx2 --output "$PLOTS_DIR/" "$PCB_FILE"
 
 # Zip production files
-zip -r "$PROJECT_DIR/plots.zip" "$PLOTS_DIR"
+rm "$PROJECT_DIR/plots.zip"
+zip -rj "$PROJECT_DIR/plots.zip" "$PLOTS_DIR"
 
 # Generate Bill of Materials (BOM)
 kicad-cli sch export bom --preset "JLCPCB" --ref-range-delimiter="" --output "$BOM_FILE" "$SCHEMATIC_FILE"
