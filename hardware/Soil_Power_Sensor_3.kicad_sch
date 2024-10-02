@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Soil Power Sensor")
-		(date "2024-07-26")
-		(rev "2.2.1")
+		(date "2024-08-14")
+		(rev "2.2.2")
 		(company "jlab")
 	)
 	(lib_symbols
@@ -3239,10 +3239,6 @@
 		(uuid "e0f00047-8678-4c5a-8154-81f018962b6d")
 	)
 	(no_connect
-		(at 80.01 63.5)
-		(uuid "e14572f8-d6aa-450a-a918-b49bf5e4f026")
-	)
-	(no_connect
 		(at 238.76 104.14)
 		(uuid "e5aeea54-0dd6-4aeb-919f-ef2eaf9f2335")
 	)
@@ -3799,6 +3795,16 @@
 			(type default)
 		)
 		(uuid "92ae6a6f-b374-4c01-9ba3-c9d85f2d178c")
+	)
+	(wire
+		(pts
+			(xy 63.5 63.5) (xy 80.01 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e4374d-f320-42f9-b108-f82b34bc1eb2")
 	)
 	(wire
 		(pts
@@ -4562,6 +4568,18 @@
 			(justify right)
 		)
 		(uuid "23fbcac8-ce59-49ee-a6b4-d8375c0e26ee")
+	)
+	(hierarchical_label "WAKEUP"
+		(shape output)
+		(at 63.5 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "44a040f2-be7d-4722-ab5d-d413cc52ab32")
 	)
 	(hierarchical_label "ESP32_EN"
 		(shape output)
@@ -6098,7 +6116,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C160404"
 			(at 182.88 132.08 0)
 			(effects
 				(font
@@ -7554,7 +7572,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C85107"
 			(at 87.63 172.72 0)
 			(effects
 				(font

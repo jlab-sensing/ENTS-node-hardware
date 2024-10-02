@@ -6,7 +6,7 @@ This repo contains the EagleCAD source files for the PCB design of the Soil Powe
 
 ## BOM
 
-The bill of materials is available digitally at https://octopart.com/bom-tool/kEoRBpBH or as csv in `hardware/Soil Power Sensor.csv`.
+The bill of materials is available digitally at https://octopart.com/bom-tool/UpNyCD2G or as csv in `hardware/Soil Power Sensor.csv`.
 
 There are two buttons not listed in the BOM for the esp32 `BOOT` and `EN`. These are cheaply available from amazon. Look for one with a 6mm by 6mm form factor.
 
@@ -131,6 +131,13 @@ The negative terminals of `Voltage` and `Current` are tied to ground. Both measu
 | `Rsense1` | Any |
 
 The configuration uses a on-board resistor for `RSENSE1`. The resistor is chosen based on the desired range of input measurements. The board uses a high-side current measurements.
+
+## Userful links
+
+Links for generating production files and BOM for [JLCPCB](https://jlcpcb.com/)
+
+- [Gerber and drill/map files](https://jlcpcb.com/help/article/how-to-generate-gerber-and-drill-files-in-kicad-8)
+- [BOM and centroid files](https://jlcpcb.com/help/article/How-to-generate-the-BOM-and-Centroid-file-from-KiCAD)
 
 ## License & Copyright
 
