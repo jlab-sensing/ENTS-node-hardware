@@ -1728,7 +1728,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "124a1592-63e9-4afa-89d5-477bc80c76de")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 121.5741 105.41 0)
 			(effects
 				(font
@@ -1839,7 +1839,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -1855,7 +1855,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "255a1251-2c3b-4381-97cd-c25600fe4434")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 177.8 91.4399 0)
 			(effects
 				(font
@@ -1909,7 +1909,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1925,7 +1925,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27010250-8345-4c2c-b068-acf5a984b4e6")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 158.75 96.5199 0)
 			(effects
 				(font
@@ -1979,7 +1979,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1995,7 +1995,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "29a3bf62-9437-452b-a531-8023956d2a80")
-		(property "Reference" "#GND038"
+		(property "Reference" "#GND039"
 			(at 97.79 95.25 0)
 			(effects
 				(font
@@ -2046,7 +2046,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "#GND038")
+					(reference "#GND039")
 					(unit 1)
 				)
 			)
@@ -2062,7 +2062,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2d296ad1-50db-4155-a697-82d28512470b")
-		(property "Reference" "#GND042"
+		(property "Reference" "#GND043"
 			(at 175.26 105.41 0)
 			(effects
 				(font
@@ -2113,7 +2113,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "#GND042")
+					(reference "#GND043")
 					(unit 1)
 				)
 			)
@@ -2129,7 +2129,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4450ef49-9826-4210-8d85-23cafd7c0e35")
-		(property "Reference" "#GND037"
+		(property "Reference" "#GND038"
 			(at 96.52 85.09 0)
 			(effects
 				(font
@@ -2180,7 +2180,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "#GND037")
+					(reference "#GND038")
 					(unit 1)
 				)
 			)
@@ -2264,7 +2264,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "62382168-bb89-4c84-bbfc-3e60f886d49a")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 196.85 91.4399 0)
 			(effects
 				(font
@@ -2318,7 +2318,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2403,7 +2403,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "69a16e59-8914-43bc-bcd8-f95d743dc826")
-		(property "Reference" "#GND041"
+		(property "Reference" "#GND042"
 			(at 156.21 110.49 0)
 			(effects
 				(font
@@ -2454,7 +2454,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "#GND041")
+					(reference "#GND042")
 					(unit 1)
 				)
 			)
@@ -2470,7 +2470,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6ce7c32d-d691-426d-92c3-ca49b0ac826f")
-		(property "Reference" "#GND040"
+		(property "Reference" "#GND041"
 			(at 133.35 68.58 0)
 			(effects
 				(font
@@ -2521,7 +2521,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "#GND040")
+					(reference "#GND041")
 					(unit 1)
 				)
 			)
@@ -2606,7 +2606,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "770474ee-11eb-4e1b-86d5-9b66240a566d")
-		(property "Reference" "#GND039"
+		(property "Reference" "#GND040"
 			(at 119.38 110.49 0)
 			(effects
 				(font
@@ -2657,7 +2657,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "#GND039")
+					(reference "#GND040")
 					(unit 1)
 				)
 			)
@@ -2673,7 +2673,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "78d10d28-dca3-446d-98a0-bfcec50ea261")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 196.85 96.5199 0)
 			(effects
 				(font
@@ -2727,7 +2727,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -2743,7 +2743,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7cae6c39-a01c-441e-af3b-06545441e418")
-		(property "Reference" "#GND036"
+		(property "Reference" "#GND037"
 			(at 93.98 110.49 0)
 			(effects
 				(font
@@ -2794,7 +2794,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "#GND036")
+					(reference "#GND037")
 					(unit 1)
 				)
 			)
@@ -2810,7 +2810,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7d527d89-4dfc-4cf2-9e1e-0f8222ca6e92")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 158.75 101.5999 0)
 			(effects
 				(font
@@ -2864,7 +2864,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2880,7 +2880,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "969f286c-f718-4b02-9f33-38d784ead4e8")
-		(property "Reference" "R5"
+		(property "Reference" "R8"
 			(at 158.75 91.4399 0)
 			(effects
 				(font
@@ -2934,7 +2934,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "R5")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2950,7 +2950,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9ce821d9-95e0-4041-a92f-53fadbb6ffc3")
-		(property "Reference" "#GND043"
+		(property "Reference" "#GND044"
 			(at 194.31 105.41 0)
 			(effects
 				(font
@@ -3001,7 +3001,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "#GND043")
+					(reference "#GND044")
 					(unit 1)
 				)
 			)
@@ -3153,7 +3153,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "ac9b28de-6f7d-4763-820d-55646fa86af6")
-		(property "Reference" "JP6"
+		(property "Reference" "JP7"
 			(at 101.6 93.98 0)
 			(effects
 				(font
@@ -3206,7 +3206,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "JP6")
+					(reference "JP7")
 					(unit 1)
 				)
 			)
@@ -3360,7 +3360,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ea334194-829d-42a3-aa9c-08572c795e71")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 177.8 96.5199 0)
 			(effects
 				(font
@@ -3414,7 +3414,7 @@
 		(instances
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e/6e1b4932-b662-4f76-aaf3-c122b2e64a12"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
