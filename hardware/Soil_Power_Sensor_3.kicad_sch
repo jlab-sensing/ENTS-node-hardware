@@ -2217,291 +2217,6 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_DP3T"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_DP3T"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -15.875 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -15.875 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, three position, dual pole triple throw, 3 position switch, SP3T"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch dp3t ON-ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW* DP3T*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DP3T_0_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.651 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.4572)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DP3T_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_DP3T_2_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:BSS123"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -3153,12 +2868,6 @@
 		(uuid "5c6a33cb-f2d6-4062-8933-907aadd0e11a")
 	)
 	(junction
-		(at 168.91 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7480671b-df41-4888-bd9b-c60a7eae5dd5")
-	)
-	(junction
 		(at 240.03 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3174,7 +2883,7 @@
 		(at 151.13 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6a050a9-5b57-46af-8ba5-fc2e692951aa")
+		(uuid "e619519f-0211-4a67-8dd5-cc831596c11a")
 	)
 	(junction
 		(at 66.04 144.78)
@@ -3278,16 +2987,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 45.72) (xy 165.1 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f0e36a7-1eb2-4331-82e9-85a52cf35ce8")
-	)
-	(wire
-		(pts
 			(xy 72.39 40.64) (xy 74.93 40.64)
 		)
 		(stroke
@@ -3355,16 +3054,6 @@
 			(type default)
 		)
 		(uuid "272a4959-58d2-45c4-ab4d-d5f006d2e509")
-	)
-	(wire
-		(pts
-			(xy 153.67 45.72) (xy 153.67 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a4ac345-509e-463c-9fa8-0283affe0fbc")
 	)
 	(wire
 		(pts
@@ -3438,7 +3127,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 48.26) (xy 154.94 48.26)
+			(xy 123.19 48.26) (xy 151.13 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3748,16 +3437,6 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 45.72) (xy 168.91 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83627793-5bfc-48cd-ac22-22ff32bd6b05")
-	)
-	(wire
-		(pts
 			(xy 80.01 55.88) (xy 68.58 55.88)
 		)
 		(stroke
@@ -3768,7 +3447,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 33.02) (xy 168.91 45.72)
+			(xy 151.13 35.56) (xy 151.13 48.26)
 		)
 		(stroke
 			(width 0)
@@ -3835,16 +3514,6 @@
 			(type default)
 		)
 		(uuid "9cdf4741-acc8-4b84-999c-6393670a91bc")
-	)
-	(wire
-		(pts
-			(xy 123.19 48.26) (xy 151.13 48.26)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "9eddd251-06cb-48e6-aaeb-23d370adbc78")
 	)
 	(wire
 		(pts
@@ -3936,16 +3605,6 @@
 		)
 		(uuid "b6dcc063-54ce-44b4-b040-ea630511dfd7")
 	)
-	(wire
-		(pts
-			(xy 154.94 43.18) (xy 151.13 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9766700-8a2b-4620-8f47-ed3cfb1aea96")
-	)
 	(polyline
 		(pts
 			(xy 274.32 162.56) (xy 219.71 162.56)
@@ -3985,16 +3644,6 @@
 			(type solid)
 		)
 		(uuid "c224886b-6613-41c3-954c-3a546be5067e")
-	)
-	(wire
-		(pts
-			(xy 154.94 45.72) (xy 153.67 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca28c267-d043-4a02-8fba-b4a4b0a489ac")
 	)
 	(wire
 		(pts
@@ -4088,16 +3737,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 43.18) (xy 151.13 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebf86a34-b61b-4960-8543-b0c9737b21ee")
-	)
-	(wire
-		(pts
 			(xy 81.28 172.72) (xy 82.55 172.72)
 		)
 		(stroke
@@ -4138,7 +3777,17 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 43.18) (xy 175.26 45.72)
+			(xy 151.13 48.26) (xy 165.1 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87a5845-bf79-467a-8a6f-a842174b845d")
+	)
+	(wire
+		(pts
+			(xy 165.1 45.72) (xy 165.1 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4314,17 +3963,6 @@
 			(justify left bottom)
 		)
 		(uuid "05a0a595-cfed-4e26-909e-ae2fd7866cb6")
-	)
-	(label "STM_3V3"
-		(at 139.7 48.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0aaed816-bbd7-4b16-b393-3f35dc78ee8a")
 	)
 	(label "SCL"
 		(at 262.89 107.95 180)
@@ -4821,7 +4459,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 175.26 43.18 0)
+		(at 165.1 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4829,7 +4467,7 @@
 		(dnp no)
 		(uuid "0c4fbe2e-866c-4574-932e-975af4a9a1d5")
 		(property "Reference" "#PWR023"
-			(at 175.26 46.99 0)
+			(at 165.1 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +4476,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 175.26 38.1 0)
+			(at 165.1 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4846,7 +4484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 43.18 0)
+			(at 165.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +4493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 43.18 0)
+			(at 165.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +4502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 175.26 43.18 0)
+			(at 165.1 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,111 +4893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_DP3T")
-		(at 160.02 45.72 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c5fec7c-5414-4085-a853-02baea9fd534")
-		(property "Reference" "SW3"
-			(at 160.02 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DP3T"
-			(at 160.02 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Soil Power Sensor:JS203011JCQN"
-			(at 175.895 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.895 41.275 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, three position, dual pole triple throw, 3 position switch, SP3T"
-			(at 160.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "JS203011JCQN"
-			(at 160.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C221669"
-			(at 160.02 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "8"
-			(uuid "63924a9e-821a-49c6-bf15-af671c8e6260")
-		)
-		(pin "7"
-			(uuid "b809c3c8-7171-4f06-9bff-b6180ec7dda8")
-		)
-		(pin "2"
-			(uuid "8a157dc4-49b8-4d11-b069-661da3724bb0")
-		)
-		(pin "3"
-			(uuid "2816f434-06f8-49a3-9fe7-067d304cb2f4")
-		)
-		(pin "4"
-			(uuid "dad66f45-c985-40e8-9e2a-b98fcc153b24")
-		)
-		(pin "1"
-			(uuid "277ac6cb-aff8-43e6-8860-d763e9733c50")
-		)
-		(pin "6"
-			(uuid "967817ee-fe9d-40b5-b518-afebc8a66da9")
-		)
-		(pin "5"
-			(uuid "821ef318-ba8b-427c-9d3d-ecfbf5d87a22")
-		)
-		(instances
-			(project "Soil Power Sensor"
-				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 167.64 125.73 0)
 		(unit 1)
@@ -5552,71 +5085,6 @@
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 153.67 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6a1fac99-c224-45fb-8eb9-bd92faaf30c8")
-		(property "Reference" "#PWR024"
-			(at 153.67 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 153.67 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 153.67 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1745d8f1-4ddf-4d1b-babf-cb9819cfe758")
-		)
-		(instances
-			(project ""
-				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7006,7 +6474,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 168.91 33.02 0)
+		(at 151.13 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -7015,7 +6483,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbc3410a-940d-402b-a3bf-2c6aeef00b39")
 		(property "Reference" "TP3"
-			(at 171.45 28.448 0)
+			(at 153.67 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +6492,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 171.45 30.988 0)
+			(at 153.67 33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +6501,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 173.99 33.02 0)
+			(at 156.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +6510,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 33.02 0)
+			(at 156.21 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +6519,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 168.91 33.02 0)
+			(at 151.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +6528,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 168.91 33.02 0)
+			(at 151.13 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
