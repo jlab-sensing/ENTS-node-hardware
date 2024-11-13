@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.5"
     },
-    "CreationDate": "2024-11-08T20:24:14-08:00"
+    "CreationDate": "2024-11-12T19:59:19-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "newbatt",
       "GUID": "6e657762-6174-4742-9e6b-696361645f70",
-      "Revision": "rev?"
+      "Revision": "3"
     },
     "Size": {
       "X": 139.05,

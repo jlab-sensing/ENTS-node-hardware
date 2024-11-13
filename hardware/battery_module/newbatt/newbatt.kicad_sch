@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "ENTS Node Battery Module")
+		(date "2024-11-12")
+		(rev "3")
+		(comment 1 "Jack Lin")
+	)
 	(lib_symbols
 		(symbol "3561KTR:3561KTR"
 			(pin_names
@@ -2859,6 +2865,12 @@
 		)
 	)
 	(junction
+		(at 184.15 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05b2e2c3-68e1-4761-b686-b8a133054d0c")
+	)
+	(junction
 		(at 132.08 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2943,7 +2955,7 @@
 		(uuid "fbb6e670-1540-415e-a89e-cc02901981ac")
 	)
 	(no_connect
-		(at 33.02 41.91)
+		(at 27.94 71.12)
 		(uuid "8f7b3cc2-16a5-467b-a121-07ed093b0497")
 	)
 	(no_connect
@@ -2952,7 +2964,17 @@
 	)
 	(wire
 		(pts
-			(xy 254 96.52) (xy 261.62 96.52)
+			(xy 184.15 86.36) (xy 184.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0730ed78-bfba-4745-9a45-c063749923ef")
+	)
+	(wire
+		(pts
+			(xy 222.25 88.9) (xy 229.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 83.82) (xy 261.62 83.82)
+			(xy 220.98 76.2) (xy 229.87 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3082,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 49.53) (xy 33.02 44.45)
+			(xy 27.94 78.74) (xy 27.94 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3122,7 +3144,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 39.37) (xy 38.1 39.37)
+			(xy 27.94 68.58) (xy 50.8 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3142,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 86.36) (xy 261.62 86.36)
+			(xy 220.98 78.74) (xy 229.87 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3192,13 +3214,23 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 81.28) (xy 261.62 81.28)
+			(xy 220.98 73.66) (xy 229.87 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7d27c5cc-32b8-46c9-bba3-f089d07ae2cd")
+	)
+	(wire
+		(pts
+			(xy 229.87 86.36) (xy 184.15 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5598a0-155a-48c3-b449-40bbd481cecd")
 	)
 	(wire
 		(pts
@@ -3252,7 +3284,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 88.9) (xy 261.62 88.9)
+			(xy 220.98 81.28) (xy 229.87 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3282,7 +3314,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 73.66) (xy 261.62 73.66)
+			(xy 222.25 66.04) (xy 229.87 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3322,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 78.74) (xy 261.62 78.74)
+			(xy 220.98 71.12) (xy 229.87 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3349,16 +3381,6 @@
 			(type default)
 		)
 		(uuid "d07dd6ce-b6dd-4af2-80aa-ba19f6ca3a49")
-	)
-	(wire
-		(pts
-			(xy 45.72 68.58) (xy 50.8 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8cda405-c28b-4065-a58b-32f7aca16f20")
 	)
 	(wire
 		(pts
@@ -3392,7 +3414,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 91.44) (xy 261.62 91.44)
+			(xy 220.98 83.82) (xy 229.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3412,6 +3434,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 68.58) (xy 229.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e92c42e8-62b0-4f8f-bbd5-1f63950294b2")
+	)
+	(wire
+		(pts
 			(xy 125.73 68.58) (xy 132.08 68.58)
 		)
 		(stroke
@@ -3421,8 +3453,8 @@
 		(uuid "fd2bf0e1-f237-475f-a819-4fecf74270e5")
 	)
 	(rectangle
-		(start 243.84 12.7)
-		(end 284.48 44.45)
+		(start 220.98 13.97)
+		(end 261.62 45.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -3433,8 +3465,8 @@
 		(uuid 36616704-8752-4553-8df3-0dfc6825d2e3)
 	)
 	(rectangle
-		(start 12.7 151.13)
-		(end 87.63 196.85)
+		(start 12.7 157.48)
+		(end 87.63 203.2)
 		(stroke
 			(width 0)
 			(type default)
@@ -3490,7 +3522,7 @@
 	)
 	(text "Deprecated Designs"
 		(exclude_from_sim no)
-		(at 244.856 17.78 0)
+		(at 221.996 19.05 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3501,7 +3533,7 @@
 	)
 	(text "VDPM left floating to use\nbattery tracking mode"
 		(exclude_from_sim no)
-		(at 221.234 82.042 0)
+		(at 189.484 74.422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3512,7 +3544,7 @@
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
-		(at 13.97 156.21 0)
+		(at 13.97 162.56 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3556,7 +3588,7 @@
 	)
 	(text "Symmetrical header to avoid crossover\nif the header is plugged directly\ninstead of by wire."
 		(exclude_from_sim no)
-		(at 224.536 102.616 0)
+		(at 192.786 94.996 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3566,7 +3598,7 @@
 		(uuid "c398e066-1c77-4027-9d62-a80e71df0500")
 	)
 	(label "VDPM"
-		(at 252.73 86.36 180)
+		(at 220.98 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3577,7 +3609,7 @@
 		(uuid "30b3631c-5af4-45e4-b39f-636206cb8d69")
 	)
 	(label "VDPM"
-		(at 252.73 83.82 180)
+		(at 220.98 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3588,7 +3620,7 @@
 		(uuid "4c870146-2c1a-4adb-8f36-53ba367cf426")
 	)
 	(label "~{CHG}"
-		(at 252.73 88.9 180)
+		(at 220.98 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3599,7 +3631,7 @@
 		(uuid "67e93237-5ba3-4b7b-af7a-c337bcc5d5aa")
 	)
 	(label "~{PG}"
-		(at 252.73 78.74 180)
+		(at 220.98 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3654,7 +3686,7 @@
 		(uuid "bc27dfeb-ae5c-4d17-88cf-9e1b5e62b0a2")
 	)
 	(label "~{CHG}"
-		(at 252.73 81.28 180)
+		(at 220.98 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3665,7 +3697,7 @@
 		(uuid "ee9d331c-046d-46fe-9f72-1cf094f6b456")
 	)
 	(label "~{PG}"
-		(at 252.73 91.44 180)
+		(at 220.98 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3674,116 +3706,6 @@
 			(justify right bottom)
 		)
 		(uuid "f42c3e65-68df-426c-8110-738df9354fa0")
-	)
-	(global_label "VOUT"
-		(shape output)
-		(at 184.15 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3fe0aaef-7be4-4e5d-a11e-abeed5514ed1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.8524 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VOUT"
-		(shape output)
-		(at 261.62 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7e423769-b934-4278-8f00-b6b96321ab8a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.9176 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN"
-		(shape input)
-		(at 38.1 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8dcf9b62-0ac2-4c8f-a18c-5d60ce70cb27")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.1091 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VIN"
-		(shape input)
-		(at 45.72 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bef2d644-982b-4e11-a2da-b300c4ae49f4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 39.7109 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VOUT"
-		(shape output)
-		(at 261.62 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "edcbe99c-a6cd-4e43-8671-5c8c47afdaef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 253.9176 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_Small_US")
@@ -3839,6 +3761,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 138.43 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "179d8b9e-a1f1-402b-9a08-da442a82ab65")
 		)
@@ -3856,7 +3832,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 58.42 185.42 0)
+		(at 58.42 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3865,7 +3841,7 @@
 		(fields_autoplaced yes)
 		(uuid "06f53d02-613d-41a9-a1b8-4dba46b29315")
 		(property "Reference" "#GND06"
-			(at 58.42 190.5 0)
+			(at 58.42 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3850,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 58.42 182.88 0)
+			(at 58.42 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +3859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 185.42 0)
+			(at 58.42 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3868,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 58.42 195.58 0)
+			(at 58.42 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3877,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 58.42 193.04 0)
+			(at 58.42 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,7 +3899,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 29.21 182.88 0)
+		(at 29.21 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3932,7 +3908,7 @@
 		(fields_autoplaced yes)
 		(uuid "128a299a-0870-47b1-a3e0-fd3f8961cc1b")
 		(property "Reference" "H2"
-			(at 31.75 180.34 0)
+			(at 31.75 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3941,7 +3917,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 31.75 182.88 0)
+			(at 31.75 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3950,7 +3926,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 29.21 182.88 0)
+			(at 29.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +3935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 182.88 0)
+			(at 29.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +3944,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 29.21 182.88 0)
+			(at 29.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +3953,61 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 29.21 182.88 0)
+			(at 29.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" ""
+			(at 29.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 29.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 29.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 29.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 29.21 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 29.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,6 +4082,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 99.06 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8581f760-87fc-4278-940e-43d55bceb456")
 		)
@@ -4103,7 +4187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf"
 			(at 128.27 99.06 0)
 			(effects
 				(font
@@ -4113,6 +4197,69 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient, US symbol"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "Semitec"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "103AT-4-70374"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "1"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "TH1"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "4316-103AT-4-70374-ND"
+			(at 128.27 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C20583168"
 			(at 128.27 100.33 0)
 			(effects
 				(font
@@ -4257,6 +4404,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 160.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4f9bf7d-c9b4-49c4-8af6-15ad9e94ab75")
 		)
@@ -4271,7 +4472,7 @@
 	)
 	(symbol
 		(lib_id "54-00164:54-00164")
-		(at 20.32 38.1 0)
+		(at 15.24 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4280,7 +4481,7 @@
 		(fields_autoplaced yes)
 		(uuid "316ba709-c046-478e-8d18-37275dd4a8d1")
 		(property "Reference" "J1"
-			(at 25.4 33.02 0)
+			(at 20.32 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4288,7 +4489,7 @@
 			)
 		)
 		(property "Value" "54-00164"
-			(at 25.4 35.56 0)
+			(at 20.32 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -4296,7 +4497,7 @@
 			)
 		)
 		(property "Footprint" "54-00164:TENSILITY_54-00164"
-			(at 20.32 38.1 0)
+			(at 15.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4305,8 +4506,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "54-00164"
-			(at 20.32 38.1 0)
+		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00164.pdf"
+			(at 15.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4517,61 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 38.1 0)
+			(at 15.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "Tensility"
+			(at 15.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "54-00164"
+			(at 15.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "1"
+			(at 15.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "J1"
+			(at 15.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 15.24 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "839-54-00164TR-ND"
+			(at 15.24 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,6 +4651,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53aea7e8-d5cd-4eba-9e99-03353affab87")
 		)
@@ -4458,6 +4767,60 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -4535,6 +4898,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 102.87 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24c5b9cb-90f9-4c2e-bb3c-4bbb6dc87ff4")
 		)
@@ -4604,6 +5021,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 116.84 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8581f760-87fc-4278-940e-43d55bceb457")
 		)
@@ -4621,7 +5092,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 29.21 170.18 0)
+		(at 29.21 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4630,7 +5101,7 @@
 		(fields_autoplaced yes)
 		(uuid "637df899-3acc-4b92-96c8-65859d14c7fc")
 		(property "Reference" "#GND01"
-			(at 29.21 175.26 0)
+			(at 29.21 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4639,7 +5110,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 29.21 167.64 0)
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4648,7 +5119,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 170.18 0)
+			(at 29.21 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +5128,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 29.21 180.34 0)
+			(at 29.21 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4666,7 +5137,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 29.21 177.8 0)
+			(at 29.21 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +5195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14395"
 			(at 132.08 86.36 0)
 			(effects
 				(font
@@ -4789,6 +5260,69 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFC" "Keystone"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "3561KTR"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "1"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "F1"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "36-3561KTR-ND"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3205939"
+			(at 132.08 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -4861,6 +5395,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 160.02 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50ebe9c8-7785-4655-b568-de81323948d2")
 		)
@@ -4903,7 +5491,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keystone254TR:BAT_254TR"
+		(property "Footprint" "Keystone254TR:BAT_254TR_67mm"
 			(at 148.59 100.076 90)
 			(effects
 				(font
@@ -4912,7 +5500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14420"
 			(at 148.59 100.076 90)
 			(effects
 				(font
@@ -4922,6 +5510,69 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "Keystone"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "254TR"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "4"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "BT1, BT2"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "36-254TR-ND"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5498533"
 			(at 148.59 101.6 0)
 			(effects
 				(font
@@ -4947,7 +5598,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 254 73.66 0)
+		(at 222.25 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4956,7 +5607,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a9583cd-0c78-4f09-bcf0-d25192b73aea")
 		(property "Reference" "#GND011"
-			(at 254 78.74 0)
+			(at 222.25 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +5616,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 254 71.12 0)
+			(at 222.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +5625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 73.66 0)
+			(at 222.25 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +5634,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 254 83.82 0)
+			(at 222.25 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5643,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 254 81.28 0)
+			(at 222.25 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5014,7 +5665,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 33.02 49.53 0)
+		(at 27.94 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5023,7 +5674,7 @@
 		(fields_autoplaced yes)
 		(uuid "7997d044-70ac-4d7d-b226-b2ca9afd82c1")
 		(property "Reference" "#GND03"
-			(at 33.02 54.61 0)
+			(at 27.94 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5032,7 +5683,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 33.02 46.99 0)
+			(at 27.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5041,7 +5692,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 49.53 0)
+			(at 27.94 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5050,7 +5701,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 33.02 59.69 0)
+			(at 27.94 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5059,7 +5710,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 33.02 57.15 0)
+			(at 27.94 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,6 +5916,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 121.92 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e724ce77-6e56-4aff-b102-2d91571f34d6")
 		)
@@ -5334,6 +6039,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 160.02 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78e78177-1295-4025-bd0f-b8b622769590")
 		)
@@ -5351,7 +6110,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 182.88 0)
+		(at 58.42 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5360,7 +6119,7 @@
 		(fields_autoplaced yes)
 		(uuid "915b1366-d8bd-41a8-9cf3-d5bd15c0c673")
 		(property "Reference" "H4"
-			(at 60.96 180.34 0)
+			(at 60.96 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5369,7 +6128,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 60.96 182.88 0)
+			(at 60.96 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5378,7 +6137,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 58.42 182.88 0)
+			(at 58.42 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5387,7 +6146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 182.88 0)
+			(at 58.42 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5396,7 +6155,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 58.42 182.88 0)
+			(at 58.42 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5405,7 +6164,61 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 58.42 182.88 0)
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" ""
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 58.42 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 58.42 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5546,6 +6359,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 82.55 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8581f760-87fc-4278-940e-43d55bceb458")
 		)
@@ -5597,7 +6464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
 			(at 167.64 71.12 0)
 			(effects
 				(font
@@ -5622,6 +6489,69 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MFC" "C&K Switches"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "JS102011SAQN"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "1"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "S1"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "401-1999-2-ND"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C221660"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -5687,6 +6617,60 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 113.03 73.66 0)
 			(effects
 				(font
@@ -5764,6 +6748,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 102.87 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01b1cb08-da9e-4dec-9efd-b0fefedd2f3f")
 		)
@@ -5781,7 +6819,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 167.64 0)
+		(at 58.42 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5790,7 +6828,7 @@
 		(fields_autoplaced yes)
 		(uuid "c22d00b9-3985-413e-a12a-e2e1e9ec54fd")
 		(property "Reference" "H3"
-			(at 60.96 165.1 0)
+			(at 60.96 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +6837,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 60.96 167.64 0)
+			(at 60.96 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,7 +6846,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 58.42 167.64 0)
+			(at 58.42 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5817,7 +6855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 167.64 0)
+			(at 58.42 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5826,7 +6864,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 58.42 167.64 0)
+			(at 58.42 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5835,7 +6873,61 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 58.42 167.64 0)
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" ""
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 58.42 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 58.42 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5924,7 +7016,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x10")
-		(at 266.7 83.82 0)
+		(at 234.95 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5933,7 +7025,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb1df90e-0bb7-4528-a8ee-9ab178588bdf")
 		(property "Reference" "J2"
-			(at 269.24 83.8199 0)
+			(at 237.49 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5942,7 +7034,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10"
-			(at 269.24 86.3599 0)
+			(at 237.49 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +7044,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Horizontal"
-			(at 266.7 83.82 0)
+			(at 234.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +7053,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 83.82 0)
+			(at 234.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5970,7 +7062,70 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 266.7 83.82 0)
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "Sullins Connector Solutions"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PPPC101LGBN-RC"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "1"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "J2"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "S5485-ND"
+			(at 234.95 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C7327804"
+			(at 234.95 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +7199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keystone254TR:BAT_254TR"
+		(property "Footprint" "Keystone254TR:BAT_254TR_67mm"
 			(at 132.08 100.076 90)
 			(effects
 				(font
@@ -6053,7 +7208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14420"
 			(at 132.08 100.076 90)
 			(effects
 				(font
@@ -6063,6 +7218,69 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "Keystone"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "254TR"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "4"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "BT1, BT2"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "36-254TR-ND"
+			(at 132.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5498533"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -6140,6 +7358,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 125.73 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8581f760-87fc-4278-940e-43d55bceb459")
 		)
@@ -6209,6 +7481,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 50.8 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "179d8b9e-a1f1-402b-9a08-da442a82ab66")
 		)
@@ -6260,7 +7586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "BQ24210DQCR"
+		(property "Datasheet" "https://www.ti.com/lit/gpn/bq24210"
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -6271,6 +7597,69 @@
 			)
 		)
 		(property "Description" ""
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "Texas Instruments"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BQ24210DQCR"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "1"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "U1"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" "296-BQ24210DQCRTR-ND"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C524795"
 			(at 71.12 68.58 0)
 			(effects
 				(font
@@ -6323,7 +7712,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 254 96.52 0)
+		(at 222.25 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6332,7 +7721,7 @@
 		(fields_autoplaced yes)
 		(uuid "dab13f1e-d2f3-41ed-b49f-8f14109704ad")
 		(property "Reference" "#GND012"
-			(at 254 101.6 0)
+			(at 222.25 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +7730,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 254 93.98 0)
+			(at 222.25 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +7739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 96.52 0)
+			(at 222.25 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6359,7 +7748,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 254 106.68 0)
+			(at 222.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6368,7 +7757,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 254 104.14 0)
+			(at 222.25 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6390,7 +7779,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 29.21 185.42 0)
+		(at 29.21 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6399,7 +7788,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd7dc56f-fe4d-4d1f-8260-e927fe6b94f5")
 		(property "Reference" "#GND02"
-			(at 29.21 190.5 0)
+			(at 29.21 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6408,7 +7797,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 29.21 182.88 0)
+			(at 29.21 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +7806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 185.42 0)
+			(at 29.21 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6426,7 +7815,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 29.21 195.58 0)
+			(at 29.21 201.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +7824,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 29.21 193.04 0)
+			(at 29.21 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6509,6 +7898,60 @@
 				(hide yes)
 			)
 		)
+		(property "MFC" ""
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f3e781c-032a-4009-bd14-a56fd17b6efe")
 		)
@@ -6523,7 +7966,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 58.42 170.18 0)
+		(at 58.42 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6532,7 +7975,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1de9064-1db8-4212-a12e-931fcd207443")
 		(property "Reference" "#GND05"
-			(at 58.42 175.26 0)
+			(at 58.42 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +7984,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 58.42 167.64 0)
+			(at 58.42 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +7993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 170.18 0)
+			(at 58.42 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +8002,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 58.42 180.34 0)
+			(at 58.42 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +8011,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 58.42 177.8 0)
+			(at 58.42 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,7 +8033,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 29.21 167.64 0)
+		(at 29.21 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6599,7 +8042,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9eb5ef8-dfbb-474b-8518-91ef19fc2612")
 		(property "Reference" "H1"
-			(at 31.75 165.1 0)
+			(at 31.75 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,7 +8051,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 31.75 167.64 0)
+			(at 31.75 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6617,7 +8060,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopBottom"
-			(at 29.21 167.64 0)
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,7 +8069,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 29.21 167.64 0)
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6635,7 +8078,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 29.21 167.64 0)
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6644,7 +8087,61 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 29.21 167.64 0)
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" ""
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 29.21 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 29.21 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6665,7 +8162,7 @@
 		)
 	)
 	(sheet
-		(at 245.11 38.1)
+		(at 222.25 39.37)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -6677,7 +8174,7 @@
 		)
 		(uuid "6e1b4932-b662-4f76-aaf3-c122b2e64a12")
 		(property "Sheetname" "Li-Ion switching solar charger"
-			(at 245.11 37.3884 0)
+			(at 222.25 38.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6686,7 +8183,7 @@
 			)
 		)
 		(property "Sheetfile" "Li-Ion switching solar charger.kicad_sch"
-			(at 245.11 42.4946 0)
+			(at 222.25 43.7646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +8200,7 @@
 		)
 	)
 	(sheet
-		(at 245.11 29.21)
+		(at 222.25 30.48)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -6715,7 +8212,7 @@
 		)
 		(uuid "9290b7a8-6867-49bd-907b-057502628394")
 		(property "Sheetname" "NiMH solar charger"
-			(at 245.11 28.4984 0)
+			(at 222.25 29.7684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +8221,7 @@
 			)
 		)
 		(property "Sheetfile" "NiMH solar charger.kicad_sch"
-			(at 245.11 33.6046 0)
+			(at 222.25 34.8746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6741,7 +8238,7 @@
 		)
 	)
 	(sheet
-		(at 245.11 20.32)
+		(at 222.25 21.59)
 		(size 12.7 3.81)
 		(fields_autoplaced yes)
 		(stroke
@@ -6753,7 +8250,7 @@
 		)
 		(uuid "93fd5e6a-f298-4a43-8a46-dea204637830")
 		(property "Sheetname" "NiMH non-solar charger"
-			(at 245.11 19.6084 0)
+			(at 222.25 20.8784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,7 +8259,7 @@
 			)
 		)
 		(property "Sheetfile" "NiMH non-solar charger.kicad_sch"
-			(at 245.11 24.7146 0)
+			(at 222.25 25.9846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
