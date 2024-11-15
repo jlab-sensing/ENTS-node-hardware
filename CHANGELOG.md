@@ -7,7 +7,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [2.2.3] - Unreleased
 
 - Set load resistor to default 2.2k ([#60](i60))
+- Added pinout for D+/D- for debugging ([#59](i59))
+- Added RTS and DTR for automatic bootloader ([#58](i58))
 
+[i58]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/58
+[i59]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/58
 [i60]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/60
 
 ## [2.2.2] - 2024-08-14
