@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "ents-node")
-		(date "2024-08-14")
-		(rev "2.2.2")
+		(date "2024-11-14")
+		(rev "2.2.3")
 		(company "jlab")
 	)
 	(layers
