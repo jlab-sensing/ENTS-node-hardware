@@ -203,237 +203,6 @@
 				)
 			)
 		)
-		(symbol "54-00164:54-00164"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "54-00164"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_54-00164_TEN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "54-00164"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "54-00164"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_54-00164_TEN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "54-00164_0_1"
-				(polyline
-					(pts
-						(xy 6.35 -6.096) (xy 6.985 -5.461)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -1.27) (xy 8.89 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -3.81) (xy 6.35 -3.81) (xy 6.35 -6.096) (xy 5.715 -5.461)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -6.35) (xy 2.54 -6.35) (xy 3.81 -5.08) (xy 5.08 -6.35) (xy 7.62 -6.35) (xy 10.16 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 0)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 1.778 -0.635)
-					(mid 1.1457 -1.27)
-					(end 1.778 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.778 -0.635)
-					(mid 1.1457 -1.27)
-					(end 1.778 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 8.763 -0.635)
-					(end 1.778 -1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "54-00164_1_1"
-				(pin passive line
-					(at 12.7 -1.27 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -6.35 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -3.81 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "BQ24210:BQ24210DQCR"
 			(pin_names
 				(offset 0.254)
@@ -709,6 +478,225 @@
 						)
 					)
 					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Barrel_Jack_Switch"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Barrel_Jack_Switch"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 1.27 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "DC Barrel Jack with an internal switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DC power barrel jack connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "BarrelJack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.302 3.175)
+					(mid -3.9343 2.54)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.286) (xy 1.905 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 1.27 0) (xy 1.27 -2.286) (xy 0.635 -1.651)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -2.54 -2.54) (xy -1.27 -1.27) (xy 0 -2.54) (xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.683 3.175)
+					(end -3.302 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Barrel_Jack_Switch_1_1"
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2925,6 +2913,12 @@
 		(uuid "7bf6fa5d-f63c-4074-a7bb-4d99610896d0")
 	)
 	(junction
+		(at 82.55 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82cdf76b-0ed7-4587-a5c9-8d1765f5cdc4")
+	)
+	(junction
 		(at 87.63 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2956,7 +2950,7 @@
 	)
 	(no_connect
 		(at 27.94 71.12)
-		(uuid "8f7b3cc2-16a5-467b-a121-07ed093b0497")
+		(uuid "4c948f2b-1102-43cb-8eb8-ce54a8e5ebf0")
 	)
 	(no_connect
 		(at 175.26 73.66)
@@ -2981,16 +2975,6 @@
 			(type default)
 		)
 		(uuid "0ce3bf2f-bd7b-4276-b063-789e2e9f696d")
-	)
-	(wire
-		(pts
-			(xy 73.66 93.98) (xy 80.01 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "129aa4cb-0dd1-470d-9e25-e077c8cf44ed")
 	)
 	(wire
 		(pts
@@ -3094,16 +3078,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 76.2) (xy 229.87 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "314e5f55-02d6-48c8-a8c8-4e464df90f51")
-	)
-	(wire
-		(pts
 			(xy 27.94 78.74) (xy 27.94 73.66)
 		)
 		(stroke
@@ -3164,13 +3138,13 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 78.74) (xy 229.87 78.74)
+			(xy 213.36 76.2) (xy 229.87 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "46f6fe36-14b8-498d-9271-f133f547397f")
+		(uuid "4e9f761c-cb15-4037-b988-f416a7c7180b")
 	)
 	(wire
 		(pts
@@ -3334,6 +3308,26 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 76.2) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38bb41d-97cc-456b-a67b-6b164b905250")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 172.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd592e43-a472-441f-8ef0-355364d2a11c")
+	)
+	(wire
+		(pts
 			(xy 106.68 76.2) (xy 118.11 76.2)
 		)
 		(stroke
@@ -3341,6 +3335,16 @@
 			(type default)
 		)
 		(uuid "bebe4b31-8abc-49ca-882d-23e57ed6ad6c")
+	)
+	(wire
+		(pts
+			(xy 229.87 78.74) (xy 213.36 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c627a6af-5c9b-464b-a943-6904887c9864")
 	)
 	(wire
 		(pts
@@ -3401,6 +3405,16 @@
 			(type default)
 		)
 		(uuid "da04a5df-7030-4a85-8500-1d2b9dd50d99")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 82.55 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcaaec72-54ab-4863-95b0-6efcc1fcd044")
 	)
 	(wire
 		(pts
@@ -3476,9 +3490,9 @@
 		)
 		(uuid c6302960-7385-4b52-8bec-0dfc082bd88c)
 	)
-	(text "Footprint is just 2 holes since TH1\nneeds to be attached to the battery."
+	(text "TH1 footprint is just 2 holes since TH1\nneeds to be attached to the battery."
 		(exclude_from_sim no)
-		(at 91.694 104.902 0)
+		(at 120.396 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3509,9 +3523,9 @@
 		)
 		(uuid "39194682-204e-4191-bb3c-08ff8bc5cac0")
 	)
-	(text "R_{ISET} = K_{ISET} / I_{OUT}\nK_{ISET} typical 395 amp-ohm\nI_{OUT} from 50 mA to 800 mA\n\nR_{ISET} 500 ohm --> I_{OUT} ~800 mA"
+	(text "R_{ISET} = K_{ISET} / I_{OUT}\nK_{ISET} typical 395 amp-ohm\nI_{OUT} from 50 mA to 800 mA\n\nR_{ISET} 500 ohm --> I_{OUT} ~800 mA\nR_{ISET} 680 ohm --> I_{OUT} ~580 mA\n\nmin 675 max 10.8k"
 		(exclude_from_sim no)
-		(at 64.008 106.172 0)
+		(at 53.594 106.172 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3531,16 +3545,16 @@
 		)
 		(uuid "4987a69f-43fc-4fc1-a5ca-f460ff83974f")
 	)
-	(text "VDPM left floating to use\nbattery tracking mode"
+	(text "~{PG} can be left floating, it indicates Power Good\n~{CHG} can be left floating, it indicates Charging"
 		(exclude_from_sim no)
-		(at 189.484 74.422 0)
+		(at 186.944 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left top)
 		)
-		(uuid "5e2c6b0c-b818-41a3-ad9e-dc9c7934c88c")
+		(uuid "4c65bd2e-b37e-4f08-8773-d605f1093738")
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
@@ -3553,9 +3567,9 @@
 		)
 		(uuid "7e1a547f-a322-4cd3-bc16-520db2de309d")
 	)
-	(text "VDPM left floating to use\nbattery tracking mode"
+	(text "VDPM left floating to use\nbattery tracking mode,\ncan be between 1k 10k"
 		(exclude_from_sim no)
-		(at 50.292 95.504 0)
+		(at 52.578 88.646 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3575,9 +3589,9 @@
 		)
 		(uuid "97922a93-ec09-4529-bbb3-95d829d16c57")
 	)
-	(text "RT1 =\n(1/V_{V45C}) * RTH(45C) - RTH(45C)"
+	(text "RT1\n= (1/V_{V45C}) * RTH(45C) - RTH(45C)\n= (1/0.186) * 5000 - 5000\n= 21.881 kOhm\napprox 21.5 kOhm"
 		(exclude_from_sim no)
-		(at 99.06 87.122 0)
+		(at 85.598 126.492 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3588,7 +3602,7 @@
 	)
 	(text "Symmetrical header to avoid crossover\nif the header is plugged directly\ninstead of by wire."
 		(exclude_from_sim no)
-		(at 192.786 94.996 0)
+		(at 226.06 92.964 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3597,27 +3611,27 @@
 		)
 		(uuid "c398e066-1c77-4027-9d62-a80e71df0500")
 	)
-	(label "VDPM"
-		(at 220.98 78.74 180)
-		(fields_autoplaced yes)
+	(text "Power Present indication. LOW (FET ON) When input voltage is in\nnormal range (VBUS>BAT and VBUS>UVLO), High impedance (open drain\nFET OFF) in other cases\n\nCharge Status indication, Low (FET ON) indicates charging, and High\nimpedance (open drain FET OFF) in other cases"
+		(exclude_from_sim no)
+		(at 186.69 118.364 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "30b3631c-5af4-45e4-b39f-636206cb8d69")
+		(uuid "c93360fd-b4dd-462f-b8b8-cdc8e04879ab")
 	)
-	(label "VDPM"
-		(at 220.98 76.2 180)
+	(label "VBAT{slash}2"
+		(at 172.72 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "4c870146-2c1a-4adb-8f36-53ba367cf426")
+		(uuid "32cf36d3-35af-47d2-a1a0-d7398f09012f")
 	)
 	(label "~{CHG}"
 		(at 220.98 81.28 180)
@@ -3663,17 +3677,6 @@
 		)
 		(uuid "7fbd28f3-ca44-4b79-b539-51f07da08ca2")
 	)
-	(label "VDPM"
-		(at 73.66 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9076051b-3870-4b88-bfa2-899306b89a4f")
-	)
 	(label "~{PG}"
 		(at 63.5 78.74 180)
 		(fields_autoplaced yes)
@@ -3684,6 +3687,17 @@
 			(justify right bottom)
 		)
 		(uuid "bc27dfeb-ae5c-4d17-88cf-9e1b5e62b0a2")
+	)
+	(label "VBAT{slash}2"
+		(at 213.36 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec6e35e9-b2d2-4185-9c14-0e0cf0126462")
 	)
 	(label "~{CHG}"
 		(at 220.98 73.66 180)
@@ -4046,7 +4060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R_Small_US"
+		(property "Value" "21.5 kOhm"
 			(at 101.6 82.5499 0)
 			(effects
 				(font
@@ -4471,8 +4485,8 @@
 		)
 	)
 	(symbol
-		(lib_id "54-00164:54-00164")
-		(at 15.24 67.31 0)
+		(lib_id "Connector:Barrel_Jack_Switch")
+		(at 20.32 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4488,7 +4502,7 @@
 				)
 			)
 		)
-		(property "Value" "54-00164"
+		(property "Value" "DC050-T"
 			(at 20.32 64.77 0)
 			(effects
 				(font
@@ -4496,28 +4510,8 @@
 				)
 			)
 		)
-		(property "Footprint" "54-00164:TENSILITY_54-00164"
-			(at 15.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tensility.s3.us-west-2.amazonaws.com/uploads/pdffiles/54-00164.pdf"
-			(at 15.24 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 15.24 67.31 0)
+		(property "Footprint" "DC050-T:DC050-T"
+			(at 21.59 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,8 +4519,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFC" "Tensility"
-			(at 15.24 67.31 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2403261130_SHOU-HAN-DC050-T_C431534.pdf"
+			(at 21.59 72.136 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,8 +4528,26 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "54-00164"
-			(at 15.24 67.31 0)
+		(property "Description" "DC Barrel Jack with an internal switch"
+			(at 20.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "Shou Han"
+			(at 20.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DC050-T"
+			(at 20.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4544,7 +4556,7 @@
 			)
 		)
 		(property "QTY" "1"
-			(at 15.24 67.31 0)
+			(at 20.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4553,7 +4565,7 @@
 			)
 		)
 		(property "REF" "J1"
-			(at 15.24 67.31 0)
+			(at 20.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4574,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 15.24 67.31 0)
+			(at 20.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4570,8 +4582,17 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "839-54-00164TR-ND"
-			(at 15.24 67.31 0)
+		(property "Digikey" ""
+			(at 20.32 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C431534"
+			(at 20.32 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +5302,7 @@
 				(hide yes)
 			)
 		)
-		(property "QTY" "1"
+		(property "QTY" "2"
 			(at 132.08 86.36 0)
 			(effects
 				(font
@@ -6323,7 +6344,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "500 Ohm"
+		(property "Value" "680 Ohm"
 			(at 81.28 104.14 0)
 			(effects
 				(font
@@ -7839,6 +7860,129 @@
 			(project "newbatt"
 				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e"
 					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 80.01 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "dec62088-5ed1-4e2a-9e5c-8969434b109c")
+		(property "Reference" "R15"
+			(at 67.564 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7.32 kOhm"
+			(at 67.564 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 80.01 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f99afa8-e128-4885-b7a7-a99fd431b265")
+		)
+		(pin "2"
+			(uuid "2c9d4ea2-6362-4238-b2fe-fa583591651f")
+		)
+		(instances
+			(project "newbatt"
+				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e"
+					(reference "R15")
 					(unit 1)
 				)
 			)
