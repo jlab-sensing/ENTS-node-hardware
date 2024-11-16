@@ -41,6 +41,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 129.54) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f16e3f5-30ed-4ef8-85b9-effdef3c2994")
+	)
+	(wire
+		(pts
 			(xy 162.56 104.14) (xy 137.16 104.14)
 		)
 		(stroke
@@ -61,6 +71,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 127) (xy 162.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3186c9fd-14f5-4639-b60a-d6b22b33240a")
+	)
+	(wire
+		(pts
 			(xy 137.16 107.95) (xy 162.56 107.95)
 		)
 		(stroke
@@ -68,6 +88,16 @@
 			(type default)
 		)
 		(uuid "39f17079-046e-4b01-afc6-5a50523afe92")
+	)
+	(wire
+		(pts
+			(xy 137.16 124.46) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cd97679-721e-4f0f-8aea-6b9adb77bc75")
 	)
 	(wire
 		(pts
@@ -259,7 +289,7 @@
 	)
 	(sheet
 		(at 119.38 72.39)
-		(size 17.78 50.8)
+		(size 17.78 59.69)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -279,7 +309,7 @@
 			)
 		)
 		(property "Sheetfile" "Soil_Power_Sensor_3.kicad_sch"
-			(at 119.38 123.7746 0)
+			(at 119.38 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,6 +377,36 @@
 			)
 			(uuid "65b48d75-44ed-4534-a23e-5b68e921c317")
 		)
+		(pin "~{PG}" input
+			(at 137.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9ce73ec0-df15-4ccc-b72d-0aa7114fbf1e")
+		)
+		(pin "~{CHG}" input
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9f37dd42-2918-4256-9e2e-87ee6df5c881")
+		)
+		(pin "VDD{slash}2" input
+			(at 137.16 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "55878817-5635-4f63-9efc-a686834f6c80")
+		)
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3"
@@ -357,7 +417,7 @@
 	)
 	(sheet
 		(at 162.56 118.11)
-		(size 16.51 5.08)
+		(size 16.51 13.97)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -377,7 +437,7 @@
 			)
 		)
 		(property "Sheetfile" "Soil_Power_Sensor_2.kicad_sch"
-			(at 162.56 123.7746 0)
+			(at 162.56 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,6 +454,36 @@
 				(justify left)
 			)
 			(uuid "f775cc83-5e1c-4109-b329-cf4b1690b3cb")
+		)
+		(pin "~{CHG}" output
+			(at 162.56 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "739c36e4-f3d9-48aa-8e92-0fd8704a5f6e")
+		)
+		(pin "~{PG}" output
+			(at 162.56 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fd6804bb-8e85-4851-ba2f-596d082357eb")
+		)
+		(pin "VDD{slash}2" output
+			(at 162.56 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8262e05f-ddd2-449a-abd5-0955d547508c")
 		)
 		(instances
 			(project "Soil Power Sensor"
