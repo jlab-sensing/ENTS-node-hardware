@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Soil Power Sensor")
-		(date "2024-11-14")
+		(date "2024-12-07")
 		(rev "2.2.3")
 		(company "jlab")
 	)
@@ -1772,6 +1772,12 @@
 		(uuid "425a540a-d415-4ec0-bef1-d0da3f921006")
 	)
 	(junction
+		(at 52.07 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56a01280-f883-442a-8f9b-28258734b5ab")
+	)
+	(junction
 		(at 181.61 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1802,12 +1808,6 @@
 		(uuid "9f51e78a-1efc-4ff9-abc5-5c4ab07798cd")
 	)
 	(junction
-		(at 52.07 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b9c4329a-e638-4e61-875d-d390caa77ccc")
-	)
-	(junction
 		(at 242.57 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1827,7 +1827,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 35.56) (xy 62.23 35.56)
+			(xy 46.99 43.18) (xy 59.69 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1854,6 +1854,16 @@
 			(type default)
 		)
 		(uuid "045f03ec-8ec4-488d-b193-9b01f13f9816")
+	)
+	(wire
+		(pts
+			(xy 46.99 40.64) (xy 60.96 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ca20b1-22b3-4872-9360-02e254ddcbaa")
 	)
 	(wire
 		(pts
@@ -1897,7 +1907,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 53.34) (xy 62.23 53.34)
+			(xy 46.99 45.72) (xy 59.69 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1914,16 +1924,6 @@
 			(type default)
 		)
 		(uuid "1a533cfa-a7d1-424e-8885-f875fca7393d")
-	)
-	(wire
-		(pts
-			(xy 58.42 43.18) (xy 46.99 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b48f509-66d2-442d-8edd-cb8f3c0876d4")
 	)
 	(wire
 		(pts
@@ -2007,16 +2007,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 48.26) (xy 46.99 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d972a21-9242-467c-89af-50d514ca284e")
-	)
-	(wire
-		(pts
 			(xy 54.61 146.05) (xy 54.61 144.78)
 		)
 		(stroke
@@ -2057,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 38.1) (xy 46.99 38.1)
+			(xy 52.07 35.56) (xy 46.99 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 30.48) (xy 52.07 38.1)
+			(xy 52.07 30.48) (xy 52.07 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2154,6 +2144,16 @@
 			(type default)
 		)
 		(uuid "740ab6db-600f-4986-ba00-fb79b66ba0f7")
+	)
+	(wire
+		(pts
+			(xy 52.07 35.56) (xy 52.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7428ce92-9138-477b-b67a-2055e29b36e7")
 	)
 	(wire
 		(pts
@@ -2214,16 +2214,6 @@
 			(type solid)
 		)
 		(uuid "8ee144aa-230a-4117-8de6-c3f7ee67966f")
-	)
-	(wire
-		(pts
-			(xy 52.07 38.1) (xy 52.07 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "918e220c-a5fc-48b6-bb0a-4737118e4499")
 	)
 	(wire
 		(pts
@@ -2327,6 +2317,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 48.26) (xy 60.96 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d2a495-b993-4f30-8cdb-5e1a606cc4ea")
+	)
+	(wire
+		(pts
 			(xy 124.46 29.21) (xy 124.46 31.75)
 		)
 		(stroke
@@ -2337,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 50.8) (xy 46.99 50.8)
+			(xy 52.07 53.34) (xy 46.99 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2417,16 +2417,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 45.72) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc541b9f-2298-466c-8c20-e7a61c38f766")
-	)
-	(wire
-		(pts
 			(xy 242.57 50.8) (xy 242.57 53.34)
 		)
 		(stroke
@@ -2437,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 40.64) (xy 46.99 40.64)
+			(xy 46.99 38.1) (xy 60.96 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2454,6 +2444,16 @@
 			(type solid)
 		)
 		(uuid "e2f49aca-7a48-45b2-b03a-a429f8779b84")
+	)
+	(wire
+		(pts
+			(xy 46.99 50.8) (xy 60.96 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efffd156-fe3d-4786-b537-52f9f0c41a39")
 	)
 	(wire
 		(pts
@@ -2563,7 +2563,7 @@
 		(uuid "d791faf9-8040-4b53-b80a-6ea8e6ef1cc5")
 	)
 	(label "VBAT"
-		(at 62.23 53.34 180)
+		(at 59.69 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2585,7 +2585,7 @@
 		(uuid "e193c606-8d90-4d40-8608-a453445552df")
 	)
 	(label "VBAT"
-		(at 62.23 35.56 180)
+		(at 59.69 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2652,7 +2652,7 @@
 	)
 	(hierarchical_label "~{CHG}"
 		(shape output)
-		(at 58.42 45.72 0)
+		(at 60.96 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2676,7 +2676,7 @@
 	)
 	(hierarchical_label "~{PG}"
 		(shape output)
-		(at 58.42 48.26 0)
+		(at 60.96 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2688,7 +2688,7 @@
 	)
 	(hierarchical_label "~{CHG}"
 		(shape output)
-		(at 58.42 43.18 0)
+		(at 60.96 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2700,7 +2700,7 @@
 	)
 	(hierarchical_label "~{PG}"
 		(shape output)
-		(at 58.42 40.64 0)
+		(at 60.96 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

@@ -1,52 +1,9 @@
 ** Drc report for Soil Power Sensor.kicad_pcb **
-** Created on 2024-11-11T18:20:11-0800 **
+** Created on 2024-12-07T17:24:35-0800 **
 
-** Found 13 DRC violations **
-[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
-    Local override; warning
-    @(141.8750 mm, 75.7900 mm): Footprint U3
-[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
-    Local override; warning
-    @(176.6750 mm, 69.0500 mm): Footprint U7
-[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
-    Local override; warning
-    @(156.8175 mm, 75.5750 mm): Footprint U5
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(245.6000 mm, 56.2000 mm): Track [<no net>] on F.Cu, length 5.3000 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(236.0000 mm, 84.7500 mm): Track [<no net>] on B.Cu, length 4.7500 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(135.7500 mm, 49.7500 mm): Track [<no net>] on B.Cu, length 0.4624 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(127.7500 mm, 49.7500 mm): Track [<no net>] on B.Cu, length 2.5838 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(248.0000 mm, 63.5000 mm): Track [+3V3] on F.Cu, length 1.5938 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(248.0000 mm, 61.5000 mm): Track [+3V3] on F.Cu, length 1.6263 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(245.6000 mm, 63.5000 mm): Track [VCC] on F.Cu, length 11.8794 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(213.7500 mm, 50.0000 mm): Track [VCC] on F.Cu, length 5.5000 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(244.0500 mm, 67.9500 mm): Track [VUSB] on F.Cu, length 2.1920 mm
-[track_dangling]: Track has unconnected end
-    Local override; warning
-    @(227.0000 mm, 50.5000 mm): Track [VUSB] on B.Cu, length 4.3841 mm
+** Found 0 DRC violations **
 
-** Found 1 unconnected pads **
-[unconnected_items]: Missing connection between items
-    Local override; error
-    @(248.0000 mm, 61.5000 mm): Track [+3V3] on F.Cu, length 1.6263 mm
-    @(246.8730 mm, 62.3730 mm): Track [+3V3] on F.Cu, length 2.9460 mm
+** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
 
