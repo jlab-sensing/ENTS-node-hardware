@@ -4,13 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.2.3] - Unreleased
+## [2.2.3] - 2024-12-04
 
-- Replaced Rsense with header for THT resistor ([#60](i60))
+### Added
+
 - Added pinout for D+/D- for debugging ([#59](i59))
 - Added RTS and DTR for automatic bootloader ([#58](i58))
-- Added battery support
+- Add battery breakout board ([#55](i55))
 
+### Updated
+
+- Replaced Rsense with header for THT resistor ([#60](i60))
+- Updated switch configuration for battery board ([#57](i57))
+
+[i55]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/55
+[i57]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/57
 [i58]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/58
 [i59]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/58
 [i60]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/60
