@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Replaced Rsense with header for THT resistor ([#60](i60))
 - Added pinout for D+/D- for debugging ([#59](i59))
 - Added RTS and DTR for automatic bootloader ([#58](i58))
+- Added battery support
 
 [i58]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/58
 [i59]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/58

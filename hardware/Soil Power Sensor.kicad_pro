@@ -58,7 +58,14 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|195200000|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|be84e18b-c12f-4802-aeb2-df926a3896c8",
+        "silk_edge_clearance|216843331|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|defbeebd-c5c3-4d9d-a6ad-60bf77067176",
+        "silk_over_copper|137085000|57637801|a75b4774-8e53-442a-b988-5e8398ada604|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|194378000|59098576|4989e2e0-cf6b-46cc-8888-bd6422a203b9|d5795578-e647-4fda-877b-8ffdfeb480df",
+        "silk_overlap|194378000|90050000|d5795578-e647-4fda-877b-8ffdfeb480df|6d6c139b-512d-413b-b24c-6458e070a909",
+        "starved_thermal|171600000|84140000|ff9707db-b7e2-4831-831f-c468709238e4|260314ab-4545-47d0-9868-dddd1fc25919|B.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -230,7 +237,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "power_pin_not_driven|546100|1270000|59eae2c9-e149-4204-aa73-4010a091755d|00000000-0000-0000-0000-000000000000|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1|",
+      "power_pin_not_driven|889000|1092200|56eabfd0-63fa-44fa-b2d5-d27f38ce134b|00000000-0000-0000-0000-000000000000|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315|"
+    ],
     "meta": {
       "version": 0
     },
@@ -518,6 +528,10 @@
       {
         "netclass": "Power",
         "pattern": "/Power/VBAT_SPLIT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/VUSB"
       }
     ]
   },

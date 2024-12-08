@@ -1,0 +1,160 @@
+(footprint "JS102011SCQN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "049c14be-931b-4606-9d32-95fd18d9a302")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "JS102011SCQN"
+		(at 0 5.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9b6812cf-ac95-4386-b04c-cf00a72b223b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "50e9e385-b300-4306-8a87-0b6c4605d2e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_C-K-JS102011SCQN_C221661.pdf"
+		(at 0 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b19ee4b1-d8ce-4279-a5d7-b97f54345147")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SPDT Slide Switch 300mA"
+		(at 0 6.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01b9c272-5343-43ee-9b86-e397ba61db76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.8 4.4)
+		(end 2.2 4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5e65fe5c-275f-4e69-bb66-086563ca5fcb")
+	)
+	(fp_line
+		(start -1.6 -4.4)
+		(end 2.2 -4.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6751a1b6-8035-4519-b86a-8c45d3310e3d")
+	)
+	(fp_poly
+		(pts
+			(xy -3.2 -4.2) (xy -2.6 -3.4) (xy -2 -4.2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "5ea363ed-20ba-4950-903d-8ef535c7eb44")
+	)
+	(fp_rect
+		(start -1.5 -4.2)
+		(end 2 4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "3840a52a-7287-4e3b-b152-7a1c5548519f")
+	)
+	(fp_rect
+		(start -4 -4.6)
+		(end 4.4 4.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d1f37fd0-5764-405d-87f4-8c339eaf57a0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e3ae6183-2790-4304-845a-241e97da492c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 -2.5)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "468930c7-df52-4c73-9467-5bc4df9ca687")
+	)
+	(pad "2" smd roundrect
+		(at 3 0)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "871e5ca8-d2b0-42eb-9f3a-1b53e0d4b7d6")
+	)
+	(pad "3" smd roundrect
+		(at -2.5 2.5)
+		(size 2.5 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "08ad5430-bbe3-4a74-aa48-d300b6597a22")
+	)
+)

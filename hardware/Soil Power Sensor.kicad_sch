@@ -91,16 +91,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 124.46) (xy 162.56 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cd97679-721e-4f0f-8aea-6b9adb77bc75")
-	)
-	(wire
-		(pts
 			(xy 162.56 100.33) (xy 149.86 100.33)
 		)
 		(stroke
@@ -131,6 +121,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 134.62) (xy 162.56 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8043b60f-69e7-4c18-926b-c9d80caca58a")
+	)
+	(wire
+		(pts
 			(xy 137.16 74.93) (xy 152.4 74.93)
 		)
 		(stroke
@@ -158,6 +158,16 @@
 			(type default)
 		)
 		(uuid "c04d8f7f-12da-4bfe-9ae7-abae3bdf63c1")
+	)
+	(wire
+		(pts
+			(xy 137.16 132.08) (xy 162.56 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c10a9234-fe78-4a1a-a449-22dcaaba774c")
 	)
 	(wire
 		(pts
@@ -289,7 +299,7 @@
 	)
 	(sheet
 		(at 119.38 72.39)
-		(size 17.78 59.69)
+		(size 17.78 64.77)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -309,7 +319,7 @@
 			)
 		)
 		(property "Sheetfile" "Soil_Power_Sensor_3.kicad_sch"
-			(at 119.38 132.6646 0)
+			(at 119.38 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -397,15 +407,25 @@
 			)
 			(uuid "9f37dd42-2918-4256-9e2e-87ee6df5c881")
 		)
-		(pin "VDD{slash}2" input
-			(at 137.16 124.46 0)
+		(pin "VUSB" output
+			(at 137.16 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "55878817-5635-4f63-9efc-a686834f6c80")
+			(uuid "208bffcc-1934-42cf-a078-a090078d9f61")
+		)
+		(pin "VBAT{slash}2" input
+			(at 137.16 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "eb2a3ac1-8837-4fe8-9fca-74c25c37c63e")
 		)
 		(instances
 			(project "Soil Power Sensor"
@@ -417,7 +437,7 @@
 	)
 	(sheet
 		(at 162.56 118.11)
-		(size 16.51 13.97)
+		(size 16.51 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0)
@@ -437,7 +457,7 @@
 			)
 		)
 		(property "Sheetfile" "Soil_Power_Sensor_2.kicad_sch"
-			(at 162.56 132.6646 0)
+			(at 162.56 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -475,15 +495,25 @@
 			)
 			(uuid "fd6804bb-8e85-4851-ba2f-596d082357eb")
 		)
-		(pin "VDD{slash}2" output
-			(at 162.56 124.46 180)
+		(pin "VBAT{slash}2" output
+			(at 162.56 134.62 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "8262e05f-ddd2-449a-abd5-0955d547508c")
+			(uuid "af8c7ebd-3330-4483-b329-a20cbad7c470")
+		)
+		(pin "VUSB" input
+			(at 162.56 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "84c0860d-e617-4a05-b2ab-3b06b9c98a41")
 		)
 		(instances
 			(project "Soil Power Sensor"
