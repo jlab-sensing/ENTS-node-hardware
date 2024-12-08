@@ -10,6 +10,7 @@ BOM_FILE="$PROJECT_DIR/Soil Power Sensor.csv"
 POS_FILE="$PROJECT_DIR/Soil Power Sensor-top-pos.csv"
 
 PLOTS_DIR="$PROJECT_DIR/plots"
+rm -r $PLOTS_DIR
 mkdir -p "$PLOTS_DIR"
 
 # Run DRC

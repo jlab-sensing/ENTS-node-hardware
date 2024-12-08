@@ -59,16 +59,17 @@
         }
       ],
       "drc_exclusions": [
-        "lib_footprint_mismatch|146575000|67050000|7bf13de2-1044-4a73-a27d-14e1ca0930d8|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|175250000|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|40adc477-e4bb-4317-81f4-a80b6a55a8bf",
-        "silk_edge_clearance|193250000|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|be84e18b-c12f-4802-aeb2-df926a3896c8",
-        "silk_edge_clearance|216843331|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|defbeebd-c5c3-4d9d-a6ad-60bf77067176",
-        "silk_edge_clearance|239843331|91801633|11780849-73ea-4246-8d03-6bf24867c2a8|9709207f-80bb-4d35-8e29-6616f102c370",
-        "silk_over_copper|137085000|57096599|a75b4774-8e53-442a-b988-5e8398ada604|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|140985000|58366600|198a5e9f-775b-4778-ae3c-2a1bd7d7bbce|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|171776267|52750000|256f9e59-418b-4614-bc6b-e5453dde2829|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|216843331|89188455|defbeebd-c5c3-4d9d-a6ad-60bf77067176|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|239843331|84108455|9709207f-80bb-4d35-8e29-6616f102c370|00000000-0000-0000-0000-000000000000"
+        "lib_footprint_mismatch|186662500|88100000|8c00e8e0-80f7-496e-b270-fa4233c187a3|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|228343331|75134027|7bb716e4-1eaf-4e2b-90d8-9630c116e8d1|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|250775000|69525000|086e52ca-4384-489c-8151-ea0618a58387|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|139035000|56095000|3dbe7bd5-8e64-4aeb-a5bd-0e27ba00dd86|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|160900000|57665000|fb810934-63aa-4db1-a790-8b651cb3ce54|00000000-0000-0000-0000-000000000000",
+        "missing_courtyard|193500000|54810000|b951f3ae-8381-476a-8281-b31caf88b830|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|137085000|57637801|a75b4774-8e53-442a-b988-5e8398ada604|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|140985000|53823401|198a5e9f-775b-4778-ae3c-2a1bd7d7bbce|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|194378000|59098576|4989e2e0-cf6b-46cc-8888-bd6422a203b9|d5795578-e647-4fda-877b-8ffdfeb480df",
+        "silk_overlap|194378000|90050000|d5795578-e647-4fda-877b-8ffdfeb480df|6d6c139b-512d-413b-b24c-6458e070a909",
+        "starved_thermal|171600000|84140000|ff9707db-b7e2-4831-831f-c468709238e4|260314ab-4545-47d0-9868-dddd1fc25919|B.Cu"
       ],
       "meta": {
         "filename": "board_design_settings.json",
@@ -101,14 +102,14 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -241,11 +242,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "power_pin_not_driven|1333500|863600|25ab2a0b-8e2e-4146-b3f5-aebdaf42c314|00000000-0000-0000-0000-000000000000|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315|",
-      "power_pin_not_driven|546100|1270000|59eae2c9-e149-4204-aa73-4010a091755d|00000000-0000-0000-0000-000000000000|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1|",
-      "power_pin_not_driven|889000|1092200|56eabfd0-63fa-44fa-b2d5-d27f38ce134b|00000000-0000-0000-0000-000000000000|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/643deee0-b2c1-47dd-8bbd-6697ae8f1315|"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -533,6 +530,10 @@
       {
         "netclass": "Power",
         "pattern": "/Power/VBAT_SPLIT"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "/Power/VUSB"
       }
     ]
   },
