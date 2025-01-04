@@ -12,64 +12,45 @@ There are two buttons not listed in the BOM for the esp32 `BOOT` and `EN`. These
 
 Generate the BOM from the schematic editor (`Tools -> Generate Bill of Materials...`) and use the view *Order*.
 
-## Steps for assembly
+## Assembly and QA Instructions
 
-1. Order PCB, the included gerber files were generated for [JLCPCB](https://jlcpcb.com/)
-2. Order components from the BOM.
-3. Solder surface mount components, excluding the following
-	- Wio-E5
-	- Screw Terminals
-	- Pin headers
-4. Solder remaining through hole components.
-5. Solder the AAA battery clips on the bottom of the board.
-6. Solder a jumper wire from `J6` to the positive input power on the Wio-E5.
+### Solder SMD components
 
-## Clearing the bootloader
+We suggest ordering the boards SMD assembled through a PCB assembly service and have used [JLCPCB](https://jlcpcb.com/) in the past. Every component except the Wio-E5 module, 5-pin screw terminals, 3-pin screw terminals, and pin headers can be soldered by the assembly service. The component `U13` should not be populated by default and is used to expand the non-volatile memory of sensor measurements.
 
-The Wio-E5 module comes pre-installed with LoRa AT command firmware with hardware write protection enabled. Before you are able to flash the device the read protection must be cleared using [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) using a ST-Link debugger. We prefer to use the [STLINK-V3MINIE](https://www.st.com/en/development-tools/stlink-v3minie.html) due to its small form factor and low cost.
+![SMD Populated Board](images/smd.png)
 
-1. Start `STM32CubeProgrammer`
-2. Connect the device and ST-Link device.
-3. On the right panel configure the `Port` to `SWD`
-4. On the Wio-E5 module, hold `BOOT`, press and release `RST`, then release `BOOT`. You are now in the bootloader.
-5. In `STM32CubeProgrammer` press connect. It will give a `Error: Data read failed` popup. This is expected.
-6. Go to *Option Bytes* tab.
-7. Under *Read Out Protection* change `RDP` to `AA`.
-8. Press apply. You should get a `Option Bytes successfully programmed` popup.
-9. Press disconnect.
-10. Unplug and plug back in the soil power sensor.
-11. Flash firmware with `pio run -t upload`.
+### Solder Remaining Components
 
-## Testing
+*Before soldering* visually inspect the boards for any solder bridges and defects. You do not want to solder the Wio-E5 module to a defective board as it accounts for half the cost of the board and cannot be desoldered easily.
 
-### Shorts
-**Before** powering on the board shorts to ground on any of the supply rails.. The continuity test on a multimeter may initially beep for a short period of time due to bypass capacitors. `TP4` may display a resistance value due to internal capacitance. Ensure it is not close to zero.
+1. Solder screw terminals at `J1`, `J4`, male pin-headers at `J3`, female right-angle pin headers at `J8`, and female pin headers at `J9`.
+2. Solder the Wio-E5 module to the board. The USB-C connector should be facing the edge of the board closest to the switch, and RF terminal facing the microSD card module. The RF terminal should touching the edge of the board.
+3. Use a multimeter to test for shorts between `GND` and `TP1`, `TP2`, `TP4`, `5V` on the Wio-E5, `3V3` on the Wio-E5, and `Vcc` on the 3-pin screw terminal. `TP4` maay display a resistance value due to capacitors.
 
-### Power Rails
 
-Then, power the device through the USB-C terminal and flash with firmware that enables all the peripherals. Verify the voltages at the test points match what is shown in the table.
+![THT Populated Board](images/tht.png)
+
+> NOTE: `J9` should be soldered with a female header to be used to connect a load. We did not have any 2x1 headers on hand so it is not shown in the picture.
+
+### Check Power Rails
+
+Then, power the device through the USB-C terminal with the power switch in the "UP" (close to nearest board edge). Verify the voltages at the test points match what is shown in the table. Some rails may be put in power down state by default and require firmware to be running to enable them.
 
 `TP6` is used to used to connect the battery to the Wio-E5 module.
 
-| Test point | Signal     | Voltage |
-| ---------- | ---------- | ------- |
-| `TP1`      | `REF+1V65` | +1.65V  |
-| `TP2`      | `REF+3V3`  | +3.3V   |
-| `TP3`      | `+3V3`     | +3.3V   |
-| `TP4`      | `-3V3`     | -3.3V   |
-| `TP5`      | `VCC`      | 5V      |
-| `TP7`      | `VUSB`     | 5V      |
-| `TP8`      | `VBAT`     | N/A     |
+| Test point  | Signal     | Voltage |
+| ----------  | ---------- | ------- |
+| `TP1`       | `REF+1V65` | +1.65V  |
+| `TP2`       | `REF+3V3`  | +3.3V   |
+| `3V3` (Wio) | `+3V3`     | +3.3V   |
+| `TP4`       | `-3V3`     | -3.3V   |
+| `TP5`       | `VCC`      | 5V      |
+| `5V` (Wio)  | `VUSB`     | 5V      |
 
-### Unit Tests
+### Load Firmware
 
-In the [firmware repo](https://github.com/jlab-sensing/soil-power-sensor-firmware) run the unit tests for both `stm32` and `esp32` projects with the following commands from the respective folders:
-
-```
-pio test -e tests -i test_sdi12
-```
-
-The test `test_sdi12` is ignored since it relies on external hardware that might not be connected. All tests should pass.
+See [ENTS-node-firmware](https://github.com/jlab-sensing/ENTS-node-firmware) for instructions on loading firmware on the device.
 
 ## Header definitions
 
@@ -77,13 +58,26 @@ The test `test_sdi12` is ignored since it relies on external hardware that might
 
 Serial wire debug (SWD) port for stm32. To load the bootloader, hold `BOOT`, press and release `RST`, then release `BOOT`. Then you should be able to connect to the device.
 
+### J9 (ESP32 Debug Header)
+
 ### J3 (ESP32 UART)
 
 UART TX and RX pins to connect to the esp32 bootloader. Intended to be use with a USB to UART converter and `esptool.py`.
 
-### J5 (Power Select)
+### J9 (Battery Connector)
 
-Jumper `J5` selects the power source, either `VUSB` from the USB-C terminal or `VBAT` from the `4 x AAA` batteries on the backside of the board. The jumper can also be used to power the board directly from a DC power supply.
+Connect a battery module to the ENTS board. The header is reversible has the following pinout, where `~` represent inverse logic:
+
+| `GND` |
+| `3V3` |
+| `~PG` |
+| `~CHG` |
+| `VBAT` |
+| `VBAT` |
+| `~CHG` |
+| `~PG` |
+| `3V3` |
+| `GND` |
 
 ## Measurement configurations
 
