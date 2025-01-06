@@ -18,7 +18,7 @@ Generate the BOM from the schematic editor (`Tools -> Generate Bill of Materials
 
 We suggest ordering the boards SMD assembled through a PCB assembly service and have used [JLCPCB](https://jlcpcb.com/) in the past. Every component except the Wio-E5 module, 5-pin screw terminals, 3-pin screw terminals, and pin headers can be soldered by the assembly service. The component `U13` should not be populated by default and is used to expand the non-volatile memory of sensor measurements.
 
-![SMD Populated Board](images/smd.png)
+![SMD Populated Board](images/smd.jpg)
 
 ### Solder Remaining Components
 
@@ -29,7 +29,7 @@ We suggest ordering the boards SMD assembled through a PCB assembly service and 
 3. Use a multimeter to test for shorts between `GND` and `TP1`, `TP2`, `TP4`, `5V` on the Wio-E5, `3V3` on the Wio-E5, and `Vcc` on the 3-pin screw terminal. `TP4` maay display a resistance value due to capacitors.
 
 
-![THT Populated Board](images/tht.png)
+![THT Populated Board](images/tht.jpg)
 
 > NOTE: `J9` should be soldered with a female header to be used to connect a load. We did not have any 2x1 headers on hand so it is not shown in the picture.
 
