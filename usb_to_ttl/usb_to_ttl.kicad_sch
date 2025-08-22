@@ -2485,6 +2485,18 @@
 		(uuid "45c4d76a-2782-4daa-a5db-31b1505824c2")
 	)
 	(junction
+		(at 29.21 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "532853ad-fd46-4d03-a8cc-1029379ce8d5")
+	)
+	(junction
+		(at 81.28 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "69607210-91a9-43df-9cb7-11aa08f760da")
+	)
+	(junction
 		(at 43.18 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2539,10 +2551,6 @@
 		(uuid "9eb3a22e-ac62-47f7-83c3-39ac391cc47a")
 	)
 	(no_connect
-		(at 21.59 67.31)
-		(uuid "a5d1b095-8687-4d5a-b440-728da0004483")
-	)
-	(no_connect
 		(at 236.22 135.89)
 		(uuid "a954ec86-755b-4ee5-98d4-e3ec9678553a")
 	)
@@ -2563,10 +2571,6 @@
 		(uuid "ca1f2367-b966-41ae-a884-2fa4ee918d13")
 	)
 	(no_connect
-		(at 73.66 68.58)
-		(uuid "e8dcec99-b5b6-4baf-8032-e7e7a2fd64ef")
-	)
-	(no_connect
 		(at 236.22 90.17)
 		(uuid "eac48cd3-6179-4e32-8c09-8d5029d42f01")
 	)
@@ -2585,6 +2589,16 @@
 	(no_connect
 		(at 102.87 29.21)
 		(uuid "fd0a64ce-36b3-4fe7-9582-b9e840850d7b")
+	)
+	(wire
+		(pts
+			(xy 73.66 68.58) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ecca61-c07d-444c-b8d7-df25a5eb4076")
 	)
 	(wire
 		(pts
@@ -3318,6 +3332,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 67.31) (xy 29.21 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eae2462b-69c0-4148-a59d-6b82406625ce")
+	)
+	(wire
+		(pts
 			(xy 229.87 100.33) (xy 236.22 100.33)
 		)
 		(stroke
@@ -3386,7 +3410,7 @@
 		)
 		(uuid "143d4e20-3868-4e8f-88e3-99d1ab75398b")
 	)
-	(label "USB_D-"
+	(label "USB1_D-"
 		(at 191.77 97.79 0)
 		(effects
 			(font
@@ -3406,7 +3430,7 @@
 		)
 		(uuid "2ea91ecb-9bfb-4cf4-b67b-6efb6d8c5395")
 	)
-	(label "USB_D-"
+	(label "USB2_D-"
 		(at 106.68 36.83 0)
 		(effects
 			(font
@@ -3416,7 +3440,7 @@
 		)
 		(uuid "61f3d8b8-b327-4e03-a40d-022d6d617a8c")
 	)
-	(label "USB_D+"
+	(label "USB1_D+"
 		(at 54.61 40.64 0)
 		(effects
 			(font
@@ -3426,7 +3450,7 @@
 		)
 		(uuid "77213987-5759-4523-859b-5614605e6b72")
 	)
-	(label "USB_D-"
+	(label "USB1_D-"
 		(at 54.61 35.56 0)
 		(effects
 			(font
@@ -3456,7 +3480,7 @@
 		)
 		(uuid "975af4d3-043b-4e76-b91b-2e5fcbb9d104")
 	)
-	(label "USB_D+"
+	(label "USB2_D+"
 		(at 49.53 93.98 180)
 		(effects
 			(font
@@ -3506,7 +3530,7 @@
 		)
 		(uuid "ce5b66b6-162a-4be9-8a5e-dab150dc32ea")
 	)
-	(label "USB_D+"
+	(label "USB1_D+"
 		(at 191.77 100.33 0)
 		(effects
 			(font
@@ -3516,7 +3540,7 @@
 		)
 		(uuid "cfeb0540-b470-4d6c-9ed4-683b3a824033")
 	)
-	(label "USB_D+"
+	(label "USB2_D+"
 		(at 106.68 41.91 0)
 		(effects
 			(font
@@ -3526,7 +3550,7 @@
 		)
 		(uuid "e63082ee-a7ec-4506-906b-157f5acad66a")
 	)
-	(label "USB_D-"
+	(label "USB2_D-"
 		(at 49.53 96.52 180)
 		(effects
 			(font
@@ -4330,7 +4354,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 33.02 38.1 0)
 			(effects
 				(font
@@ -5722,7 +5746,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Plug_Molex_105444"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 85.09 39.37 0)
 			(effects
 				(font
