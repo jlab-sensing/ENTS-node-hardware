@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -180,7 +186,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +215,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -227,6 +240,18 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "power_pin_not_driven|1016000|635000|1e5a916f-7f0d-4baa-be01-6cb32f73df06|00000000-0000-0000-0000-000000000000|/9e03b3b4-ba54-42aa-9a60-c787fb018aa8|/9e03b3b4-ba54-42aa-9a60-c787fb018aa8|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1041400|533400|83639fa1-fef0-4e11-bcc9-8ab7cd0750cb|00000000-0000-0000-0000-000000000000|/9e03b3b4-ba54-42aa-9a60-c787fb018aa8|/9e03b3b4-ba54-42aa-9a60-c787fb018aa8|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1460500|533400|838f1c4a-7559-47e5-899b-a7546a228b07|00000000-0000-0000-0000-000000000000|/9e03b3b4-ba54-42aa-9a60-c787fb018aa8|/9e03b3b4-ba54-42aa-9a60-c787fb018aa8|",
+        ""
+      ],
       [
         "power_pin_not_driven|977900|495300|83639fa1-fef0-4e11-bcc9-8ab7cd0750cb|00000000-0000-0000-0000-000000000000|/9e03b3b4-ba54-42aa-9a60-c787fb018aa8|/9e03b3b4-ba54-42aa-9a60-c787fb018aa8|",
         ""
@@ -503,6 +528,10 @@
       {
         "netclass": "Power",
         "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "VBUS"
       }
     ]
   },
