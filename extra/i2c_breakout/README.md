@@ -5,16 +5,3 @@ The breakout board is intended to add additional headers for external I2C device
 | Top View | Bottom View |
 | --- | --- |
 | ![Top View](renders/top.png) | ![Bottom View](renders/bottom.png) |
-
-<table>
-  <tr>
-    <td align="center">
-      <img src="renders/top.png" width="45%"><br>
-      Top View
-    </td>
-    <td align="center">
-      <img src="renders/bottom.png" width="45%"><br>
-      Bottom View
-    </td>
-  </tr>
-</table>
