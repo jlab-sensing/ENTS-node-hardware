@@ -1913,6 +1913,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C37359"
+			(at 99.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6e3ca75b-573d-46ab-a8e4-d0c629be342a")
 		)
@@ -2110,6 +2119,15 @@
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
 			(at 99.06 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 99.06 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,6 +2340,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160404"
+			(at 92.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2aea79f3-b68e-419a-a129-a7bb49e67028")
 		)
@@ -2393,6 +2420,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160404"
 			(at 157.48 109.22 0)
 			(effects
 				(font
@@ -2876,6 +2912,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C160404"
+			(at 157.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ef7e803-479b-492f-8750-aa3c2e45e8e1")
 		)
@@ -3021,6 +3066,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 242.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "656a5ba0-9a9d-4da5-8533-d2e948eae4b1")
 		)
@@ -3145,6 +3199,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -3355,6 +3418,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 217.17 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2322b6d-ed76-4749-8ab4-3ae5991e2a42")
 		)
@@ -3414,6 +3486,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 242.57 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 242.57 54.61 0)
 			(effects
 				(font
@@ -3687,6 +3768,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" ""
+			(at 82.55 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4aba6bc-f05e-466b-8f95-8c803417e4d4")
 		)
@@ -3749,6 +3839,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 217.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
 			(at 217.17 54.61 0)
 			(effects
 				(font
@@ -3882,6 +3981,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 157.48 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C160404"
 			(at 157.48 82.55 0)
 			(effects
 				(font
