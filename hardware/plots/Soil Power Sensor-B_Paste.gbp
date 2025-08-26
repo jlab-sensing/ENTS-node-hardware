@@ -1,21 +1,15 @@
-G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.4*
-G04 #@! TF.CreationDate,2024-09-08T07:48:53-07:00*
-G04 #@! TF.ProjectId,Soil Power Sensor,536f696c-2050-46f7-9765-722053656e73,2.2.2*
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,8.0.6*
+G04 #@! TF.CreationDate,2024-12-07T18:03:21-08:00*
+G04 #@! TF.ProjectId,Soil Power Sensor,536f696c-2050-46f7-9765-722053656e73,2.2.3*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Paste,Bot*
 G04 #@! TF.FilePolarity,Positive*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 8.0.4) date 2024-09-08 07:48:53*
+G04 Created by KiCad (PCBNEW 8.0.6) date 2024-12-07 18:03:21*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10R,3.000000X3.000000*%
 G04 APERTURE END LIST*
-D10*
-X127750000Y-49750000D03*
-X135750000Y-49750000D03*
-X247500000Y-73250000D03*
-X247500000Y-65250000D03*
 M02*
