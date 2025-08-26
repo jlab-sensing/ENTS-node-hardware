@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "9e03b3b4-ba54-42aa-9a60-c787fb018aa8")
 	(paper "A4")
+	(title_block
+		(title "I2C Breakout Board")
+		(date "2025-08-26")
+		(rev "v1.0.0")
+		(company "jlab")
+		(comment 1 "John Madden")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names

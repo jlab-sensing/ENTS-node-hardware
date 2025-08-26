@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "I2C Breakout Board")
+		(date "2025-08-26")
+		(rev "v1.0.0")
+		(company "jlab")
+		(comment 1 "John Madden")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -130,7 +137,7 @@
 		(descr "JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST SH horizontal")
 		(property "Reference" "J2"
-			(at 7.25 1.075 0)
+			(at 7.25 0.275 0)
 			(layer "F.SilkS")
 			(uuid "cf235567-41ce-4e56-a256-d03bb0a2a8b8")
 			(effects
@@ -1839,7 +1846,7 @@
 		(descr "JST SH series connector, SM04B-SRSS-TB (http://www.jst-mfg.com/product/pdf/eng/eSH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST SH horizontal")
 		(property "Reference" "J4"
-			(at -7.45 -0.535 0)
+			(at -7.45 -1.525 0)
 			(layer "F.SilkS")
 			(uuid "36c2a070-bfa3-4dbb-bfc2-888985cfc90f")
 			(effects
@@ -2737,7 +2744,7 @@
 		)
 	)
 	(gr_text "Output"
-		(at 129.95 82.39 0)
+		(at 129.95 81.4 0)
 		(layer "F.SilkS")
 		(uuid "5262310f-9323-4599-9d1b-8881fac41ae1")
 		(effects
@@ -2773,7 +2780,7 @@
 		)
 	)
 	(gr_text "Output"
-		(at 130 54.4 0)
+		(at 130 55.2 0)
 		(layer "F.SilkS")
 		(uuid "b2cb4906-ecb0-4a79-ac14-8e6468ddcf94")
 		(effects
@@ -2782,6 +2789,18 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "${ISSUE_DATE}\n${TITLE}\n${REVISION}\n${COMPANY}\n${COMMENT1}"
+		(at 155.6 61.4 0)
+		(layer "B.SilkS")
+		(uuid "585a8485-3cbb-48bb-aa60-822a08f26977")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(segment
