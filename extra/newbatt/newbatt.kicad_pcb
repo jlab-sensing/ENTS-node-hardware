@@ -9,7 +9,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "ENTS Node Battery Module")
-		(date "2024-11-12")
+		(date "2025-08-26")
 		(rev "3")
 		(comment 1 "Jack Lin")
 	)
@@ -6836,7 +6836,7 @@
 			(net 1 "0")
 			(pinfunction "MountPin")
 			(pintype "passive")
-			(uuid "bb2a4540-b2ea-45b3-b0e3-2134d1d2c15c")
+			(uuid "8d086c95-2bc0-4e62-8453-6affa0a5959f")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal.wrl"

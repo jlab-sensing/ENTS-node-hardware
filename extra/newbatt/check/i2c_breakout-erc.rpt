@@ -1,0 +1,137 @@
+ERC report (2025-08-26T17:04:22-0700, Encoding UTF8)
+
+***** Sheet /
+[footprint_link_issues]: The current configuration does not include the footprint library 'DC050-T'.
+    ; warning
+    @(20.32 mm, 71.12 mm): Symbol J1 [Barrel_Jack_Switch]
+[footprint_link_issues]: The current configuration does not include the footprint library 'BQ24210'.
+    ; warning
+    @(71.12 mm, 68.58 mm): Symbol U1 [BQ24210DQCR]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'BQ24210'
+    ; warning
+    @(71.12 mm, 68.58 mm): Symbol U1 [BQ24210DQCR]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(113.03 mm, 73.66 mm): Symbol D1 [LED]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(121.92 mm, 76.20 mm): Symbol D2 [LED]
+[footprint_link_issues]: The current configuration does not include the footprint library '3561KTR'.
+    ; warning
+    @(132.08 mm, 86.36 mm): Symbol F1 [3561KTR]
+[lib_symbol_issues]: The current configuration does not include the symbol library '3561KTR'
+    ; warning
+    @(132.08 mm, 86.36 mm): Symbol F1 [3561KTR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone254TR'.
+    ; warning
+    @(132.08 mm, 101.60 mm): Symbol BT1 [Battery_Cell]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone254TR'.
+    ; warning
+    @(148.59 mm, 101.60 mm): Symbol BT2 [Battery_Cell]
+[footprint_link_issues]: The current configuration does not include the footprint library 'JS102011SCQN'.
+    ; warning
+    @(167.64 mm, 71.12 mm): Symbol S1 [JS102011SAQN]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'JS102011SAQN'
+    ; warning
+    @(167.64 mm, 71.12 mm): Symbol S1 [JS102011SAQN]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(85.09 mm, 77.47 mm): Symbol U3 [BQ25172DSGR]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'BQ25172'
+    ; warning
+    @(85.09 mm, 77.47 mm): Symbol U3 [BQ25172DSGR]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(85.09 mm, 97.79 mm): Horizontal Wire, length 3.81 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(96.52 mm, 123.19 mm): Symbol J12 [Conn_01x01_Socket]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(134.62 mm, 85.09 mm): Symbol D8 [LED]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(96.52 mm, 133.35 mm): Symbol J13 [Conn_01x01_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(96.52 mm, 135.89 mm): Symbol J14 [Conn_01x01_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(96.52 mm, 146.05 mm): Symbol J15 [Conn_01x01_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(96.52 mm, 148.59 mm): Symbol J16 [Conn_01x01_Socket]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(163.83 mm, 77.47 mm): Vertical Wire, length 2.54 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(96.52 mm, 158.75 mm): Symbol J17 [Conn_01x01_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(96.52 mm, 161.29 mm): Symbol J18 [Conn_01x01_Socket]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(161.29 mm, 100.33 mm): Horizontal Wire, length 2.54 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(96.52 mm, 171.45 mm): Symbol J19 [Conn_01x01_Socket]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(78.74 mm, 46.99 mm): Horizontal Wire, length 13.97 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(34.29 mm, 134.62 mm): Symbol J3 [Conn_01x01_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library 'BQ25756E'.
+    ; warning
+    @(119.38 mm, 87.63 mm): Symbol U2 [BQ25756ERRVR]
+[lib_symbol_issues]: The current configuration does not include the symbol library 'BQ25756E'
+    ; warning
+    @(119.38 mm, 87.63 mm): Symbol U2 [BQ25756ERRVR]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(34.29 mm, 144.78 mm): Symbol J4 [Conn_01x01_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(34.29 mm, 147.32 mm): Symbol J5 [Conn_01x01_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(34.29 mm, 157.48 mm): Symbol J6 [Conn_01x01_Socket]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(34.29 mm, 160.02 mm): Symbol J7 [Conn_01x01_Socket]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(97.79 mm, 138.43 mm): Symbol D3 [LED]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(97.79 mm, 140.97 mm): Symbol D4 [LED]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(34.29 mm, 170.18 mm): Symbol J8 [Conn_01x01_Socket]
+[lib_symbol_mismatch]: Symbol 'LED' doesn't match copy in library 'Device'
+    ; warning
+    @(99.06 mm, 143.51 mm): Symbol D5 [LED]
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(34.29 mm, 172.72 mm): Symbol J9 [Conn_01x01_Socket]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(167.64 mm, 68.58 mm): Horizontal Wire, length 5.08 mm
+[footprint_link_issues]: The current configuration does not include the footprint library 'Keystone82'.
+    ; warning
+    @(34.29 mm, 182.88 mm): Symbol J10 [Conn_01x01_Socket]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(82.55 mm, 69.85 mm): Horizontal Wire, length 13.97 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(139.70 mm, 74.93 mm): Horizontal Wire, length 11.43 mm
+
+***** Sheet /NiMH solar charger/
+
+***** Sheet /NiMH non-solar charger/
+
+***** Sheet /Li-Ion switching solar charger/
+
+ ** ERC messages: 42  Errors 0  Warnings 42
