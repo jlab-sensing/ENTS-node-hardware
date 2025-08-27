@@ -450,7 +450,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "STI12 Connector.kicad_pro",
+    "filename": "sdi12_breakout.kicad_pro",
     "version": 3
   },
   "net_settings": {
