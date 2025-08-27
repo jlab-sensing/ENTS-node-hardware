@@ -244,12 +244,13 @@
       "description": "",
       "id": "428c6eaa-472c-4a40-a9cd-a3d4399936d3",
       "settings": {
-        "bom_format_preset_name": "",
+        "bom_format_preset_name": "CSV",
         "bom_preset_name": "",
         "description": "",
         "exclude_dnp": false,
-        "field_delimiter": "",
+        "field_delimiter": ",",
         "fields_group_by": [
+          "Value",
           "LCSC"
         ],
         "fields_labels": [
@@ -260,7 +261,21 @@
           "Description",
           "Qty",
           "#",
-          "LCSC"
+          "LCSC",
+          "Digikey",
+          "MANUFACTURER",
+          "MAXIMUM_PACKAGE_HEIGHT",
+          "MFC",
+          "MPN",
+          "PARTREV",
+          "QTY",
+          "REF",
+          "SNAPEDA_PACKAGE_ID",
+          "SNAPEDA_PN",
+          "STANDARD",
+          "Sim.Device",
+          "Sim.Pins",
+          "Sim.Type"
         ],
         "fields_ordered": [
           "Reference",
@@ -270,18 +285,32 @@
           "__Description",
           "__${QUANTITY}",
           "__${ITEM_NUMBER}",
-          "LCSC"
+          "LCSC",
+          "__Digikey",
+          "__MANUFACTURER",
+          "__MAXIMUM_PACKAGE_HEIGHT",
+          "__MFC",
+          "__MPN",
+          "__PARTREV",
+          "__QTY",
+          "__REF",
+          "__SNAPEDA_PACKAGE_ID",
+          "__SNAPEDA_PN",
+          "__STANDARD",
+          "__Sim.Device",
+          "__Sim.Pins",
+          "__Sim.Type"
         ],
         "filter_string": "",
         "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "i2c_breakout.csv",
-        "ref_delimiter": "",
+        "output_filename": "bom.csv",
+        "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
         "sort_field": "Reference",
-        "string_delimiter": ""
+        "string_delimiter": "\""
       },
       "type": "sch_export_bom"
     },

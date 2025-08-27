@@ -248,8 +248,9 @@
         "bom_preset_name": "",
         "description": "",
         "exclude_dnp": false,
-        "field_delimiter": "",
+        "field_delimiter": ";",
         "fields_group_by": [
+          "Value",
           "LCSC"
         ],
         "fields_labels": [
@@ -268,7 +269,7 @@
           "Footprint",
           "__Datasheet",
           "__Description",
-          "__${QUANTITY}",
+          "${QUANTITY}",
           "__${ITEM_NUMBER}",
           "LCSC"
         ],
@@ -276,12 +277,12 @@
         "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "i2c_breakout.csv",
-        "ref_delimiter": "",
+        "output_filename": "bom.csv",
+        "ref_delimiter": ", ",
         "ref_range_delimiter": "",
         "sort_asc": true,
         "sort_field": "Reference",
-        "string_delimiter": ""
+        "string_delimiter": "'"
       },
       "type": "sch_export_bom"
     },
@@ -298,7 +299,7 @@
         "output_filename": "",
         "side": "both",
         "single_file": false,
-        "smd_only": true,
+        "smd_only": false,
         "units": "mm",
         "use_drill_place_file_origin": true
       },

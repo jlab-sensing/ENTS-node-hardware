@@ -250,6 +250,7 @@
         "exclude_dnp": false,
         "field_delimiter": ",",
         "fields_group_by": [
+          "Value",
           "LCSC"
         ],
         "fields_labels": [
@@ -276,7 +277,7 @@
         "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "i2c_breakout.csv",
+        "output_filename": "bom.csv",
         "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,

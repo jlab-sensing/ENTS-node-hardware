@@ -244,12 +244,13 @@
       "description": "",
       "id": "428c6eaa-472c-4a40-a9cd-a3d4399936d3",
       "settings": {
-        "bom_format_preset_name": "",
+        "bom_format_preset_name": "CSV",
         "bom_preset_name": "",
         "description": "",
         "exclude_dnp": false,
-        "field_delimiter": "",
+        "field_delimiter": ",",
         "fields_group_by": [
+          "Value",
           "LCSC"
         ],
         "fields_labels": [
@@ -276,12 +277,12 @@
         "include_excluded_from_bom": false,
         "keep_line_breaks": false,
         "keep_tabs": false,
-        "output_filename": "i2c_breakout.csv",
-        "ref_delimiter": "",
+        "output_filename": "bom.csv",
+        "ref_delimiter": ",",
         "ref_range_delimiter": "",
         "sort_asc": true,
         "sort_field": "Reference",
-        "string_delimiter": ""
+        "string_delimiter": "\""
       },
       "type": "sch_export_bom"
     },
