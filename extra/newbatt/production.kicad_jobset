@@ -1,0 +1,430 @@
+{
+  "jobs": [
+    {
+      "description": "",
+      "id": "72b1fc83-7b57-4620-aed0-170dd9886b78",
+      "settings": {
+        "description": "",
+        "fail_on_error": true,
+        "format": "report",
+        "output_filename": "i2c_breakout-erc.rpt",
+        "severity": 48,
+        "units": "mm"
+      },
+      "type": "sch_erc"
+    },
+    {
+      "description": "",
+      "id": "8c3ea263-bb7f-487c-867d-38020f73d1d0",
+      "settings": {
+        "description": "",
+        "fail_on_error": true,
+        "format": "report",
+        "output_filename": "",
+        "parity": true,
+        "report_all_track_errors": false,
+        "severity": 48,
+        "units": "mm"
+      },
+      "type": "pcb_drc"
+    },
+    {
+      "description": "",
+      "id": "9b7264dd-1de5-456b-8f92-07f8fc97c9f1",
+      "settings": {
+        "black_and_white": false,
+        "color_theme": "KiCad Classic",
+        "description": "",
+        "drawing_sheet": "",
+        "format": "pdf",
+        "hpgl_page_size": "default",
+        "hpgl_pen_size": 1.016,
+        "hpgl_plot_origin": "A3",
+        "min_pen_width": 847,
+        "output_dir": "",
+        "page_size": "auto",
+        "pdf_hierarchical_links": true,
+        "pdf_metadata": true,
+        "pdf_property_popups": true,
+        "plot_all": true,
+        "plot_drawing_sheet": true,
+        "use_background_color": true
+      },
+      "type": "sch_export_plot_pdf"
+    },
+    {
+      "description": "Top View",
+      "id": "41f0143f-9632-4099-b104-6587a02c9962",
+      "settings": {
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 1440,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "top.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "basic",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "top",
+        "width": 2560,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "Bottom View",
+      "id": "b31e7ccb-06a7-4848-8cda-c9f4c64b92aa",
+      "settings": {
+        "bg_style": "default",
+        "description": "",
+        "floor": false,
+        "format": "png",
+        "height": 1440,
+        "light_bottom_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_camera_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "light_side_elevation": 60,
+        "light_side_intensity": [
+          0.5,
+          0.5,
+          0.5
+        ],
+        "light_top_intensity": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "output_filename": "bottom.png",
+        "pan_x": 0.0,
+        "pan_y": 0.0,
+        "pan_z": 0.0,
+        "perspective": false,
+        "pivot_x": 0.0,
+        "pivot_y": 0.0,
+        "pivot_z": 0.0,
+        "quality": "basic",
+        "rotation_x": 0.0,
+        "rotation_y": 0.0,
+        "rotation_z": 0.0,
+        "side": "bottom",
+        "width": 2560,
+        "zoom": 1.0
+      },
+      "type": "pcb_render"
+    },
+    {
+      "description": "",
+      "id": "d5c297c4-a030-45c5-bd9b-eed2d80aae43",
+      "settings": {
+        "black_and_white": true,
+        "create_gerber_job_file": false,
+        "crossout_dnp_footprints_on_fab_layers": true,
+        "description": "",
+        "disable_aperture_macros": false,
+        "drawing_sheet": "",
+        "drill_shape": "full",
+        "hide_dnp_footprints_on_fab_layers": false,
+        "include_netlist_attributes": false,
+        "layers": [
+          "B.Cu",
+          "B.Mask",
+          "B.Paste",
+          "B.SilkS",
+          "In30.Cu",
+          "In29.Cu",
+          "In28.Cu",
+          "In27.Cu",
+          "In26.Cu",
+          "In25.Cu",
+          "In24.Cu",
+          "In23.Cu",
+          "In22.Cu",
+          "In21.Cu",
+          "In20.Cu",
+          "In19.Cu",
+          "In18.Cu",
+          "In17.Cu",
+          "In16.Cu",
+          "In15.Cu",
+          "In14.Cu",
+          "In13.Cu",
+          "In12.Cu",
+          "In11.Cu",
+          "In10.Cu",
+          "In9.Cu",
+          "In8.Cu",
+          "In7.Cu",
+          "In6.Cu",
+          "In5.Cu",
+          "In4.Cu",
+          "In3.Cu",
+          "In2.Cu",
+          "In1.Cu",
+          "F.Cu",
+          "F.Mask",
+          "F.Paste",
+          "F.SilkS",
+          "Edge.Cuts"
+        ],
+        "layers_to_include_on_all_layers": [],
+        "mirror": false,
+        "negative": false,
+        "output_filename": "plots",
+        "plot_drawing_sheet": false,
+        "plot_footprint_values": true,
+        "plot_pad_numbers": false,
+        "plot_ref_des": true,
+        "precision": 5,
+        "sketch_dnp_footprints_on_fab_layers": true,
+        "sketch_pads_on_fab_layers": false,
+        "subtract_solder_mask_from_silk": true,
+        "use_drill_origin": false,
+        "use_protel_file_extension": true,
+        "use_x2_format": false
+      },
+      "type": "pcb_export_gerbers"
+    },
+    {
+      "description": "",
+      "id": "482c54a0-4454-4d71-a29c-bc6032fb9f90",
+      "settings": {
+        "description": "",
+        "drill_origin": "abs",
+        "excellon.combine_pth_npth": false,
+        "excellon.minimal_header": false,
+        "excellon.mirror_y": false,
+        "excellon.oval_drill_route": false,
+        "format": "excellon",
+        "generate_map": true,
+        "gerber_precision": 5,
+        "map_format": "gerberx2",
+        "output_dir": "plots",
+        "units": "mm",
+        "zero_format": "decimal"
+      },
+      "type": "pcb_export_drill"
+    },
+    {
+      "description": "",
+      "id": "428c6eaa-472c-4a40-a9cd-a3d4399936d3",
+      "settings": {
+        "bom_format_preset_name": "",
+        "bom_preset_name": "",
+        "description": "",
+        "exclude_dnp": false,
+        "field_delimiter": "",
+        "fields_group_by": [
+          "LCSC"
+        ],
+        "fields_labels": [
+          "Reference",
+          "Value",
+          "Footprint",
+          "Datasheet",
+          "Description",
+          "Qty",
+          "#",
+          "LCSC"
+        ],
+        "fields_ordered": [
+          "Reference",
+          "Value",
+          "Footprint",
+          "__Datasheet",
+          "__Description",
+          "__${QUANTITY}",
+          "__${ITEM_NUMBER}",
+          "LCSC"
+        ],
+        "filter_string": "",
+        "include_excluded_from_bom": false,
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "output_filename": "i2c_breakout.csv",
+        "ref_delimiter": "",
+        "ref_range_delimiter": "",
+        "sort_asc": true,
+        "sort_field": "Reference",
+        "string_delimiter": ""
+      },
+      "type": "sch_export_bom"
+    },
+    {
+      "description": "",
+      "id": "23f5606b-148f-452f-b785-19e3ee1932d5",
+      "settings": {
+        "description": "",
+        "exclude_dnp": false,
+        "exclude_footprints_with_th": false,
+        "format": "csv",
+        "gerber_board_edge": true,
+        "negate_bottom_x": false,
+        "output_filename": "",
+        "side": "both",
+        "single_file": false,
+        "smd_only": true,
+        "units": "mm",
+        "use_drill_place_file_origin": true
+      },
+      "type": "pcb_export_pos"
+    },
+    {
+      "description": "Rename Ref to Designator",
+      "id": "70d75dfd-8b64-4c28-a745-5a4cf3351db2",
+      "settings": {
+        "command": "find \"${JOBSET_OUTPUT_WORK_PATH}\" -type f -name '*-pos.csv' -exec sed -i 's/Ref/Designator/g' {} +",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "70d75dfd-8b64-4c28-a745-5a4cf3351db2.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "Rename PosX to Mid X",
+      "id": "f7a5da46-33f0-4c93-afa1-a18c4b55e584",
+      "settings": {
+        "command": "find \"${JOBSET_OUTPUT_WORK_PATH}\" -type f -name '*-pos.csv' -exec sed -i 's/PosX/Mid X/g' {} +",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "f7a5da46-33f0-4c93-afa1-a18c4b55e584.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "Rename PosY to Mid Y",
+      "id": "b49c6642-dd73-4dda-96e6-ecacab9c93cc",
+      "settings": {
+        "command": "find \"${JOBSET_OUTPUT_WORK_PATH}\" -type f -name '*-pos.csv' -exec sed -i 's/PosY/Mid Y/g' {} +",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "b49c6642-dd73-4dda-96e6-ecacab9c93cc.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "Rename Rot to Rotation",
+      "id": "d72ebc87-49ae-4d8b-88f6-45674e6fad9b",
+      "settings": {
+        "command": "find \"${JOBSET_OUTPUT_WORK_PATH}\" -type f -name '*-pos.csv' -exec sed -i 's/Rot/Rotation/g' {} +",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "d72ebc87-49ae-4d8b-88f6-45674e6fad9b.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    },
+    {
+      "description": "Rename Side to Layer",
+      "id": "1833d455-b1aa-4957-932b-426d70e6f89e",
+      "settings": {
+        "command": "find \"${JOBSET_OUTPUT_WORK_PATH}\" -type f -name '*-pos.csv' -exec sed -i 's/Side/Layer/g' {} +",
+        "description": "",
+        "ignore_exit_code": false,
+        "output_filename": "1833d455-b1aa-4957-932b-426d70e6f89e.log",
+        "record_output": true
+      },
+      "type": "special_execute"
+    }
+  ],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "DRC/ERC",
+      "id": "46959535-93bd-40d4-8527-3651881545f9",
+      "only": [
+        "72b1fc83-7b57-4620-aed0-170dd9886b78",
+        "8c3ea263-bb7f-487c-867d-38020f73d1d0"
+      ],
+      "settings": {
+        "output_path": "check"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "Gerbers Archive",
+      "id": "8d6ef230-f945-4037-9c81-013abc92ee64",
+      "only": [
+        "d5c297c4-a030-45c5-bd9b-eed2d80aae43",
+        "482c54a0-4454-4d71-a29c-bc6032fb9f90"
+      ],
+      "settings": {
+        "format": "zip",
+        "output_path": "newbatt-gerbers.zip"
+      },
+      "type": "archive"
+    },
+    {
+      "description": "Renders",
+      "id": "e0417062-82e1-4454-b9c4-33efa1fcd8ca",
+      "only": [
+        "9b7264dd-1de5-456b-8f92-07f8fc97c9f1",
+        "41f0143f-9632-4099-b104-6587a02c9962",
+        "b31e7ccb-06a7-4848-8cda-c9f4c64b92aa"
+      ],
+      "settings": {
+        "output_path": "renders"
+      },
+      "type": "folder"
+    },
+    {
+      "description": "Gerbers",
+      "id": "55ef8b26-23c1-4592-aa9b-2079bc1aacc4",
+      "only": [
+        "d5c297c4-a030-45c5-bd9b-eed2d80aae43",
+        "482c54a0-4454-4d71-a29c-bc6032fb9f90",
+        "428c6eaa-472c-4a40-a9cd-a3d4399936d3",
+        "23f5606b-148f-452f-b785-19e3ee1932d5",
+        "70d75dfd-8b64-4c28-a745-5a4cf3351db2",
+        "f7a5da46-33f0-4c93-afa1-a18c4b55e584",
+        "b49c6642-dd73-4dda-96e6-ecacab9c93cc",
+        "d72ebc87-49ae-4d8b-88f6-45674e6fad9b",
+        "1833d455-b1aa-4957-932b-426d70e6f89e"
+      ],
+      "settings": {
+        "output_path": "gerbers"
+      },
+      "type": "folder"
+    }
+  ]
+}
