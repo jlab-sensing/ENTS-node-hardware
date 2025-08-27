@@ -7,11 +7,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [Unreleased]
 
 - Added i2c breakout board ([#66](i66), [#67](i67), [#68](i68))
+- Added SDI-12 breakout board ([#70](i70))
 - Updated battery board to 5-pin JST ([#71](i71), [#74](i74))
 
 [i66]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/66
 [i67]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/67
 [i68]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/68
+[i70]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/70
 [i71]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/71
 [i74]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/74
 

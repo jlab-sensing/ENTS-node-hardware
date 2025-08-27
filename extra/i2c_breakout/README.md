@@ -1,6 +1,6 @@
-# I2C Breakout Board
+# SDI12 Breakout Board
 
-The breakout board is intended to add additional headers for external I2C devices. The header labeled input expects 5V input from the I2C header and steps the voltage down to `3V3` for compatibility with Adafruit devices. If this is not desired, the power jumper can be changed.
+This board add additional SDI-12 headers for connecting sensors. It also adds 3.5mm audio jacks that are commonly seen on SDI-12 sensors from METER.
 
 | Top View | Bottom View |
 | --- | --- |
