@@ -139,10 +139,23 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4345a72-5d86-462d-bbca-86801a14ec3c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/082d0480-eb2c-4fac-9a68-fa2720724d84")
 		(sheetname "/")
-		(sheetfile "STI12 Connector.kicad_sch")
+		(sheetfile "sdi12_breakout.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.62 -4.12)
@@ -539,10 +552,23 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0664ae56-a899-4fb5-b89a-15949576fdb3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/5eee8fc5-4f90-4a3e-9383-0403582bdec8")
 		(sheetname "/")
-		(sheetfile "STI12 Connector.kicad_sch")
+		(sheetfile "sdi12_breakout.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 12.62 5.12)
@@ -941,10 +967,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C4991872"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51617e00-afb8-45c6-901f-1fd9e4aed796")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jack*")
 		(path "/fce0a2b0-5a65-4dad-99c1-da0c7e217195")
 		(sheetname "/")
-		(sheetfile "STI12 Connector.kicad_sch")
+		(sheetfile "sdi12_breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.1 8.6)
@@ -1301,10 +1340,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C4991872"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0225880c-a6b0-4aaa-9613-fdba43add4cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jack*")
 		(path "/54836fb1-1a87-4565-91d8-fe0c6ecbe68d")
 		(sheetname "/")
-		(sheetfile "STI12 Connector.kicad_sch")
+		(sheetfile "sdi12_breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.6 -8.6)
@@ -1670,10 +1722,23 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b90a594e-bda0-4bef-9f27-d452a3663a94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/93a9d24a-7ed4-4e2f-ba1c-74d0d2020b51")
 		(sheetname "/")
-		(sheetfile "STI12 Connector.kicad_sch")
+		(sheetfile "sdi12_breakout.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.62 -4.12)
@@ -2072,10 +2137,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C4991872"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b5df297-27d1-48c3-93e2-c23473d23701")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jack*")
 		(path "/2bc905ad-642d-49e6-9b68-fbd73497347d")
 		(sheetname "/")
-		(sheetfile "STI12 Connector.kicad_sch")
+		(sheetfile "sdi12_breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.1 8.6)
@@ -2443,10 +2521,23 @@
 				)
 			)
 		)
+		(property "LCSC" "C4991872"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af6ac755-c04d-465f-a836-d4f29840079a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jack*")
 		(path "/55312065-7db1-4ede-8a85-0b57ee30f944")
 		(sheetname "/")
-		(sheetfile "STI12 Connector.kicad_sch")
+		(sheetfile "sdi12_breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.1 -6.1)
@@ -2812,10 +2903,23 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f38cfb56-a47c-401b-be1d-1a9a999a88e6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e61c6fc1-400b-4740-8841-a23749e652a3")
 		(sheetname "/")
-		(sheetfile "STI12 Connector.kicad_sch")
+		(sheetfile "sdi12_breakout.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.62 5.12)

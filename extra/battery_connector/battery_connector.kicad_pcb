@@ -181,6 +181,19 @@
 				)
 			)
 		)
+		(property "LCSC Part #" "C136657"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12c0e498-5c8d-43dc-b07c-4a8fc75488e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fc4b54da-da8c-4d52-a09a-d01103549764")
 		(sheetname "/")
