@@ -1,0 +1,49 @@
+** Drc report for newbatt.kicad_pcb **
+** Created on 2025-08-26T17:04:23-0700 **
+
+** Found 13 DRC violations **
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(111.7500 mm, 37.0000 mm): Footprint JP8
+[lib_footprint_issues]: The current configuration does not include the footprint library '3561KTR'.
+    Local override; warning
+    @(111.7500 mm, 45.8500 mm): Footprint F1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'JS102011SCQN'.
+    Local override; warning
+    @(108.2000 mm, 19.6162 mm): Footprint S1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Keystone254TR'.
+    Local override; warning
+    @(83.6850 mm, 26.0000 mm): Footprint BT2
+[lib_footprint_issues]: The current configuration does not include the footprint library 'Keystone254TR'.
+    Local override; warning
+    @(83.6850 mm, 49.0000 mm): Footprint BT1
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; warning
+    @(125.0000 mm, 46.9500 mm): Footprint U5
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(131.2500 mm, 37.3500 mm): Footprint JP1
+[lib_footprint_mismatch]: Footprint 'JST_SH_SM05B-SRSS-TB_1x05-1MP_P1.00mm_Horizontal' does not match copy in library 'Connector_JST'.
+    Local override; warning
+    @(150.7000 mm, 37.5000 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(117.1500 mm, 21.5000 mm): Footprint JP3
+[lib_footprint_issues]: The current configuration does not include the footprint library 'DC050-T'.
+    Local override; warning
+    @(132.5000 mm, 30.5000 mm): Footprint J1
+[lib_footprint_issues]: The current configuration does not include the footprint library 'BQ24210'.
+    Local override; warning
+    @(125.7500 mm, 36.2126 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm' does not match copy in library 'Jumper'.
+    Local override; warning
+    @(123.1500 mm, 21.5000 mm): Footprint JP2
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x02_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    Local override; warning
+    @(105.1000 mm, 39.0750 mm): Footprint TH1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
