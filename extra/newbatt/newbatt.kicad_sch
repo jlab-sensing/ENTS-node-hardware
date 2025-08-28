@@ -5943,138 +5943,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 148.59 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "66d7d82e-8dcf-491e-8f2c-3acf442cc40b")
-		(property "Reference" "BT2"
-			(at 148.59 105.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.7 V 2.2 Ah Li-ion 18650"
-			(at 148.59 108.204 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Keystone254TR:BAT_254TR_67mm"
-			(at 148.59 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14420"
-			(at 148.59 100.076 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFC" "Keystone"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "254TR"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "QTY" "4"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REF" "BT1, BT2"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" "36-254TR-ND"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5498533"
-			(at 148.59 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff5db316-8a63-4ae8-90ef-840e796429c1")
-		)
-		(pin "2"
-			(uuid "010ead65-dbc0-4712-a681-f97f05aaef85")
-		)
-		(instances
-			(project "newbatt"
-				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e"
-					(reference "BT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Simulation_SPICE:0")
 		(at 222.25 66.04 0)
 		(unit 1)
@@ -7046,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Value" "JS102011SCQN"
+		(property "Value" "PCM12SMTR"
 			(at 167.64 66.04 0)
 			(effects
 				(font
@@ -7054,7 +6922,7 @@
 				)
 			)
 		)
-		(property "Footprint" "JS102011SCQN:SWITCH_1SCQN"
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_PCM12"
 			(at 167.64 71.12 0)
 			(effects
 				(font
@@ -7064,7 +6932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
+		(property "Datasheet" "https://www.ckswitches.com/media/1424/pcm.pdf"
 			(at 167.64 71.12 0)
 			(effects
 				(font
@@ -7101,7 +6969,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "JS102011SAQN"
+		(property "MPN" "PCM12SMTR"
 			(at 167.64 71.12 0)
 			(effects
 				(font
@@ -7137,7 +7005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "401-1999-2-ND"
+		(property "Digikey" "401-2016-2-ND"
 			(at 167.64 71.12 0)
 			(effects
 				(font
@@ -7146,7 +7014,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C221660"
+		(property "LCSC" "C221841"
 			(at 167.64 71.12 0)
 			(effects
 				(font
@@ -7615,6 +7483,138 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 148.59 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7de4783-0c20-4793-be92-5eb0d5405b04")
+		(property "Reference" "BT2"
+			(at 151.638 99.568 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.7 V 2.2 Ah Li-ion 18650"
+			(at 151.638 102.108 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:MY-18650-02"
+			(at 148.59 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589834392282828800"
+			(at 148.59 100.076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "MYOUNG"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MY-18650-02"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "QTY" "4"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "REF" "BT1, BT2"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2979182"
+			(at 148.59 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf790c29-0794-40a4-8488-339107967a8f")
+		)
+		(pin "2"
+			(uuid "76a46614-1c24-4637-a8f8-2e1847b7a63f")
+		)
+		(instances
+			(project "newbatt"
+				(path "/492e8d1d-dcc5-45c6-a3d2-2dfd8a06477e"
+					(reference "BT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x05_MountingPin")
 		(at 234.95 71.12 0)
 		(unit 1)
@@ -7785,7 +7785,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Keystone254TR:BAT_254TR_67mm"
+		(property "Footprint" "footprints:MY-18650-02"
 			(at 132.08 100.076 90)
 			(effects
 				(font
@@ -7794,7 +7794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.keyelco.com/product-pdf.cfm?p=14420"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589834392282828800"
 			(at 132.08 100.076 90)
 			(effects
 				(font
@@ -7812,7 +7812,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFC" "Keystone"
+		(property "MFC" "MYOUNG"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -7821,7 +7821,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "254TR"
+		(property "MPN" "MY-18650-02"
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -7857,7 +7857,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey" "36-254TR-ND"
+		(property "Digikey" ""
 			(at 132.08 101.6 0)
 			(effects
 				(font
@@ -7866,7 +7866,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5498533"
+		(property "LCSC" "C2979182"
 			(at 132.08 101.6 0)
 			(effects
 				(font
