@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "07b96713-4dcc-47be-89cb-186dda536ea4")
 	(paper "A4")
+	(title_block
+		(title "Analog Multiplexer")
+		(date "2025-09-30")
+		(rev "v1")
+		(company "jLab")
+	)
 	(lib_symbols
 		(symbol "Analog_Switch:ADG729"
 			(pin_names
