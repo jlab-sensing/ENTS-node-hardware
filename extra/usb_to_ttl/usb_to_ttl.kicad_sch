@@ -3702,6 +3702,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 245.11 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3050296f-a02e-427b-b3c6-9a152593b65f")
 		)
@@ -3902,6 +3911,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 33.02 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "e12986e5-231c-4186-8541-478055c6872b")
 		)
@@ -3988,6 +4006,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole without connection"
+			(at 63.5 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 63.5 149.86 0)
 			(effects
 				(font
@@ -4126,6 +4153,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 113.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "302bf02f-2047-4457-8237-4594412222d4")
 		)
@@ -4188,6 +4224,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 184.15 105.41 0)
 			(effects
 				(font
@@ -4332,6 +4377,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 43.18 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/f26368c5-5110-4391-b325-6c8a93530286"
@@ -4387,6 +4441,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 245.11 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 245.11 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4530,6 +4593,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 177.8 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0906566a-0e7f-42c6-9020-9c318f1ca4c1")
 		)
@@ -4590,6 +4662,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2988369"
 			(at 29.21 38.1 0)
 			(effects
 				(font
@@ -4767,6 +4848,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 195.58 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "615c96ee-753b-4dd7-89bb-877ae6cfd48e")
 		)
@@ -4829,6 +4919,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 177.8 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 177.8 105.41 0)
 			(effects
 				(font
@@ -5039,6 +5138,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 43.18 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "usb_to_ttl"
 				(path "/f26368c5-5110-4391-b325-6c8a93530286"
@@ -5095,6 +5203,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 76.2 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 76.2 104.14 0)
 			(effects
 				(font
@@ -5231,6 +5348,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 245.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 245.11 44.45 0)
 			(effects
 				(font
@@ -5637,6 +5763,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 245.11 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "791ca161-e135-4162-a2c1-66d4fb17ab6f")
 		)
@@ -5831,6 +5966,15 @@
 			)
 		)
 		(property "Description" "USB to UART master bridge, QFN-28"
+			(at 217.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C964632"
 			(at 217.17 110.49 0)
 			(effects
 				(font
@@ -6056,6 +6200,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 63.5 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "usb_to_ttl"
 				(path "/f26368c5-5110-4391-b325-6c8a93530286"
@@ -6110,6 +6263,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only Type-C Plug connector"
+			(at 81.28 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C2988369"
 			(at 81.28 39.37 0)
 			(effects
 				(font
@@ -6211,6 +6373,15 @@
 			)
 		)
 		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, TO-220/TO-252/TO-263/SOT-223"
+			(at 95.25 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
 			(at 95.25 100.33 0)
 			(effects
 				(font
