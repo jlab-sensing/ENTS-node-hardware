@@ -12,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - I2C multiplexer board ([#67](i67),[#68](i68))
 - SDI12 multiplexer board ([#70](i70))
 - USB-to-TTL debug probe ([#73](i73])
+- Analog multiplexer ([#72](i72))
 
 ## Updated
 
@@ -21,6 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 [i68]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/68
 [i70]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/70
 [i71]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/71
+[i72]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/72
 [i73]: https://github.com/jlab-sensing/ENTS-node-hardware/issues/73
 
 
