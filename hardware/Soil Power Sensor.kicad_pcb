@@ -5201,7 +5201,7 @@
 	(footprint "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "89bbcad5-d15e-4b10-8b2d-68cd0044f289")
-		(at 179.25 32.1 -90)
+		(at 171.65 35.5 -90)
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J1"
@@ -12082,6 +12082,26 @@
 		(border no)
 		(stroke
 			(width 0)
+			(type solid)
+		)
+	)
+	(gr_text_box "100 x 50 mm\nholes 5mm offset from corners\nholes 5mm offset from center sides"
+		(start 160 109.8)
+		(end 210.4 124.6)
+		(margins 1.0025 1.0025 1.0025 1.0025)
+		(layer "Cmts.User")
+		(uuid "9396ac67-6a83-4c9e-8805-57b80957c385")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.2)
 			(type solid)
 		)
 	)
