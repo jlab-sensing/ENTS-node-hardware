@@ -2,6 +2,7 @@
 
 Extra resources supporting development.
 
+- `analog`: PCB for analog interface.
 - `analog_multiplexer/`: PCB for multiplexing analog input channels
 - `battery_connector/`: PCB for converting 2.54mm header to 5-pin JST connector
 - `i2c_breakout/`: PCB to expose additional I2C connectors and regulate to a 3.3V source
