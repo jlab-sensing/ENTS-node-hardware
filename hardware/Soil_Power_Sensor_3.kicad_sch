@@ -20557,13 +20557,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "da90a1f0-0a4f-4919-9188-661f53698fb5")
+			(uuid "da90a1f0-0a4f-4919-9188-661f53698fb6")
 		)
 		(pin "2"
-			(uuid "7f3e8fbd-db14-4db3-88f1-a8135771f040")
+			(uuid "7f3e8fbd-db14-4db3-88f1-a8135771f041")
 		)
 		(pin "3"
-			(uuid "6d3998bf-575b-4f8a-be00-819fd5fb7aa5")
+			(uuid "6d3998bf-575b-4f8a-be00-819fd5fb7aa6")
 		)
 		(instances
 			(project ""
