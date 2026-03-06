@@ -271,26 +271,6 @@
 				(justify left top)
 			)
 		)
-		(pin "I+" passive
-			(at 77.47 78.74 0)
-			(uuid "ba847f87-5e04-413a-a734-31b7543ea73b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "I-" passive
-			(at 77.47 81.28 0)
-			(uuid "8fcc6d7d-7567-42c5-bbc9-19bba0bfd4c3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SCL" passive
 			(at 77.47 90.17 0)
 			(uuid "d0b04e51-af80-4779-9de3-be1e7ea4ad16")
@@ -311,9 +291,9 @@
 				(justify right)
 			)
 		)
-		(pin "V+" passive
-			(at 77.47 66.04 0)
-			(uuid "8b34282f-2f2d-411b-b056-41a38ba2be80")
+		(pin "IN_I+" passive
+			(at 77.47 78.74 0)
+			(uuid "1c2dfd59-3055-4220-84fa-c54f84f2a39e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -321,9 +301,29 @@
 				(justify right)
 			)
 		)
-		(pin "V-" passive
+		(pin "IN_I-" passive
+			(at 77.47 81.28 0)
+			(uuid "28dab182-7de6-4608-941b-1789b601d342")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_V+" passive
+			(at 77.47 66.04 0)
+			(uuid "bd56744f-2f0d-4d76-932d-6516aca8a2f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "IN_V-" passive
 			(at 77.47 68.58 0)
-			(uuid "6608efe4-77c5-4296-9240-f4df0245e617")
+			(uuid "ad402439-f865-4cce-ab52-e928ff3cea0d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -364,7 +364,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "current.kicad_sch"
 			(at 83.82 84.4046 0)
 			(effects
 				(font

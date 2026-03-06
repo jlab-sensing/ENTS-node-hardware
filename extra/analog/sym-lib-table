@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "SPS")(type "KiCad")(uri "/home/jtmadden/repos/jlab/soil_power_sensor/hardware/Soil Power Sensor-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "Soil Power Sensor-eagle-import")(type "KiCad")(uri "/home/jtmadden/repos/jlab/soil_power_sensor/hardware/Soil Power Sensor-eagle-import.kicad_sym")(options "")(descr ""))
 )

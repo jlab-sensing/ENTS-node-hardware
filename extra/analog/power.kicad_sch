@@ -1551,6 +1551,16 @@
 		)
 		(uuid "800bcb9b-855b-4b0b-868d-19063e41ee93")
 	)
+	(text "X7R for caps"
+		(exclude_from_sim no)
+		(at 75.438 99.568 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b17dc246-fc07-4931-b173-dc38d8ba6534")
+	)
 	(text "5V [4.85...5.15V]"
 		(exclude_from_sim no)
 		(at 252.984 22.098 0)
@@ -2583,7 +2593,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.188 33.02 90)
 			(effects
 				(font
@@ -2602,6 +2612,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 232.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C273745"
 			(at 232.41 33.02 0)
 			(effects
 				(font
@@ -2710,7 +2738,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "49.9k"
 			(at 234.95 69.8499 0)
 			(effects
 				(font
@@ -2719,7 +2747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 230.632 68.58 90)
 			(effects
 				(font
@@ -2738,6 +2766,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114624"
 			(at 232.41 68.58 0)
 			(effects
 				(font
@@ -2769,7 +2815,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2333a02c-3b9f-4c66-9132-b5cae01594f9")
 		(property "Reference" "C5"
 			(at 247.65 36.8299 0)
@@ -2789,7 +2834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 244.8052 41.91 0)
 			(effects
 				(font
@@ -2808,6 +2853,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 243.84 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R or X5R"
+			(at 248.158 42.164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C914769"
 			(at 243.84 38.1 0)
 			(effects
 				(font
@@ -3159,6 +3222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 237.49 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9324b6b6-afc4-41d0-86bb-0f0f77dc7479")
 		)
@@ -3301,6 +3373,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 90.17 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de11000d-fb1e-405a-8ec4-b6bd333b5ccd")
 		)
@@ -3341,7 +3422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 230.632 58.42 90)
 			(effects
 				(font
@@ -3360,6 +3441,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 232.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C137794"
 			(at 232.41 58.42 0)
 			(effects
 				(font
@@ -3401,7 +3500,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50k"
+		(property "Value" "49.9k"
 			(at 234.95 44.4499 0)
 			(effects
 				(font
@@ -3410,7 +3509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 234.188 43.18 90)
 			(effects
 				(font
@@ -3429,6 +3528,24 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 232.41 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114624"
 			(at 232.41 43.18 0)
 			(effects
 				(font
@@ -3516,6 +3633,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 237.49 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70292076-ce70-48d8-9688-2b3b06a64f68")
 		)
@@ -3592,6 +3718,15 @@
 				(hide yes)
 			)
 		)
+		(property "Notes" ""
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a526ccb-5f81-48a9-9b6f-d5734bb93c54")
 		)
@@ -3632,7 +3767,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 215.5952 73.66 0)
 			(effects
 				(font
@@ -3651,6 +3786,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C277499"
 			(at 214.63 69.85 0)
 			(effects
 				(font
@@ -3756,7 +3909,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
+			(at 83.82 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 83.82 60.96 0)
 			(effects
 				(font
@@ -3862,7 +4024,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C440747"
+			(at 57.15 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 57.15 52.07 0)
 			(effects
 				(font
@@ -3956,6 +4127,93 @@
 			(project "analog"
 				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/26a10a46-1f46-4d14-8f7f-7a409263d408"
 					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a96bbe53-6636-410c-9882-4b70fccbebae")
+		(property "Reference" "C1"
+			(at 247.65 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 247.65 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 244.8052 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R or X5R"
+			(at 248.158 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C914769"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "052fd328-a3b9-4ade-b8ae-55dd23409f94")
+		)
+		(pin "1"
+			(uuid "2734c608-3a33-46cd-80b4-4fd044a0c63c")
+		)
+		(instances
+			(project "analog"
+				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/26a10a46-1f46-4d14-8f7f-7a409263d408"
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4096,15 +4354,15 @@
 	(symbol
 		(lib_id "Device:C")
 		(at 158.75 48.26 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ceaf5b49-6ba2-4a11-9ec4-b35a763219c3")
 		(property "Reference" "C2"
-			(at 162.56 46.9899 0)
+			(at 154.94 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4371,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 162.56 49.5299 0)
+			(at 154.94 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,8 +4379,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 159.7152 52.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 157.7848 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,6 +4398,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 158.75 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "X7R or X5R"
+			(at 154.686 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C277499"
 			(at 158.75 48.26 0)
 			(effects
 				(font
@@ -4190,7 +4466,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 181.61 60.96 0)
 			(effects
 				(font
@@ -4209,6 +4485,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 181.61 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C326058"
 			(at 181.61 60.96 0)
 			(effects
 				(font
@@ -4314,7 +4608,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
+			(at 41.91 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 41.91 50.8 0)
 			(effects
 				(font
@@ -4406,76 +4709,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 243.84 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbb76ae3-47cc-4d44-96a0-46b3258ec79f")
-		(property "Reference" "C11"
-			(at 247.65 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2uF"
-			(at 247.65 64.7699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 244.8052 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 243.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 243.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "154b5fa0-97a3-4215-956f-924288568e82")
-		)
-		(pin "1"
-			(uuid "d60cdc83-d7b6-48f5-b14b-5a907ecacb06")
-		)
-		(instances
-			(project ""
-				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/26a10a46-1f46-4d14-8f7f-7a409263d408"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 71.12 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4556,7 +4789,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C14663"
+			(at 71.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
 			(at 71.12 60.96 0)
 			(effects
 				(font
@@ -4692,6 +4934,24 @@
 			)
 		)
 		(property "Description" "Low-noise inverting charge pump with both positive and negative LDO's, with 2.7V-5.5V input to +1.5 to +5V and -1.5 to -5V Output Voltage, WSON-12"
+			(at 196.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 196.85 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C473398"
 			(at 196.85 48.26 0)
 			(effects
 				(font
