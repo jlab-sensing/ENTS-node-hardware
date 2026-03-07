@@ -2087,7 +2087,7 @@
 		)
 	)
 	(rectangle
-		(start 250.19 63.5)
+		(start 247.65 71.12)
 		(end 284.48 109.22)
 		(stroke
 			(width 0)
@@ -2156,7 +2156,7 @@
 	)
 	(text "RC Filter for added delay\n(values from ESP32 DS)"
 		(exclude_from_sim no)
-		(at 250.698 68.072 0)
+		(at 248.92 75.692 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4793,7 +4793,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
+		(property "Value" "Conn_01x03"
 			(at 156.845 67.31 0)
 			(effects
 				(font
@@ -4801,7 +4801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 157.48 72.39 0)
 			(effects
 				(font

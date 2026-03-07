@@ -2441,6 +2441,206 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 3-pole, both open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_3_Open_0_0"
+				(circle
+					(center -3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.302 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_0_1"
+				(arc
+					(start -3.048 1.016)
+					(mid -1.651 1.4992)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.508) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.651 1.4992)
+					(end 3.048 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_3_Open_1_1"
+				(pin passive line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
 			(pin_numbers
 				(hide yes)
@@ -4264,12 +4464,6 @@
 		(uuid "db31835d-2b4f-4637-b1e8-bcb2b8881b41")
 	)
 	(junction
-		(at 180.34 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "011e7035-4671-4d3b-8c89-693b399045f8")
-	)
-	(junction
 		(at 184.15 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4322,6 +4516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f881b1d-8bc0-438f-a553-339f4bac4a14")
+	)
+	(junction
+		(at 180.34 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "611ba7cc-3be3-432c-80e4-a4aa56c70c64")
 	)
 	(junction
 		(at 81.28 140.97)
@@ -4599,7 +4799,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 96.52) (xy 184.15 96.52)
+			(xy 176.53 96.52) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4616,6 +4816,16 @@
 			(type default)
 		)
 		(uuid "2859fb51-934c-4e96-8ff7-9fbe0cc3e7a9")
+	)
+	(wire
+		(pts
+			(xy 180.34 87.63) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "296d547d-aa26-4325-80f9-83fc42dcbf90")
 	)
 	(wire
 		(pts
@@ -4809,6 +5019,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 96.52) (xy 184.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "810fc2fe-6543-48b9-8bee-51c7cf7dee58")
+	)
+	(wire
+		(pts
 			(xy 243.84 96.52) (xy 251.46 96.52)
 		)
 		(stroke
@@ -4956,16 +5176,6 @@
 			(type default)
 		)
 		(uuid "ac8f19c9-c0d3-4cbb-86ce-d3afbe1a9780")
-	)
-	(wire
-		(pts
-			(xy 176.53 96.52) (xy 180.34 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0679602-7fdb-4936-a080-e2e46f401bfe")
 	)
 	(wire
 		(pts
@@ -5156,6 +5366,16 @@
 			(type default)
 		)
 		(uuid "d88c331f-3f9e-4777-8bdb-83f78f141922")
+	)
+	(wire
+		(pts
+			(xy 195.58 87.63) (xy 193.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9cba8c-ee95-49f7-aad5-6ef834e1194d")
 	)
 	(wire
 		(pts
@@ -5663,6 +5883,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 195.58 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f8dca01-8134-4fb3-82ad-dbe5aa0c134f")
+		(property "Reference" "#PWR055"
+			(at 195.58 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 195.58 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 195.58 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5c1774b-80e2-4fc6-9f63-a27991069a7a")
+		)
+		(instances
+			(project "Soil Power Sensor"
+				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 236.22 105.41 0)
 		(unit 1)
@@ -5891,13 +6176,13 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 154.94 93.98 270)
+		(at 154.94 93.98 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "16d4056b-597d-42a2-ad2a-34a94d014a22")
 		(property "Reference" "Q10"
 			(at 154.94 100.33 90)
@@ -5916,7 +6201,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 157.48 99.06 0)
+			(at 152.4 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5925,7 +6210,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2969/UMW%20AO3401A.pdf"
-			(at 142.24 93.98 0)
+			(at 167.64 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5943,7 +6228,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 137.795 93.98 0)
+			(at 172.085 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5952,7 +6237,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 135.89 93.98 0)
+			(at 173.99 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5961,7 +6246,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 139.7 93.98 0)
+			(at 170.18 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6806,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DC050-T:DC050-T"
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal"
 			(at 27.94 100.076 0)
 			(effects
 				(font
@@ -7375,7 +7660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 57.15 78.74 0)
 			(effects
 				(font
@@ -7430,6 +7715,78 @@
 			(project ""
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_3_Open")
+		(at 186.69 87.63 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "50f37d6a-1571-46f1-af84-bfd14945aafe")
+		(property "Reference" "JP12"
+			(at 186.69 90.678 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_3_Open"
+			(at 186.69 92.202 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 3-pole, both open"
+			(at 186.69 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59534b7a-fe85-4f91-b3ce-704912f8ca34")
+		)
+		(pin "3"
+			(uuid "8bf8e117-4796-46f2-a290-60c8e5be43d8")
+		)
+		(pin "1"
+			(uuid "92470095-f297-4b48-8996-e06561879408")
+		)
+		(instances
+			(project "Soil Power Sensor"
+				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
+					(reference "JP12")
 					(unit 1)
 				)
 			)
@@ -7807,7 +8164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 139.7 119.38 0)
 			(effects
 				(font
@@ -9077,7 +9434,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
 			(at 198.12 111.76 0)
 			(effects
 				(font
@@ -9453,7 +9810,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 180.34 96.52 0)
+		(at 186.69 83.82 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9462,7 +9819,7 @@
 		(dnp no)
 		(uuid "b4be034b-527a-4ea4-84a1-0964a73b7805")
 		(property "Reference" "#P+02"
-			(at 180.34 96.52 0)
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9470,8 +9827,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
-			(at 182.88 92.71 0)
+		(property "Value" "SDI-12 VCC"
+			(at 189.23 80.01 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9480,7 +9837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 96.52 0)
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9489,7 +9846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 96.52 0)
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9498,7 +9855,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 180.34 96.52 0)
+			(at 186.69 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10382,7 +10739,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 166.37 78.74 0)
 			(effects
 				(font
@@ -10550,13 +10907,13 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 45.72 93.98 270)
+		(at 45.72 93.98 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cb6d0329-82b8-4c3e-be37-d3ae0493d3d4")
 		(property "Reference" "Q8"
 			(at 45.72 100.33 90)
@@ -10575,7 +10932,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 48.26 99.06 0)
+			(at 43.18 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +10941,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2969/UMW%20AO3401A.pdf"
-			(at 33.02 93.98 0)
+			(at 58.42 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10602,7 +10959,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 28.575 93.98 0)
+			(at 62.865 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10611,7 +10968,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 26.67 93.98 0)
+			(at 64.77 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10620,7 +10977,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 30.48 93.98 0)
+			(at 60.96 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
