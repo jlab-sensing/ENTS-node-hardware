@@ -14271,7 +14271,7 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5e588fa9-4ef2-45ae-91b4-a501ca666077")
-		(at 306.191739 145.91 180)
+		(at 230.275 140.5 180)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C13"
@@ -14997,7 +14997,7 @@
 			(net 2 "GND")
 			(pinfunction "Ext")
 			(pintype "passive")
-			(uuid "8acdc9bc-aa3b-4277-81c6-c8f12a349d16")
+			(uuid "9b773856-b24f-41a4-b4cf-c1865dcbd07a")
 		)
 		(zone
 			(net 0)
@@ -20367,7 +20367,7 @@
 	(footprint "Connector_Card:microSD_HC_Molex_104031-0811"
 		(layer "F.Cu")
 		(uuid "87c12949-ceaf-469d-a71a-ac79c544858f")
-		(at 163 143.4125 180)
+		(at 155.73 135.375 180)
 		(descr "1.10mm Pitch microSD Memory Card Connector, Surface Mount, Push-Pull Type, 1.42mm Height, with Detect Switch (https://www.molex.com/pdm_docs/sd/1040310811_sd.pdf)")
 		(tags "microSD SD molex")
 		(property "Reference" "J16"
@@ -31686,7 +31686,7 @@
 			(net 23 "/STM32/RST")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "86cfcd3c-8e28-4886-a896-ea04e72ca0d3")
+			(uuid "ad1232ca-100f-41cc-98bf-4c925d656347")
 		)
 		(pad "2" smd roundrect
 			(at -2.9 2)
@@ -31706,7 +31706,7 @@
 			(net 2 "GND")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "d9888d98-7514-4cf4-a173-19f268b945bc")
+			(uuid "20c46e1b-bf17-4ca9-8a73-de381f0ccdc6")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_CK_KSC7xxJ.step"

@@ -11,10 +11,6 @@
 		(company "jlab")
 	)
 	(lib_symbols)
-	(no_connect
-		(at 144.78 120.65)
-		(uuid "ee867904-420e-44c1-aa22-e6994cce4083")
-	)
 	(wire
 		(pts
 			(xy 137.16 129.54) (xy 162.56 129.54)
@@ -54,16 +50,6 @@
 			(type default)
 		)
 		(uuid "39f17079-046e-4b01-afc6-5a50523afe92")
-	)
-	(wire
-		(pts
-			(xy 137.16 120.65) (xy 144.78 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60be9556-febc-4e82-a08f-91ab8827df83")
 	)
 	(wire
 		(pts
@@ -284,16 +270,6 @@
 		(pin "SCL" bidirectional
 			(at 137.16 77.47 0)
 			(uuid "a2004d96-48d3-4c0f-9a8a-ade1c3108b37")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "POWERDOWN" output
-			(at 137.16 120.65 0)
-			(uuid "a27ecaac-4503-405d-8212-1e2fb6019a3a")
 			(effects
 				(font
 					(size 1.27 1.27)

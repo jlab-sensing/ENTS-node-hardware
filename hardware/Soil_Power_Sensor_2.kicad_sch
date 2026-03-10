@@ -3672,8 +3672,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:BSS123"
+		(symbol "Transistor_FET:AO3400A"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -3688,7 +3689,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BSS123"
+			(property "Value" "AO3400A"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3708,7 +3709,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
+			(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -3718,7 +3719,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
+			(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3745,7 +3746,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BSS123_0_1"
+			(symbol "AO3400A_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3889,7 +3890,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
+						(xy 2.921 0.381) (xy 3.683 0.381)
 					)
 					(stroke
 						(width 0)
@@ -3912,7 +3913,7 @@
 					)
 				)
 			)
-			(symbol "BSS123_1_1"
+			(symbol "AO3400A_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -4411,7 +4412,7 @@
 	)
 	(text "TH1 footprint is just 2 holes since TH1\nneeds to be attached to the battery."
 		(exclude_from_sim no)
-		(at 105.41 138.176 0)
+		(at 107.188 133.096 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4462,6 +4463,17 @@
 			(justify left)
 		)
 		(uuid "db31835d-2b4f-4637-b1e8-bcb2b8881b41")
+	)
+	(text "Active high enable.\nMode: set low for auto (power saving) mode."
+		(exclude_from_sim no)
+		(at 212.598 84.074 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa8b4371-f014-491a-9dd3-3deaaa2d9fef")
 	)
 	(junction
 		(at 184.15 96.52)
@@ -4524,12 +4536,6 @@
 		(uuid "611ba7cc-3be3-432c-80e4-a4aa56c70c64")
 	)
 	(junction
-		(at 81.28 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6adf2c7a-68b3-4b83-a37d-ed14568fd661")
-	)
-	(junction
 		(at 144.78 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4566,6 +4572,12 @@
 		(uuid "844f6f92-ba4f-4d80-aa80-fb74556f2177")
 	)
 	(junction
+		(at 78.74 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85dd1aa2-794c-4451-b421-a81a2a3d8870")
+	)
+	(junction
 		(at 243.84 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4588,12 +4600,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a88475ee-b0ce-49f4-8591-0f71b91d859d")
-	)
-	(junction
-		(at 88.9 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae78a884-2ac4-4c77-9cfe-23a60a64ed71")
 	)
 	(junction
 		(at 236.22 96.52)
@@ -4654,6 +4660,10 @@
 		(uuid "056d854e-52a7-4033-890b-00eaaccd6633")
 	)
 	(no_connect
+		(at 34.29 99.06)
+		(uuid "12240c7b-65b0-4172-b4b9-0baa96662243")
+	)
+	(no_connect
 		(at 165.1 33.02)
 		(uuid "63910c71-d3e9-40a2-a6d5-2fa5444b08c7")
 	)
@@ -4696,6 +4706,16 @@
 			(type default)
 		)
 		(uuid "0a1ad246-1c5d-40e8-bd1d-367684a9f98f")
+	)
+	(wire
+		(pts
+			(xy 93.98 128.27) (xy 93.98 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b12bfba-ee33-408d-88df-94b0faa0b07e")
 	)
 	(wire
 		(pts
@@ -4809,6 +4829,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 127) (xy 91.44 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26bd7379-e250-4dd6-92f6-d66284bea650")
+	)
+	(wire
+		(pts
 			(xy 191.77 96.52) (xy 201.93 96.52)
 		)
 		(stroke
@@ -4849,16 +4879,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 134.62) (xy 81.28 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30f9e912-acbd-405a-a4ba-55afb6d63593")
-	)
-	(wire
-		(pts
 			(xy 34.29 96.52) (xy 40.64 96.52)
 		)
 		(stroke
@@ -4866,16 +4886,6 @@
 			(type default)
 		)
 		(uuid "36ce1804-e404-48c3-bdeb-ac9095ec5915")
-	)
-	(wire
-		(pts
-			(xy 68.58 121.92) (xy 86.36 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37dd00b0-8c49-469a-bcbf-fa836211b1f2")
 	)
 	(wire
 		(pts
@@ -4979,7 +4989,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 130.81) (xy 105.41 133.35)
+			(xy 105.41 125.73) (xy 105.41 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5069,16 +5079,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 127) (xy 88.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7f4a12-5953-426d-8dc1-22adaf7dec78")
-	)
-	(wire
-		(pts
 			(xy 243.84 109.22) (xy 236.22 109.22)
 		)
 		(stroke
@@ -5099,7 +5099,17 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 123.19) (xy 105.41 111.76)
+			(xy 91.44 127) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b48c769-5ab9-4b3a-be0e-73594d34e6ee")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 105.41 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5119,16 +5129,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 127) (xy 91.44 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3cc32e4-00ab-4981-8f6b-56812d7da6f1")
-	)
-	(wire
-		(pts
 			(xy 222.25 104.14) (xy 227.33 104.14)
 		)
 		(stroke
@@ -5139,16 +5139,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 127) (xy 93.98 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7c1a965-b60d-4f98-9b26-7fec56dfd5e8")
-	)
-	(wire
-		(pts
 			(xy 138.43 96.52) (xy 144.78 96.52)
 		)
 		(stroke
@@ -5156,16 +5146,6 @@
 			(type default)
 		)
 		(uuid "aa28e413-434c-4b3d-8131-72ac175ef2ee")
-	)
-	(wire
-		(pts
-			(xy 66.04 140.97) (xy 73.66 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab5c57bb-8744-4d55-8228-e53ed246597b")
 	)
 	(wire
 		(pts
@@ -5266,16 +5246,6 @@
 			(type default)
 		)
 		(uuid "c9ab29ef-2e7e-42b7-a4f7-21cf83f8a043")
-	)
-	(wire
-		(pts
-			(xy 73.66 127) (xy 76.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb04dde4-7c40-4a53-a2bf-bca9ce403c0b")
 	)
 	(wire
 		(pts
@@ -5399,16 +5369,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 127) (xy 68.58 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df72d801-98ea-4124-8346-accd0d460936")
-	)
-	(wire
-		(pts
 			(xy 198.12 116.84) (xy 201.93 116.84)
 		)
 		(stroke
@@ -5469,6 +5429,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 132.08) (xy 86.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40f4fe4-bba7-4c6d-aec4-b406562e464c")
+	)
+	(wire
+		(pts
 			(xy 243.84 121.92) (xy 243.84 109.22)
 		)
 		(stroke
@@ -5479,13 +5449,23 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 127) (xy 93.98 129.54)
+			(xy 86.36 149.86) (xy 86.36 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb001cb9-876f-4832-b130-06296c8e56f6")
+		(uuid "f15f76f9-367b-493f-8efd-a691bc7470cc")
+	)
+	(wire
+		(pts
+			(xy 71.12 134.62) (xy 78.74 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c385a0-ff03-4ddd-b0ff-259c97fe45d8")
 	)
 	(wire
 		(pts
@@ -5600,7 +5580,7 @@
 	)
 	(hierarchical_label "VUSB"
 		(shape input)
-		(at 66.04 140.97 180)
+		(at 71.12 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6176,8 +6156,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 154.94 93.98 90)
-		(mirror x)
+		(at 154.94 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6201,7 +6180,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 152.4 99.06 0)
+			(at 157.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6210,7 +6189,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2969/UMW%20AO3401A.pdf"
-			(at 167.64 93.98 0)
+			(at 142.24 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +6207,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 172.085 93.98 0)
+			(at 137.795 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6237,7 +6216,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 173.99 93.98 0)
+			(at 135.89 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6246,7 +6225,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 170.18 93.98 0)
+			(at 139.7 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6267,6 +6246,81 @@
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
 					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 83.82 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "192d0e69-310f-4ca8-a042-0efa3327fd40")
+		(property "Reference" "Q1"
+			(at 88.646 140.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 88.646 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 88.9 144.145 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 88.9 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 83.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "536e7824-1d5f-4847-9ddc-efcc67946f10")
+		)
+		(pin "3"
+			(uuid "949bd21d-f78c-4e94-92e8-ad19e9b3bc84")
+		)
+		(pin "1"
+			(uuid "3bea71c6-6d51-42b8-93bd-faccce4aced2")
+		)
+		(instances
+			(project "Soil Power Sensor"
+				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -6398,7 +6452,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC_US")
-		(at 105.41 127 0)
+		(at 105.41 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6406,7 +6460,7 @@
 		(dnp yes)
 		(uuid "1ed15b15-bc68-47ad-8396-63c734675ce8")
 		(property "Reference" "TH1"
-			(at 108.966 125.73 0)
+			(at 108.966 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6415,7 +6469,7 @@
 			)
 		)
 		(property "Value" "103AT NTC"
-			(at 108.966 128.27 0)
+			(at 108.966 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6424,7 +6478,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 105.41 125.73 0)
+			(at 105.41 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6433,7 +6487,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf"
-			(at 105.41 125.73 0)
+			(at 105.41 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6442,7 +6496,7 @@
 			)
 		)
 		(property "Description" "Temperature dependent resistor, negative temperature coefficient, US symbol"
-			(at 105.41 127 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6451,7 +6505,7 @@
 			)
 		)
 		(property "MFC" "Semitec"
-			(at 105.41 127 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6460,7 +6514,7 @@
 			)
 		)
 		(property "MPN" "103AT-4-70374"
-			(at 105.41 127 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6469,7 +6523,7 @@
 			)
 		)
 		(property "QTY" "1"
-			(at 105.41 127 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6478,7 +6532,7 @@
 			)
 		)
 		(property "REF" "TH1"
-			(at 105.41 127 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,7 +6541,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 105.41 127 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6496,7 +6550,7 @@
 			)
 		)
 		(property "Digikey" "4316-103AT-4-70374-ND"
-			(at 105.41 127 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6505,7 +6559,7 @@
 			)
 		)
 		(property "LCSC" "C20583168"
-			(at 105.41 127 0)
+			(at 105.41 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8208,108 +8262,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 81.28 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71dbc04d-48b9-41ba-acf1-74f3a2c649ce")
-		(property "Reference" "Q9"
-			(at 78.232 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS123"
-			(at 78.232 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 83.185 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
-			(at 85.09 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-			(at 81.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "BSS123-7-F"
-			(at 81.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFC" "Diodes Incorporated"
-			(at 81.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C85107"
-			(at 81.28 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7fc79d1b-6fff-42c8-a5ee-6a414ac24dce")
-		)
-		(pin "3"
-			(uuid "97628948-1ff0-416a-9fd2-8a82f0dd5fb7")
-		)
-		(pin "1"
-			(uuid "81faae45-2999-4aef-bfb9-533adce23647")
-		)
-		(instances
-			(project "Soil Power Sensor"
-				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-					(reference "Q9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 49.53 88.9 90)
 		(unit 1)
@@ -8397,7 +8349,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 140.97 0)
+		(at 78.74 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8406,7 +8358,7 @@
 		(fields_autoplaced yes)
 		(uuid "76b93cff-1c0a-4b35-8dd8-e2bd137720c8")
 		(property "Reference" "#PWR072"
-			(at 88.9 147.32 0)
+			(at 78.74 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8415,7 +8367,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 146.05 0)
+			(at 78.74 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8424,7 +8376,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 140.97 0)
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8433,7 +8385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 140.97 0)
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8442,7 +8394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 140.97 0)
+			(at 78.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8874,7 +8826,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 105.41 133.35 0)
+		(at 105.41 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8883,24 +8835,6 @@
 		(fields_autoplaced yes)
 		(uuid "824c7035-71d7-4223-acb7-f94dc68e1962")
 		(property "Reference" "#GND06"
-			(at 105.41 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 105.41 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
 			(at 105.41 133.35 0)
 			(effects
 				(font
@@ -8909,8 +8843,26 @@
 				(hide yes)
 			)
 		)
+		(property "Value" "0"
+			(at 105.41 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 105.41 143.51 0)
+			(at 105.41 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8919,7 +8871,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 105.41 140.97 0)
+			(at 105.41 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9253,7 +9205,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 93.98 129.54 0)
+		(at 93.98 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9262,7 +9214,7 @@
 		(fields_autoplaced yes)
 		(uuid "981ffa4a-5256-4397-af6c-2a250afc53a1")
 		(property "Reference" "#GND05"
-			(at 93.98 134.62 0)
+			(at 93.98 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9271,7 +9223,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 93.98 127 0)
+			(at 93.98 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9280,7 +9232,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 129.54 0)
+			(at 93.98 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9289,7 +9241,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
-			(at 93.98 139.7 0)
+			(at 93.98 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +9250,7 @@
 			)
 		)
 		(property "Description" "0V reference potential for simulation"
-			(at 93.98 137.16 0)
+			(at 93.98 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9601,7 +9553,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 71.12 127 90)
+		(at 86.36 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9609,7 +9561,7 @@
 		(dnp no)
 		(uuid "aa580804-3532-4944-a3f3-b4392cc15177")
 		(property "Reference" "R7"
-			(at 73.406 132.588 90)
+			(at 87.63 133.604 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9618,7 +9570,7 @@
 			)
 		)
 		(property "Value" "7.32 kOhm"
-			(at 73.406 130.556 90)
+			(at 87.63 135.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9627,7 +9579,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9636,7 +9588,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9645,7 +9597,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9654,7 +9606,7 @@
 			)
 		)
 		(property "MFC" ""
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9615,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,7 +9624,7 @@
 			)
 		)
 		(property "QTY" ""
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +9633,7 @@
 			)
 		)
 		(property "REF" ""
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9690,7 +9642,7 @@
 			)
 		)
 		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9699,7 +9651,7 @@
 			)
 		)
 		(property "Digikey" ""
-			(at 71.12 127 0)
+			(at 86.36 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9885,21 +9837,21 @@
 		(dnp no)
 		(uuid "b5d0fa58-8773-46db-95c1-1a3a6f758b22")
 		(property "Reference" "R8"
-			(at 87.63 129.54 0)
+			(at 85.852 123.444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "680 Ohm"
-			(at 87.63 132.08 0)
+			(at 85.852 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -10160,16 +10112,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 140.97 270)
+		(at 78.74 138.43 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bdbd2da5-d0e9-4055-99b4-4804a77b04aa")
 		(property "Reference" "R42"
-			(at 77.47 134.62 90)
+			(at 74.676 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10177,7 +10128,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 77.47 137.16 90)
+			(at 74.676 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10185,7 +10136,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 77.47 139.192 90)
+			(at 80.518 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10194,7 +10145,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 140.97 0)
+			(at 78.74 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10203,7 +10154,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 140.97 0)
+			(at 78.74 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10212,7 +10163,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07510RL"
-			(at 77.47 140.97 0)
+			(at 78.74 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10221,7 +10172,7 @@
 			)
 		)
 		(property "LCSC" "C114670"
-			(at 77.47 140.97 0)
+			(at 78.74 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,16 +10390,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 140.97 90)
+		(at 78.74 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c21de284-5d50-49fd-b282-72b829328da7")
 		(property "Reference" "R43"
-			(at 85.09 134.62 90)
+			(at 74.676 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10456,7 +10406,7 @@
 			)
 		)
 		(property "Value" "470k"
-			(at 85.09 137.16 90)
+			(at 74.676 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10464,7 +10414,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 142.748 90)
+			(at 76.962 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10473,7 +10423,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 140.97 0)
+			(at 78.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10482,7 +10432,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 140.97 0)
+			(at 78.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10491,7 +10441,7 @@
 			)
 		)
 		(property "MPN" "RC0603FR-07510RL"
-			(at 85.09 140.97 0)
+			(at 78.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10500,7 +10450,7 @@
 			)
 		)
 		(property "LCSC" "C114670"
-			(at 85.09 140.97 0)
+			(at 78.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10907,8 +10857,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 45.72 93.98 90)
-		(mirror x)
+		(at 45.72 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10932,7 +10881,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 43.18 99.06 0)
+			(at 48.26 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10941,7 +10890,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2969/UMW%20AO3401A.pdf"
-			(at 58.42 93.98 0)
+			(at 33.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10959,7 +10908,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 62.865 93.98 0)
+			(at 28.575 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10968,7 +10917,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 64.77 93.98 0)
+			(at 26.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10977,7 +10926,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 60.96 93.98 0)
+			(at 30.48 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11064,6 +11013,73 @@
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
 					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 86.36 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4f37e88-7c96-4595-bf24-d017dc4bc2ee")
+		(property "Reference" "#PWR076"
+			(at 86.36 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 86.36 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 86.36 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bddee191-e9ed-448d-9975-05fc8adc9618")
+		)
+		(instances
+			(project "Soil Power Sensor"
+				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
