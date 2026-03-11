@@ -33,6 +33,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 119.38) (xy 162.56 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27a1d644-7445-4caf-979a-5de5503ce676")
+	)
+	(wire
+		(pts
 			(xy 137.16 127) (xy 162.56 127)
 		)
 		(stroke
@@ -50,6 +60,16 @@
 			(type default)
 		)
 		(uuid "39f17079-046e-4b01-afc6-5a50523afe92")
+	)
+	(wire
+		(pts
+			(xy 137.16 121.92) (xy 162.56 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "513577eb-434d-4f6c-ba92-b52e30b4ec30")
 	)
 	(wire
 		(pts
@@ -80,6 +100,16 @@
 			(type default)
 		)
 		(uuid "979419f4-2f54-49cf-afd5-450cda53c784")
+	)
+	(wire
+		(pts
+			(xy 137.16 124.46) (xy 162.56 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b669e950-5061-41b5-9950-3d09530104a0")
 	)
 	(wire
 		(pts
@@ -214,8 +244,8 @@
 		)
 	)
 	(sheet
-		(at 119.38 72.39)
-		(size 17.78 64.77)
+		(at 118.11 72.39)
+		(size 19.05 64.77)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -230,7 +260,7 @@
 		)
 		(uuid "43a883bb-5678-46a3-a756-4c64cbfd0ddc")
 		(property "Sheetname" "STM32"
-			(at 119.38 71.6784 0)
+			(at 118.11 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -239,7 +269,7 @@
 			)
 		)
 		(property "Sheetfile" "Soil_Power_Sensor_3.kicad_sch"
-			(at 119.38 137.7446 0)
+			(at 118.11 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -327,6 +357,36 @@
 				(justify right)
 			)
 		)
+		(pin "TPS631000_EN" input
+			(at 137.16 121.92 0)
+			(uuid "c89a008a-711d-4726-8280-7e262985e564")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TPS631000_MODE" input
+			(at 137.16 124.46 0)
+			(uuid "4196a776-563f-42ab-83a7-a6ff6ba8a242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AUX_INPUT" input
+			(at 137.16 119.38 0)
+			(uuid "26f7781a-75b5-451e-aa5c-2efbdb05cbbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3"
@@ -402,6 +462,36 @@
 		(pin "VUSB" input
 			(at 162.56 132.08 180)
 			(uuid "84c0860d-e617-4a05-b2ab-3b06b9c98a41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TPS631000_EN" output
+			(at 162.56 121.92 180)
+			(uuid "91f8e6ac-6e46-4e4f-91e5-ad9ff48f2192")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TPS631000_MODE" output
+			(at 162.56 124.46 180)
+			(uuid "52ddd8c2-b0e7-4236-a695-c919ac1e7e5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AUX_INPUT" output
+			(at 162.56 119.38 180)
+			(uuid "75f4d8eb-550f-466e-b045-6af3cfa809ad")
 			(effects
 				(font
 					(size 1.27 1.27)

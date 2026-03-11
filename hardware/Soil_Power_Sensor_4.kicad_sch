@@ -2485,7 +2485,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 80.01) (xy 77.47 80.01)
+			(xy 60.96 80.01) (xy 77.47 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2795,6 +2795,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 90.17) (xy 60.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a302c41-d7a5-405f-bea8-66d7707292c1")
+	)
+	(wire
+		(pts
 			(xy 246.38 127) (xy 246.38 130.81)
 		)
 		(stroke
@@ -2825,7 +2835,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 76.2) (xy 152.4 74.93)
+			(xy 152.4 90.17) (xy 152.4 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3035,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 82.55) (xy 77.47 82.55)
+			(xy 60.96 82.55) (xy 77.47 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4040,6 +4050,72 @@
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 60.96 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27dccae0-7229-4561-829e-658f0f1bd7c8")
+		(property "Reference" "#GND017"
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 58.42 95.25 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 60.96 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "171236dc-3ca6-4dab-93db-e94f4aa92591")
+		)
+		(instances
+			(project "Soil Power Sensor"
+				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
+					(reference "#GND017")
 					(unit 1)
 				)
 			)
@@ -5186,7 +5262,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 76.2 0)
+		(at 152.4 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5194,7 +5270,7 @@
 		(dnp no)
 		(uuid "7b1d3e55-c2c6-4f16-b064-c376843c0e4a")
 		(property "Reference" "#GND016"
-			(at 152.4 76.2 0)
+			(at 152.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5203,7 +5279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 81.28 0)
+			(at 149.86 95.25 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -5212,7 +5288,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 76.2 0)
+			(at 152.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5221,7 +5297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 76.2 0)
+			(at 152.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,7 +5306,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 76.2 0)
+			(at 152.4 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,6 +5816,76 @@
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
 					(reference "SW6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 55.88 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af415b38-17fa-4556-b3be-56e2b7e994db")
+		(property "Reference" "J18"
+			(at 56.515 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 56.515 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 55.88 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef174ab7-6915-46b6-925b-7d78c0a0077a")
+		)
+		(pin "2"
+			(uuid "69b3c015-d4ec-4da5-8abc-84b2720264c6")
+		)
+		(pin "3"
+			(uuid "85f683d6-7bf1-486e-aa52-9fc82f7bd563")
+		)
+		(instances
+			(project "Soil Power Sensor"
+				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
+					(reference "J18")
 					(unit 1)
 				)
 			)

@@ -29992,7 +29992,7 @@
 	(footprint "Soil Power Sensor:TPS631000DRLR_TEX"
 		(layer "F.Cu")
 		(uuid "d3940b2e-4be3-482b-9fe1-df5b5c48b62f")
-		(at 207 60.95)
+		(at 258.5 65.5)
 		(tags "TPS631000DRLR ")
 		(property "Reference" "U11"
 			(at 0 0 0)
