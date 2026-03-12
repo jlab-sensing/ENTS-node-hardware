@@ -307,7 +307,7 @@
 				(justify right)
 			)
 		)
-		(pin "WAKEUP" input
+		(pin "WAKEUP" output
 			(at 137.16 107.95 0)
 			(uuid "65b48d75-44ed-4534-a23e-5b68e921c317")
 			(effects
@@ -377,7 +377,7 @@
 				(justify right)
 			)
 		)
-		(pin "AUX_INPUT" input
+		(pin "SOLAR_DETECT" input
 			(at 137.16 119.38 0)
 			(uuid "26f7781a-75b5-451e-aa5c-2efbdb05cbbd")
 			(effects
@@ -489,7 +489,7 @@
 				(justify left)
 			)
 		)
-		(pin "AUX_INPUT" output
+		(pin "SOLAR_DETECT" output
 			(at 162.56 119.38 180)
 			(uuid "75f4d8eb-550f-466e-b045-6af3cfa809ad")
 			(effects

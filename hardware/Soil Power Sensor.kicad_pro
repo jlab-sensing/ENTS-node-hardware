@@ -58,24 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|186662500|88100000|8c00e8e0-80f7-496e-b270-fa4233c187a3|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "missing_courtyard|193500000|54810000|b951f3ae-8381-476a-8281-b31caf88b830|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_overlap|194378000|90050000|d5795578-e647-4fda-877b-8ffdfeb480df|6d6c139b-512d-413b-b24c-6458e070a909",
-          ""
-        ],
-        [
-          "starved_thermal|171600000|84140000|ff9707db-b7e2-4831-831f-c468709238e4|260314ab-4545-47d0-9868-dddd1fc25919|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
