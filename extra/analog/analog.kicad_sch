@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "23b89991-5554-4fb2-a43f-c8e9c24413b6")
 	(paper "A4")
+	(title_block
+		(title "Analog Frontend")
+		(date "2026-03-13")
+		(rev "v3.0.0")
+		(company "jlab")
+	)
 	(lib_symbols)
 	(wire
 		(pts
