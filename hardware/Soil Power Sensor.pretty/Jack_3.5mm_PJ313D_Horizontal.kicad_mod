@@ -1,0 +1,362 @@
+(footprint "Jack_3.5mm_PJ313D_Horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320D-72.html)")
+	(tags "3.5mm jack mic microphone phones headphones 4pins audio plug")
+	(property "Reference" "REF**"
+		(at 6.275 -5.35 0)
+		(layer "F.SilkS")
+		(uuid "72bf4862-6c38-4c04-9e53-30a1f44b04e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_PJ313D_Horizontal"
+		(at 6.2 6.35 0)
+		(layer "F.Fab")
+		(uuid "eced89f0-42f4-4d6a-8113-31ab39003463")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd354222-6dc0-471d-aa74-a454af75ba62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a973656-be96-4f93-9c87-d83ea41f8129")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 -2.7)
+		(end -2.7 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f54ca2c8-95b0-46ae-b635-d4daf8b7f0fc")
+	)
+	(fp_line
+		(start -2.7 2.7)
+		(end -0.2 2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df4a5fe6-670c-47a9-a641-14102121156e")
+	)
+	(fp_line
+		(start -0.2 -3.2)
+		(end -0.2 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea89cc20-7584-40c0-91e0-f531cf81f7e9")
+	)
+	(fp_line
+		(start -0.2 -2.7)
+		(end -2.7 -2.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbf4d7b9-a615-4bd6-8fbb-9783309e3e37")
+	)
+	(fp_line
+		(start -0.2 2.7)
+		(end -0.2 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e7f02ba-93a3-479b-bdcd-acc5e6849458")
+	)
+	(fp_line
+		(start 0.9 -3.2)
+		(end -0.2 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a03b2baf-6061-4e3b-ad0f-a2e84fefa7e4")
+	)
+	(fp_line
+		(start 0.9 3.2)
+		(end -0.2 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fb36a8cf-57b6-427a-922d-e2754bb9e2fa")
+	)
+	(fp_line
+		(start 4.1 -3.2)
+		(end 2.7 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48eda7a2-8bfa-4d26-8db0-79632f5aef75")
+	)
+	(fp_line
+		(start 4.1 3.2)
+		(end 2.7 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb94b95c-34c9-4d0a-9b6c-63b9d069723a")
+	)
+	(fp_line
+		(start 7.6 -3.2)
+		(end 5.9 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41488a3f-1f65-49e2-8ede-05a5530aaad2")
+	)
+	(fp_line
+		(start 7.6 3.2)
+		(end 5.9 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23105fc4-7f7b-4306-a096-816c18b2fa85")
+	)
+	(fp_line
+		(start 9.4 3.2)
+		(end 11.7 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2b9909ab-a1be-4677-b1f2-1d924c917585")
+	)
+	(fp_line
+		(start 11.7 -3.2)
+		(end 9.4 -3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b6953b19-47fb-4f56-840f-5b4c26b36cd4")
+	)
+	(fp_line
+		(start 11.7 -3.2)
+		(end 11.7 3.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7661aa1-53ce-4756-bd36-974a749fc2f2")
+	)
+	(fp_rect
+		(start -3 -4.8)
+		(end 12 4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "de741fd5-b202-46f4-bde5-74362833d2df")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aee8e2e4-1056-490e-84f1-3eb65e431aa8")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 0 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31e757c2-5fc4-4917-b959-0edd19155a31")
+	)
+	(fp_line
+		(start 0 -3)
+		(end 0 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ad2bb1e-e7d9-4d5e-91c7-173f3cfed231")
+	)
+	(fp_line
+		(start 0 -3)
+		(end 11.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c1b3488-fa5e-40c6-8c7c-9870e37ce676")
+	)
+	(fp_line
+		(start 0 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "82fc0033-fd36-435b-803a-bffbac7119b8")
+	)
+	(fp_line
+		(start 11.5 3)
+		(end 0 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb6ef690-5fd2-4838-aef1-dd23c6e8eb89")
+	)
+	(fp_line
+		(start 11.5 3)
+		(end 11.5 -3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ce26a528-611b-4f62-9756-f55434f4c581")
+	)
+	(fp_circle
+		(center 10.125 -2.35)
+		(end 10.175 -2.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8d5f09b8-0df0-4d9a-baf3-1aee397210a9")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.03 0 0)
+		(layer "F.Fab")
+		(uuid "433f6484-6270-4747-abb3-d75b61f0566c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 0)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "ecc3a746-6817-4e5f-accd-4e273e49fb9d")
+	)
+	(pad "" np_thru_hole circle
+		(at 8.5 0)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "956abb39-2b37-4eef-a87a-93e37b6c6d14")
+	)
+	(pad "R" smd rect
+		(at 5 -3)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "997e9284-1a5c-4cd9-a361-ca79e8b4e077")
+	)
+	(pad "R" smd rect
+		(at 5 3)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "836308a4-8033-4cf4-9add-1bc7070c9959")
+	)
+	(pad "S" smd rect
+		(at 8.5 -3)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0471b2b5-a483-4cc9-b90a-e928365c20d0")
+	)
+	(pad "S" smd rect
+		(at 8.5 3)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "65fdeb7d-979d-40f5-a1eb-f526bb2a386f")
+	)
+	(pad "T" smd rect
+		(at 1.8 -3)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "61062f4b-bcb0-49cd-9697-b248624a55b1")
+	)
+	(pad "T" smd rect
+		(at 1.8 3)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "066326ec-593a-4124-8a3f-2938305a6d87")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_PJ320D_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Soil Power Sensor")
-		(date "2024-12-07")
-		(rev "2.2.3")
+		(date "2026-03-13")
+		(rev "3.0.0")
 		(company "jlab")
 	)
 	(lib_symbols)
@@ -33,7 +33,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 119.38) (xy 162.56 119.38)
+			(xy 137.16 124.46) (xy 162.56 124.46)
 		)
 		(stroke
 			(width 0)
@@ -63,26 +63,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 121.92) (xy 162.56 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513577eb-434d-4f6c-ba92-b52e30b4ec30")
-	)
-	(wire
-		(pts
-			(xy 162.56 100.33) (xy 149.86 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64e40376-0a1b-487f-b7dd-6daf616284d5")
-	)
-	(wire
-		(pts
 			(xy 137.16 134.62) (xy 162.56 134.62)
 		)
 		(stroke
@@ -93,7 +73,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 74.93) (xy 152.4 74.93)
+			(xy 137.16 97.79) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -103,17 +83,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 124.46) (xy 162.56 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b669e950-5061-41b5-9950-3d09530104a0")
-	)
-	(wire
-		(pts
-			(xy 137.16 77.47) (xy 149.86 77.47)
+			(xy 137.16 100.33) (xy 162.56 100.33)
 		)
 		(stroke
 			(width 0)
@@ -130,36 +100,6 @@
 			(type default)
 		)
 		(uuid "c10a9234-fe78-4a1a-a449-22dcaaba774c")
-	)
-	(wire
-		(pts
-			(xy 149.86 77.47) (xy 149.86 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d49e849c-8eb8-4003-b23e-652ae3144789")
-	)
-	(wire
-		(pts
-			(xy 162.56 97.79) (xy 152.4 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e301a867-ab5b-4a17-a2ec-dae7787e906e")
-	)
-	(wire
-		(pts
-			(xy 152.4 74.93) (xy 152.4 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe42f2b2-c115-4748-8a15-02414aa8aab3")
 	)
 	(sheet
 		(at 162.56 95.25)
@@ -244,8 +184,8 @@
 		)
 	)
 	(sheet
-		(at 118.11 72.39)
-		(size 19.05 64.77)
+		(at 118.11 95.25)
+		(size 19.05 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -260,7 +200,7 @@
 		)
 		(uuid "43a883bb-5678-46a3-a756-4c64cbfd0ddc")
 		(property "Sheetname" "STM32"
-			(at 118.11 71.6784 0)
+			(at 118.11 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +228,7 @@
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 137.16 74.93 0)
+			(at 137.16 97.79 0)
 			(uuid "9a3aaa22-0cb8-4764-807c-e6e57ffe8291")
 			(effects
 				(font
@@ -298,7 +238,7 @@
 			)
 		)
 		(pin "SCL" bidirectional
-			(at 137.16 77.47 0)
+			(at 137.16 100.33 0)
 			(uuid "a2004d96-48d3-4c0f-9a8a-ade1c3108b37")
 			(effects
 				(font
@@ -357,28 +297,8 @@
 				(justify right)
 			)
 		)
-		(pin "TPS631000_EN" input
-			(at 137.16 121.92 0)
-			(uuid "c89a008a-711d-4726-8280-7e262985e564")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "TPS631000_MODE" input
-			(at 137.16 124.46 0)
-			(uuid "4196a776-563f-42ab-83a7-a6ff6ba8a242")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "SOLAR_DETECT" input
-			(at 137.16 119.38 0)
+			(at 137.16 124.46 0)
 			(uuid "26f7781a-75b5-451e-aa5c-2efbdb05cbbd")
 			(effects
 				(font
@@ -396,8 +316,8 @@
 		)
 	)
 	(sheet
-		(at 162.56 118.11)
-		(size 16.51 19.05)
+		(at 162.56 121.92)
+		(size 16.51 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -412,7 +332,7 @@
 		)
 		(uuid "642281e5-1644-4dc3-b6e5-bcf5b1c03ff1")
 		(property "Sheetname" "Power"
-			(at 162.56 117.3984 0)
+			(at 162.56 121.2084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -469,28 +389,8 @@
 				(justify left)
 			)
 		)
-		(pin "TPS631000_EN" output
-			(at 162.56 121.92 180)
-			(uuid "91f8e6ac-6e46-4e4f-91e5-ad9ff48f2192")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "TPS631000_MODE" output
-			(at 162.56 124.46 180)
-			(uuid "52ddd8c2-b0e7-4236-a695-c919ac1e7e5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SOLAR_DETECT" output
-			(at 162.56 119.38 180)
+			(at 162.56 124.46 180)
 			(uuid "75f4d8eb-550f-466e-b045-6af3cfa809ad")
 			(effects
 				(font
@@ -508,7 +408,7 @@
 		)
 	)
 	(sheet
-		(at 220.98 72.39)
+		(at 204.47 95.25)
 		(size 16.51 6.35)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -524,7 +424,7 @@
 		)
 		(uuid "e8086a96-0786-4ae2-b425-e1003c006b3a")
 		(property "Sheetname" "Hardware"
-			(at 220.98 71.6784 0)
+			(at 204.47 94.5384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -533,7 +433,7 @@
 			)
 		)
 		(property "Sheetfile" "hardware.kicad_sch"
-			(at 220.98 79.3246 0)
+			(at 204.47 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
