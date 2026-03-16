@@ -366,7 +366,7 @@
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/3dmodels/FTSH-105-01-X-DV-K-P.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.4)
 		)
 		(scale
 			(xyz 1 1 1)
