@@ -3070,16 +3070,6 @@
 		)
 		(uuid "3ab2a37b-57ae-4480-9703-46a42df55eb8")
 	)
-	(label "TX"
-		(at 143.51 90.17 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "40940f22-4f1b-4924-95a3-96b09934590a")
-	)
 	(label "SDO"
 		(at 45.72 172.72 0)
 		(effects
@@ -3089,16 +3079,6 @@
 			(justify left bottom)
 		)
 		(uuid "475e8026-59bd-4fbc-80c0-b83353b9f4b9")
-	)
-	(label "RX"
-		(at 143.51 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52e691e4-6ac8-4224-82f7-a65ee5152403")
 	)
 	(label "BOOT"
 		(at 69.85 82.55 0)
@@ -3209,6 +3189,26 @@
 			(justify left bottom)
 		)
 		(uuid "d0f4da2f-90e6-41fe-a458-7016d18466f8")
+	)
+	(label "RX"
+		(at 143.51 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee8d2281-63e1-4e49-9b2a-e9fec60ea4d4")
+	)
+	(label "TX"
+		(at 143.51 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fbaefb64-261c-4808-9ecd-b85881f8c815")
 	)
 	(hierarchical_label "SDA"
 		(shape bidirectional)
@@ -4320,7 +4320,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 264.16 142.24 0)
 			(effects
 				(font
@@ -4329,7 +4329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 264.16 142.24 0)
 			(effects
 				(font
@@ -4347,7 +4347,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1187A-B-A-B"
+		(property "MPN" "TS-1088-AR02016"
 			(at 264.16 147.32 0)
 			(effects
 				(font
@@ -4356,7 +4356,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318884"
+		(property "LCSC" "C720477"
+			(at 264.16 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "XUNPU"
 			(at 264.16 147.32 0)
 			(effects
 				(font
@@ -5546,7 +5555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:SW_Push_1P1T_XKB_TS-1187A"
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 			(at 259.08 114.3 0)
 			(effects
 				(font
@@ -5555,7 +5564,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_XUNPU-TS-1088-AR02016_C720477.pdf"
 			(at 259.08 114.3 0)
 			(effects
 				(font
@@ -5573,7 +5582,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TS-1187A-B-A-B"
+		(property "MPN" "TS-1088-AR02016"
 			(at 259.08 119.38 0)
 			(effects
 				(font
@@ -5582,7 +5591,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C318884"
+		(property "LCSC" "C720477"
+			(at 259.08 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "XUNPU"
 			(at 259.08 119.38 0)
 			(effects
 				(font
