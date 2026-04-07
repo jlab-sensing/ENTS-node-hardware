@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Analog Frontend")
-		(date "2026-03-13")
-		(rev "v3.0.0")
+		(date "2026-04-06")
+		(rev "v3.1.0")
 		(company "jlab")
 	)
 	(lib_symbols
@@ -2926,7 +2926,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C860931"
+		(property "LCSC" "C860413"
 			(at 194.31 95.25 90)
 			(effects
 				(font
@@ -5141,7 +5141,7 @@
 				(justify right bottom)
 			)
 		)
-		(property "LCSC" "C860931"
+		(property "LCSC" "C860413"
 			(at 194.31 63.5 90)
 			(effects
 				(font

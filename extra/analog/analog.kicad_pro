@@ -667,7 +667,7 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Notes",
           "name": "Notes",
           "show": true
