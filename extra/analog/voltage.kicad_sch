@@ -1237,17 +1237,6 @@
 		)
 		(uuid "1e95d0bd-574b-4769-ad50-86def864614e")
 	)
-	(text "Voltage:\nVout = Vin (R5 / R3)\nR5 = R1\nR3 = R2"
-		(exclude_from_sim no)
-		(at 223.266 37.592 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2c4888fc-e75d-437e-8036-3ae7f4865de9")
-	)
 	(text "Unity gain and level shifting\nG = 1\nResistors an order of magnitude\ngreater than isolation resistors.\nfc = 144.6863\n\nVoltage:\nVout = Vin (R5 / R3)\nR5 = R1\nR3 = R2"
 		(exclude_from_sim no)
 		(at 108.458 27.178 0)
@@ -2542,9 +2531,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06e4af38-a7d2-4379-9829-71f1d0c355ac")
-		(property "Reference" "#PWR015"
+		(uuid "07a0855d-cc6b-4378-914f-4e34699e99f8")
+		(property "Reference" "#PWR063"
 			(at 127 128.27 0)
 			(effects
 				(font
@@ -2553,12 +2541,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 127 119.38 0)
+		(property "Value" "+4.6V"
+			(at 123.952 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2589,12 +2578,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9722f98-19df-45cf-8e74-ec6d1a7dc6c7")
+			(uuid "bf464417-87c0-43e9-b0e8-4d0b3a291ee6")
 		)
 		(instances
 			(project "analog"
 				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/3f4b3c26-5cca-4fff-bf4e-042d3ad4996a"
-					(reference "#PWR015")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2705,72 +2694,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 68.58 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19ce8314-0c76-4781-840d-95a861e01909")
-		(property "Reference" "#PWR01"
-			(at 68.58 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 68.58 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2c178bd1-1158-4eea-89f8-f80ceff578c8")
-		)
-		(instances
-			(project "analog"
-				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/3f4b3c26-5cca-4fff-bf4e-042d3ad4996a"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 215.9 69.85 0)
 		(unit 1)
@@ -2833,7 +2756,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519575"
+		(property "LCSC" "C21120"
 			(at 215.9 69.85 0)
 			(effects
 				(font
@@ -3628,8 +3551,9 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4.6V"
 			(at 129.54 68.58 0)
+			(do_not_autoplace yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,16 +3753,14 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 127 144.78 0)
-		(mirror x)
+		(at 127 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a516f38-3f03-4864-9357-d09d8f6693a4")
-		(property "Reference" "#PWR013"
+		(uuid "7217551a-ff03-4e50-8c4e-75e9a01fcaab")
+		(property "Reference" "#PWR02"
 			(at 127 140.97 0)
 			(effects
 				(font
@@ -3847,12 +3769,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
-			(at 127 149.86 0)
+		(property "Value" "-4.6V"
+			(at 123.952 149.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -3883,12 +3806,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "31448df4-5472-499e-a754-c68e919159ab")
+			(uuid "63114b59-3589-4ecc-a03f-34bcd4753196")
 		)
 		(instances
 			(project "analog"
 				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/3f4b3c26-5cca-4fff-bf4e-042d3ad4996a"
-					(reference "#PWR013")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3958,7 +3881,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C914769"
+		(property "LCSC" "C23630"
 			(at 203.2 80.01 0)
 			(effects
 				(font
@@ -3977,72 +3900,6 @@
 			(project "analog"
 				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/3f4b3c26-5cca-4fff-bf4e-042d3ad4996a"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:-5V")
-		(at 68.58 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ee34727-5efb-481a-9876-73f1865280fc")
-		(property "Reference" "#PWR02"
-			(at 68.58 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "-5V"
-			(at 68.58 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 68.58 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c4068ac-997d-4f79-8742-bdc954a8887d")
-		)
-		(instances
-			(project "analog"
-				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/3f4b3c26-5cca-4fff-bf4e-042d3ad4996a"
-					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4244,7 +4101,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519575"
+		(property "LCSC" "C21120"
 			(at 146.05 97.79 0)
 			(effects
 				(font
@@ -4574,6 +4431,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 68.58 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b71741f1-59c1-4cb3-8689-0e0a004bd6a7")
+		(property "Reference" "#PWR01"
+			(at 68.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+4.6V"
+			(at 65.532 119.888 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 68.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "67c4dc4a-c714-47a2-b9a9-40ad8fc48739")
+		)
+		(instances
+			(project "analog"
+				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/3f4b3c26-5cca-4fff-bf4e-042d3ad4996a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 93.98 96.52 0)
 		(unit 1)
@@ -4769,7 +4692,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519575"
+		(property "LCSC" "C21120"
 			(at 215.9 101.6 0)
 			(effects
 				(font
@@ -5133,7 +5056,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519575"
+		(property "LCSC" "C21120"
 			(at 146.05 60.96 0)
 			(effects
 				(font
@@ -5237,6 +5160,72 @@
 			(project "analog"
 				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/3f4b3c26-5cca-4fff-bf4e-042d3ad4996a"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-5V")
+		(at 68.58 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeee6536-431c-4d00-aea0-dfa56f537d32")
+		(property "Reference" "#PWR015"
+			(at 68.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-4.6V"
+			(at 65.532 149.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-5V\""
+			(at 68.58 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2754aab-350b-4969-95f2-35fac04f830f")
+		)
+		(instances
+			(project "analog"
+				(path "/23b89991-5554-4fb2-a43f-c8e9c24413b6/3f4b3c26-5cca-4fff-bf4e-042d3ad4996a"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)

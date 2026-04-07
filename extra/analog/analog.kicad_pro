@@ -52,7 +52,56 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "drill_out_of_range|138100000|57800000|b40b6413-d6d9-4986-a087-3686efb2a6fe|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|138100000|58550000|d518c8a7-794a-463b-837c-431f03ced8ec|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|138100000|59300000|1ef78e75-5180-476c-9f8d-766020e51c64|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|138800000|57800000|273d0dc1-3096-4c1e-ac2f-788bb741946b|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|138800000|58550000|b388eaba-85b9-462d-b245-ba0942f2aec0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|138800000|59300000|f01e88ae-0cc3-4d36-b863-e63d8cb7f75e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "starved_thermal|138100000|57800000|93003d04-d226-49b8-ae3b-983eb4444521|b40b6413-d6d9-4986-a087-3686efb2a6fe|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|138100000|58550000|93003d04-d226-49b8-ae3b-983eb4444521|d518c8a7-794a-463b-837c-431f03ced8ec|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|138100000|59300000|93003d04-d226-49b8-ae3b-983eb4444521|1ef78e75-5180-476c-9f8d-766020e51c64|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|138800000|57800000|93003d04-d226-49b8-ae3b-983eb4444521|273d0dc1-3096-4c1e-ac2f-788bb741946b|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|138800000|58550000|93003d04-d226-49b8-ae3b-983eb4444521|b388eaba-85b9-462d-b245-ba0942f2aec0|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|138800000|59300000|93003d04-d226-49b8-ae3b-983eb4444521|f01e88ae-0cc3-4d36-b863-e63d8cb7f75e|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -489,7 +538,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "+4.6V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {

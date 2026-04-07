@@ -1254,17 +1254,6 @@
 		)
 		(uuid "7fdb64d2-1ecf-4ff1-908b-cc79f1bd9d02")
 	)
-	(text "Voltage:\nVout = Vin (R5 / R3)\nR5 = R1\nR3 = R2"
-		(exclude_from_sim no)
-		(at 256.286 31.496 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e1ff086-2b3f-44fe-8227-f2ecbbe11c37")
-	)
 	(text "ADC Filter\nCM: fc = 144.6863 Hz\nDM: fc = 1446.8631 Hz\n\nResistor chosen to limit current to 10mA"
 		(exclude_from_sim no)
 		(at 206.248 23.114 0)
@@ -3839,7 +3828,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519575"
+		(property "LCSC" "C21120"
 			(at 248.92 62.23 0)
 			(effects
 				(font
@@ -4302,7 +4291,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519575"
+		(property "LCSC" "C21120"
 			(at 177.8 53.34 0)
 			(effects
 				(font
@@ -4335,7 +4324,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0f0858d-0ea4-4938-8f3e-e3b695b598bf")
 		(property "Reference" "#PWR024"
 			(at 160.02 135.89 0)
@@ -4346,12 +4334,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "-5V"
-			(at 160.02 144.78 0)
+		(property "Value" "-4.6V"
+			(at 162.306 144.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -4411,7 +4400,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "49.9k"
 			(at 179.07 34.544 90)
 			(effects
 				(font
@@ -4572,7 +4561,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C914769"
+		(property "LCSC" "C23630"
 			(at 236.22 72.39 0)
 			(effects
 				(font
@@ -4719,7 +4708,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c3b73f80-57a9-4438-bb91-014fd50b64f3")
 		(property "Reference" "#PWR023"
 			(at 160.02 123.19 0)
@@ -4730,12 +4718,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 160.02 114.3 0)
+		(property "Value" "+4.6V"
+			(at 156.972 115.062 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4796,7 +4785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4.6V"
 			(at 162.56 63.5 0)
 			(effects
 				(font
@@ -4928,7 +4917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+4.6V"
 			(at 110.49 44.45 0)
 			(effects
 				(font
@@ -5105,7 +5094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519575"
+		(property "LCSC" "C21120"
 			(at 248.92 93.98 0)
 			(effects
 				(font
@@ -5374,7 +5363,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C519575"
+		(property "LCSC" "C21120"
 			(at 177.8 90.17 0)
 			(effects
 				(font
@@ -5416,8 +5405,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "5k"
-			(at 178.816 100.33 90)
+		(property "Value" "49.9k"
+			(at 180.34 100.33 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
