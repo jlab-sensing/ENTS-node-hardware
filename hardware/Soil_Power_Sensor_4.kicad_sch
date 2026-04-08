@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Soil Power Sensor")
-		(date "2026-03-13")
-		(rev "3.0.0")
+		(date "2026-04-06")
+		(rev "3.1.0")
 		(company "jlab")
 	)
 	(lib_symbols
@@ -3330,7 +3330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04864ce4-107f-4d3d-b006-e6bcf6fb1653")
-		(property "Reference" "R43"
+		(property "Reference" "R42"
 			(at 50.8 57.15 90)
 			(effects
 				(font
@@ -3419,7 +3419,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "R43")
+					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -3683,7 +3683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15321016-801e-4dd4-a3ab-842fef4836f5")
-		(property "Reference" "R45"
+		(property "Reference" "R44"
 			(at 62.23 82.042 90)
 			(effects
 				(font
@@ -3772,7 +3772,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "R45")
+					(reference "R44")
 					(unit 1)
 				)
 			)
@@ -3788,7 +3788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e878184-af21-4697-a635-480a3143b2fd")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR083"
 			(at 38.1 189.23 0)
 			(effects
 				(font
@@ -3838,7 +3838,7 @@
 		(instances
 			(project ""
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "#PWR084")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -3960,7 +3960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d1d3b7c-451d-463a-9132-661e5a8a50bf")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR080"
 			(at 276.86 137.16 0)
 			(effects
 				(font
@@ -4010,7 +4010,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -4133,7 +4133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45a382b4-7e74-4c85-b106-386ca51dabe2")
-		(property "Reference" "R46"
+		(property "Reference" "R45"
 			(at 62.23 93.98 90)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "R46")
+					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -4581,7 +4581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6287ee6d-7565-45e1-8686-c9ce524a954f")
-		(property "Reference" "R44"
+		(property "Reference" "R43"
 			(at 50.8 72.39 90)
 			(effects
 				(font
@@ -4670,7 +4670,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "R44")
+					(reference "R43")
 					(unit 1)
 				)
 			)
@@ -4686,7 +4686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bb85920-df86-4c89-bb51-da43f63e8f22")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR085"
 			(at 139.7 189.23 0)
 			(effects
 				(font
@@ -4736,7 +4736,7 @@
 		(instances
 			(project ""
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "#PWR086")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -4859,7 +4859,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71534d10-f020-4ab2-bb78-7acf7b9e5a54")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR081"
 			(at 74.93 146.05 0)
 			(effects
 				(font
@@ -4909,7 +4909,7 @@
 		(instances
 			(project ""
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "#PWR082")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -4925,7 +4925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71972637-39d2-44b4-ad37-769adaa1a2cc")
-		(property "Reference" "J20"
+		(property "Reference" "J15"
 			(at 117.475 146.05 0)
 			(effects
 				(font
@@ -5040,7 +5040,7 @@
 		(instances
 			(project ""
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "J20")
+					(reference "J15")
 					(unit 1)
 				)
 			)
@@ -5236,7 +5236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a1b1736-e6ce-488f-91ee-9aeda896660c")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR084"
 			(at 91.44 189.23 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 		(instances
 			(project ""
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "#PWR085")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -5433,7 +5433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a1f3da7-826a-4985-a3ee-e7704801ba87")
-		(property "Reference" "R47"
+		(property "Reference" "R46"
 			(at 275.59 109.22 0)
 			(effects
 				(font
@@ -5524,7 +5524,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "R47")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -5633,7 +5633,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b119eaef-a672-44e0-867d-685b53c6d3a0")
-		(property "Reference" "U11"
+		(property "Reference" "U9"
 			(at 89.916 47.498 0)
 			(effects
 				(font
@@ -5799,7 +5799,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "U11")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -6169,7 +6169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e237e40f-2c03-4b9f-aaee-dcca23006a7c")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR082"
 			(at 38.1 166.37 0)
 			(effects
 				(font
@@ -6219,7 +6219,7 @@
 		(instances
 			(project ""
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "#PWR083")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -6406,7 +6406,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee7900bc-be3a-4e00-9547-37d06cab55a7")
-		(property "Reference" "J19"
+		(property "Reference" "J14"
 			(at 132.08 82.55 0)
 			(effects
 				(font
@@ -6486,7 +6486,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/1383843a-880b-4efd-8c7f-ecdf3639f794"
-					(reference "J19")
+					(reference "J14")
 					(unit 1)
 				)
 			)

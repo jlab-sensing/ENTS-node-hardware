@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "8edde059-e614-43b3-90ca-56cc6c1882fd")
 	(paper "A4")
+	(title_block
+		(date "2026-04-06")
+		(rev "3.1.0")
+	)
 	(lib_symbols
 		(symbol "Connector:Screw_Terminal_01x03"
 			(pin_names
@@ -1585,7 +1589,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "1d17485e-54e8-47a3-a212-71b45a1eaaed")
-		(property "Reference" "R26"
+		(property "Reference" "R47"
 			(at 62.23 43.18 0)
 			(effects
 				(font
@@ -1639,7 +1643,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc/e11527b4-1666-4b88-a9f5-c91ece62b2a8"
-					(reference "R26")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -1790,7 +1794,7 @@
 		(on_board no)
 		(dnp yes)
 		(uuid "78b483b3-0c5a-4bf5-957c-5870c19a0167")
-		(property "Reference" "J10"
+		(property "Reference" "J16"
 			(at 66.548 30.734 0)
 			(effects
 				(font
@@ -1901,7 +1905,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc/e11527b4-1666-4b88-a9f5-c91ece62b2a8"
-					(reference "J10")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -2054,7 +2058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf0fb3f8-645e-4ae4-89dc-c1e26406c00a")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR091"
 			(at 50.8 57.15 0)
 			(effects
 				(font
@@ -2105,7 +2109,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc/e11527b4-1666-4b88-a9f5-c91ece62b2a8"
-					(reference "#PWR056")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -2121,7 +2125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da7bb862-af91-49bd-bee2-965900c3e97f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR090"
 			(at 69.85 48.26 0)
 			(effects
 				(font
@@ -2172,7 +2176,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc/e11527b4-1666-4b88-a9f5-c91ece62b2a8"
-					(reference "#PWR052")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -2187,7 +2191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e634ea1c-0f53-4255-867f-c398dd81becf")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG06"
 			(at 45.72 20.955 0)
 			(effects
 				(font
@@ -2237,7 +2241,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc/e11527b4-1666-4b88-a9f5-c91ece62b2a8"
-					(reference "#FLG04")
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -2253,7 +2257,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f441db61-ab56-4f20-8d64-2191f8748adf")
-		(property "Reference" "U7"
+		(property "Reference" "U10"
 			(at 52.9433 22.86 0)
 			(effects
 				(font
@@ -2334,7 +2338,7 @@
 		(instances
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc/e11527b4-1666-4b88-a9f5-c91ece62b2a8"
-					(reference "U7")
+					(reference "U10")
 					(unit 1)
 				)
 			)

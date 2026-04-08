@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Soil Power Sensor")
-		(date "2026-03-13")
-		(rev "3.0.0")
+		(date "2026-04-06")
+		(rev "3.1.0")
 		(company "jlab")
 	)
 	(lib_symbols
@@ -223,113 +223,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3264,237 +3157,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Soil Power Sensor-eagle-import:TPS631000DRLR"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 16.51 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "TPS631000DRLR"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "Soil Power Sensor:TPS631000DRLR_TEX"
-				(at -12.7 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/tps631000"
-				(at -7.62 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -20.32 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "TPS631000DRLR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TPS631000DRLR_TEX TPS631000DRLR_TEX-M TPS631000DRLR_TEX-L"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TPS631000DRLR_0_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "TPS631000DRLR_1_1"
-				(pin power_in line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "MODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "LX1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 -10.16 0)
-					(length 2.54)
-					(name "LX2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -15.24 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Transistor_FET:AO3400A"
 			(pin_names
 				(offset 0)
@@ -4581,7 +4243,7 @@
 		)
 		(uuid d06a2f72-dff6-4693-b48b-e05aac2728d3)
 	)
-	(text "VDPM left floating to use\nbattery tracking mode,\ncan be between 1k 10k.\n7.32 kOhm enabled with USB."
+	(text "VDPM left floating / high Z to use\nbattery tracking mode,\ncan be between 1k 10k.\n7.32 kOhm enabled with USB."
 		(exclude_from_sim no)
 		(at 84.328 79.502 0)
 		(effects
@@ -4668,17 +4330,6 @@
 			(justify left)
 		)
 		(uuid "db31835d-2b4f-4637-b1e8-bcb2b8881b41")
-	)
-	(text "Active high enable.\nMode: set low for auto\n(power saving) mode."
-		(exclude_from_sim no)
-		(at 240.538 81.534 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "fa8b4371-f014-491a-9dd3-3deaaa2d9fef")
 	)
 	(text "In typical operation,\nwith both inputs\nconnected, V_{solar} < V_{USB}.\n(Usually indoors when\nusing USB input.)\n\nWith V_{USB}=5 V,\nif V_{solar} > V_{USB},\nthen V_{bus} = V_{solar}\nrather than V_{USB}."
 		(exclude_from_sim no)
@@ -4776,12 +4427,6 @@
 		(uuid "60ec910a-f60f-4ec0-9cd1-83d0ca4673a3")
 	)
 	(junction
-		(at 59.69 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6f25d42e-b280-4e6c-a18b-f0330b2e5266")
-	)
-	(junction
 		(at 129.54 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4846,6 +4491,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b8d95d4-2300-4c80-bb1f-083d23cad43e")
+	)
+	(junction
+		(at 194.31 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7b3c726-bef9-48a6-a7fd-cd40769f3937")
 	)
 	(junction
 		(at 55.88 39.37)
@@ -4914,22 +4565,10 @@
 		(uuid "d9691a25-0211-4755-93bd-66947fec352a")
 	)
 	(junction
-		(at 146.05 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dce9c8a6-31f2-45b9-b4c3-1c47f16baae8")
-	)
-	(junction
 		(at 240.03 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df1fdc61-f2ea-44ff-be7a-80d3326f56b2")
-	)
-	(junction
-		(at 194.31 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4b96787-627f-4c74-8bc2-da05ffc0537e")
 	)
 	(junction
 		(at 34.29 25.4)
@@ -4954,38 +4593,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5e81904-f541-4d77-8953-7b058c68cf47")
-	)
-	(no_connect
-		(at 252.73 77.47)
-		(uuid "039ac866-3a84-4773-b17c-02b167bef6cd")
-	)
-	(no_connect
-		(at 252.73 87.63)
-		(uuid "1aa019a9-ce7b-4cc3-9c59-66bc6d4c656f")
-	)
-	(no_connect
-		(at 252.73 74.93)
-		(uuid "47b98ad0-737b-4b34-a34a-93dc2aee6a7b")
-	)
-	(no_connect
-		(at 252.73 72.39)
-		(uuid "6b690d16-c609-49aa-9f85-345a7709b4c5")
-	)
-	(no_connect
-		(at 273.05 74.93)
-		(uuid "b4c25389-30a9-4978-8352-636cf87d232b")
-	)
-	(no_connect
-		(at 273.05 67.31)
-		(uuid "be8fba63-d557-4421-8b18-7e8381ace8fe")
-	)
-	(no_connect
-		(at 262.89 92.71)
-		(uuid "bf42dd57-f4c1-4c8d-a920-07b5557a93a5")
-	)
-	(no_connect
-		(at 252.73 67.31)
-		(uuid "e6b61624-8bd1-42eb-ac33-958dc296ddab")
 	)
 	(wire
 		(pts
@@ -5209,16 +4816,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 21.59) (xy 194.31 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d47caa4-4add-4e30-b2ae-4279cf59602b")
-	)
-	(wire
-		(pts
 			(xy 95.25 60.96) (xy 95.25 52.07)
 		)
 		(stroke
@@ -5249,17 +4846,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 81.28) (xy 147.32 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "231414cc-f37b-461d-9236-6c3aebf6b528")
-	)
-	(wire
-		(pts
-			(xy 138.43 81.28) (xy 146.05 81.28)
+			(xy 138.43 81.28) (xy 147.32 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5429,7 +5016,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 25.4) (xy 194.31 26.67)
+			(xy 194.31 21.59) (xy 194.31 26.67)
 		)
 		(stroke
 			(width 0)
@@ -5486,16 +5073,6 @@
 			(type default)
 		)
 		(uuid "769875b7-9eef-4421-9429-4d8e519372b2")
-	)
-	(wire
-		(pts
-			(xy 57.15 39.37) (xy 59.69 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77993391-16f1-4871-a2e4-6a71c5d7a13c")
 	)
 	(wire
 		(pts
@@ -5719,7 +5296,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 39.37) (xy 72.39 39.37)
+			(xy 57.15 39.37) (xy 72.39 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5799,7 +5376,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 30.48) (xy 189.23 30.48)
+			(xy 187.96 30.48) (xy 189.23 30.48)
 		)
 		(stroke
 			(width 0)
@@ -6029,7 +5606,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 25.4) (xy 194.31 25.4)
+			(xy 191.77 21.59) (xy 194.31 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6539,7 +6116,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 186.69 30.48 0)
+		(at 187.96 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6547,7 +6124,7 @@
 		(dnp no)
 		(uuid "0f8dca01-8134-4fb3-82ad-dbe5aa0c134f")
 		(property "Reference" "#PWR02"
-			(at 186.69 34.29 0)
+			(at 187.96 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +6133,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 186.69 25.4 0)
+			(at 187.96 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6564,7 +6141,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 30.48 0)
+			(at 187.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6573,7 +6150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 30.48 0)
+			(at 187.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6582,7 +6159,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 186.69 30.48 0)
+			(at 187.96 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7099,7 +6676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "21.5k"
+		(property "Value" "22k"
 			(at 100.584 57.912 0)
 			(effects
 				(font
@@ -7211,7 +6788,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1ed15b15-bc68-47ad-8396-63c734675ce8")
 		(property "Reference" "TH1"
@@ -7241,7 +6818,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf"
 			(at 124.46 64.77 0)
 			(effects
 				(font
@@ -7402,127 +6979,6 @@
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 146.05 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2c56eb51-ecda-42ab-a56d-1ddce69cc625")
-		(property "Reference" "TP2"
-			(at 148.59 76.7079 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_{BAT}/2"
-			(at 148.59 79.2479 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFC" ""
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "QTY" ""
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REF" ""
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 146.05 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4f9bf7d-c9b4-49c4-8af6-15ad9e94ab75")
-		)
-		(instances
-			(project "Soil Power Sensor"
-				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7698,7 +7154,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm_ThermalVias"
+		(property "Footprint" "Package_SON:WSON-10-1EP_2.5x2.5mm_P0.5mm_EP1.2x2mm"
 			(at 243.84 63.5 0)
 			(effects
 				(font
@@ -8226,7 +7682,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8248,7 +7704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 194.31 30.48 0)
 			(effects
 				(font
@@ -8968,7 +8424,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 186.69 25.4 0)
+		(at 191.77 21.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8977,7 +8433,7 @@
 		(fields_autoplaced yes)
 		(uuid "75fcee61-8162-463d-88a9-920ecb2e1428")
 		(property "Reference" "#FLG01"
-			(at 186.69 23.495 0)
+			(at 189.865 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8986,15 +8442,16 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 186.69 20.32 0)
+			(at 187.96 21.5899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 25.4 0)
+			(at 191.77 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9003,7 +8460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 25.4 0)
+			(at 191.77 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9012,7 +8469,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 186.69 25.4 0)
+			(at 191.77 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9947,7 +9404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_TechFuse_SL0420"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -9956,7 +9413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406141138_TECHFUSE-SL0420-2R2M_C22463806.pdf"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -9974,7 +9431,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1043"
+		(property "LCSC" "C22463806"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -9983,7 +9440,16 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CMI201209U2R2KT"
+		(property "MPN" "SL0420-2R2M"
+			(at 212.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFC" "TECHFUSE"
 			(at 212.09 54.61 0)
 			(effects
 				(font
@@ -10593,7 +10059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm_ThermalVias"
+		(property "Footprint" "Package_SON:WSON-10-1EP_2x3mm_P0.5mm_EP0.84x2.4mm"
 			(at 58.42 33.528 0)
 			(effects
 				(font
@@ -11186,112 +10652,6 @@
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Soil Power Sensor-eagle-import:TPS631000DRLR")
-		(at 262.89 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "ca900be6-90d6-4089-96ca-e19953a42b71")
-		(property "Reference" "U3"
-			(at 262.89 59.69 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "TPS631000DRLR"
-			(at 262.89 62.23 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "Soil Power Sensor:TPS631000DRLR_TEX"
-			(at 250.19 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tps631000"
-			(at 255.27 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 242.57 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5219190"
-			(at 262.89 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "TPS631000DRLR"
-			(at 262.89 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "7"
-			(uuid "fccc3904-9145-41b1-962e-0732c07a1f9b")
-		)
-		(pin "2"
-			(uuid "dbebd7bd-3400-45ad-8549-4895112f5b11")
-		)
-		(pin "6"
-			(uuid "0f83eea8-5be0-4314-9c7f-fd3073e6fb13")
-		)
-		(pin "8"
-			(uuid "50000698-be98-4825-8c3d-932a4547a5ae")
-		)
-		(pin "3"
-			(uuid "46cd82b5-5d1f-4407-82f2-0d100f74cf41")
-		)
-		(pin "1"
-			(uuid "9296de16-af46-4056-b357-33b5ff832ef9")
-		)
-		(pin "4"
-			(uuid "4eed634a-d608-47b6-a17f-f8c3cd989223")
-		)
-		(pin "5"
-			(uuid "76b32dff-f979-42ca-a47b-90316ac3bb5f")
-		)
-		(instances
-			(project "Soil Power Sensor"
-				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -12057,127 +11417,6 @@
 			(project "Soil Power Sensor"
 				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 59.69 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecac8eb6-bbf9-4076-9fc6-053ef3774bdd")
-		(property "Reference" "TP1"
-			(at 62.23 34.7979 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_{BUS}"
-			(at 62.23 37.3379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 64.77 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFC" ""
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" ""
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "QTY" ""
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REF" ""
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PACKAGE_ID" ""
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey" ""
-			(at 59.69 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f3e781c-032a-4009-bd14-a56fd17b6efe")
-		)
-		(instances
-			(project "Soil Power Sensor"
-				(path "/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/642281e5-1644-4dc3-b6e5-bcf5b1c03ff1"
-					(reference "TP1")
 					(unit 1)
 				)
 			)

@@ -58,26 +58,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "annular_width|124800000|125750000|77319232-2713-46a6-920d-3fffcf7c8342|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "annular_width|138237500|123475000|0c3cf024-625d-4f72-b216-a817e2e46c89|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "starved_thermal|138237500|123475000|ff9707db-b7e2-4831-831f-c468709238e4|0c3cf024-625d-4f72-b216-a817e2e46c89|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "warning",
+        "annular_width": "ignore",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -293,20 +280,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "multiple_net_names|1066800|431800|099353d0-13df-497f-b499-e39eccf648be|65f5acc5-52e1-4557-9a7c-708497e98558|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc",
-        ""
-      ],
-      [
-        "multiple_net_names|952500|190500|34c5b3b7-3773-4ffe-bb84-95aead622df7|445a6ace-998c-4b14-9271-d0000b8e546c|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc",
-        ""
-      ],
-      [
-        "multiple_net_names|952500|292100|9caf9763-6e9a-4105-80cb-dd726b00edaa|9bc626ba-801c-4f9d-9ecc-17423b6ae184|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc|/5300ec4d-4648-40a1-8d89-4fa6b3bf32a3/43a883bb-5678-46a3-a756-4c64cbfd0ddc",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -943,34 +917,34 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "DNP",
+          "label": "Do Not Place",
           "name": "${DNP}",
           "show": true
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
         },
         {
           "group_by": false,
-          "label": "AUTHOR",
-          "name": "AUTHOR",
-          "show": false
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": true
         },
         {
           "group_by": false,
@@ -1027,7 +1001,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "MPN",
           "name": "MPN",
           "show": true
@@ -1042,7 +1016,7 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1052,20 +1026,20 @@
         },
         {
           "group_by": false,
-          "label": "Exclude from BOM",
-          "name": "${EXCLUDE_FROM_BOM}",
+          "label": "Qty",
+          "name": "${QUANTITY}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Exclude from Board",
-          "name": "${EXCLUDE_FROM_BOARD}",
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Exclude from Simulation",
-          "name": "${EXCLUDE_FROM_SIM}",
+          "label": "AUTHOR",
+          "name": "AUTHOR",
           "show": false
         },
         {
@@ -1105,9 +1079,9 @@
           "show": false
         }
       ],
-      "filter_string": "sw",
+      "filter_string": "J",
       "group_symbols": true,
-      "include_excluded_from_bom": false,
+      "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
